@@ -125,3 +125,11 @@ original value and unit. The expected unit for every list is available in the
 
 The `catalogue`, `src`, `tests` and detailed `docs` folders support maintenance
 and reproducibility. They are not required for choosing a codelist.
+
+## Licence and attribution
+
+This repository is available under the
+[Open Government Licence v3.0](LICENSE). It contains Read terminology
+information from NHS Digital and BNF Code Information from NHSBSA. Required
+source acknowledgements are provided in [NOTICE.md](NOTICE.md). The repository
+contains no UK Biobank participant-level data.

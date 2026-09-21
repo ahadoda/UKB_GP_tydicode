@@ -1,16 +1,22 @@
-# Source and reuse notice
+# Attribution and source notice
 
-This repository is generated from `all_lkps_maps_v4.xlsx`, UK Biobank lookup
-and mapping files version 4 (June 2023). The source workbook remains outside
-this repository and is not modified.
+The codelists are derived from the UK Biobank coding-system lookup workbook
+`all_lkps_maps_v4.xlsx`, version 4 (June 2023). The source workbook is not
+redistributed in this repository.
 
-The workbook contains material with multiple reuse terms, including NHS
-Digital and NHS Business Services Authority information under the Open
-Government Licence, WHO ICD-10 material subject to the permissions stated in
-the workbook, and dm+d/SNOMED CT material subject to its stated terms and
-trademarks. Consult the source workbook's Description and Contents sheets and
-its accompanying PDF before redistribution.
+Read V2 and Read CTV3
 
-The rule-based selections in this repository are original project outputs.
-They require clinical, coding, and pharmacology review before research use.
+Contains information from NHS Digital, licensed under the Open Government
+Licence v3.0.
 
+BNF
+
+Contains BNF Code Information, NHSBSA Copyright 2019, licensed under the Open
+Government Licence v3.0.
+
+Licence: https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+
+This repository contains no UK Biobank participant-level data. UK Biobank,
+NHS Digital and NHSBSA do not endorse this repository or its codelist
+selections. The codelists should be reviewed against the intended research
+definition and current data release before use.

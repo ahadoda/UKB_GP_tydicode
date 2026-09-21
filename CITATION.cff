@@ -5,3 +5,4 @@ type: dataset
 version: 0.1.0
 date-released: 2026-09-21
 repository-code: "https://github.com/ahadoda/UKB_GP_tydicode"
+license: OGL-UK-3.0
