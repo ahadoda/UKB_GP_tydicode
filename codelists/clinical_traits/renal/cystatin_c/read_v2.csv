@@ -1,0 +1,3 @@
+trait_id,trait_group,trait,coding_system,source_dataset,source_field,match_type,case_sensitive,code,description,matched_terms,selection_tier,value_type,expected_units,source_sheet,source_metadata,review_status
+renal.cystatin_c.read_v2,renal,cystatin_c,read_v2,gp_clinical,read_2,exact,true,44ZX.,Blood cystatin C level,Blood cystatin C level,core,numeric_candidate,mg/L; verify source unit,read_v2_lkp,00,candidate_requires_clinical_review
+renal.cystatin_c.read_v2,renal,cystatin_c,read_v2,gp_clinical,read_2,exact,true,44ZX0,Serum cystatin C level,Serum cystatin C level,core,numeric_candidate,mg/L; verify source unit,read_v2_lkp,00,candidate_requires_clinical_review

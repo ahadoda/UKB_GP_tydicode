@@ -1,0 +1,47 @@
+domain,biomarker,priority,recommended_source,role,biological_age_role,notes
+anthropometry,body weight,core,GP plus UKB assessment,adiposity and longitudinal change,no,Retain date and measurement context
+anthropometry,body mass index,core,derive from measured weight and height when possible,adiposity,no,Prefer measured components over a recorded category
+anthropometry,waist circumference,core,UKB assessment plus GP,central adiposity,no,Pair with hip circumference only when measurements are compatible
+haemodynamics,systolic blood pressure,core,UKB assessment plus GP,vascular risk and hypertension,no,Retain posture device and repeat number
+haemodynamics,diastolic blood pressure,core,UKB assessment plus GP,vascular risk and hypertension,no,Retain posture device and repeat number
+glycaemia,HbA1c,core,UKB biochemistry plus GP,long-term glycaemia,no,Do not mix percent and mmol/mol without explicit conversion
+glycaemia,glucose,core,UKB biochemistry plus GP,current glycaemia,PhenoAge,Record fasting status and specimen type
+glycaemia,insulin,secondary,GP or specialist assay,insulin resistance,no,Not part of the standard UKB 34-assay serum panel
+glycaemia,C-peptide,context-specific,GP or specialist assay,endogenous insulin secretion,no,Mainly useful for diabetes subtyping
+lipids,total cholesterol,core,UKB biochemistry plus GP,lipid burden,no,
+lipids,HDL cholesterol,core,UKB biochemistry plus GP,lipoprotein profile,no,
+lipids,LDL cholesterol,core,UKB biochemistry plus GP,atherogenic cholesterol,no,Note direct versus calculated measurement
+lipids,triglycerides,core,UKB biochemistry plus GP,triglyceride-rich lipoproteins,no,Record fasting status
+lipids,apolipoprotein B,core,UKB biochemistry plus GP,atherogenic particle burden,no,
+lipids,apolipoprotein A-I,secondary,UKB biochemistry plus GP,HDL-related particle marker,no,
+lipids,lipoprotein(a),core,UKB biochemistry plus GP,inherited atherosclerotic risk,no,Do not use a universal mass-to-molar conversion
+renal,creatinine,core,UKB biochemistry plus GP,kidney function,PhenoAge,
+renal,eGFR,core,derive or GP,kidney function,no,Record equation and creatinine or cystatin C basis
+renal,cystatin C,secondary,UKB biochemistry plus GP,kidney function and ageing extension,no,
+renal,urine albumin-creatinine ratio,core,UKB urine plus GP,kidney and vascular damage,no,Use urine rather than serum albumin
+renal,urea,secondary,UKB biochemistry plus GP,kidney and protein metabolism,KDM-type age algorithms,UKB serum field is urea rather than blood urea nitrogen
+liver,alanine aminotransferase,core,UKB biochemistry plus GP,hepatocellular injury,no,
+liver,aspartate aminotransferase,secondary,UKB biochemistry plus GP,hepatocellular injury,no,
+liver,gamma-glutamyl transferase,core,UKB biochemistry plus GP,liver and metabolic risk,no,
+liver,alkaline phosphatase,core,UKB biochemistry plus GP,liver and bone turnover,PhenoAge,Exclude tissue-specific isoenzymes unless intended
+liver,albumin,core,UKB biochemistry plus GP,liver synthetic and nutritional status,PhenoAge,This is serum albumin not urine albumin
+liver,bilirubin,secondary,UKB biochemistry plus GP,liver function and haem turnover,no,Distinguish total from direct bilirubin
+inflammation,C-reactive protein,core,UKB biochemistry plus GP,systemic inflammation,PhenoAge,PhenoAge uses log-transformed CRP with specified units
+thyroid,TSH,core,GP,first-line thyroid function,no,Interpret with assay range and pregnancy status
+thyroid,free T4,core,GP,thyroid function,no,Pair with TSH when indicated
+thyroid,free T3,secondary,GP,thyrotoxicosis assessment,no,Not routinely required for an isolated raised TSH
+thyroid,thyroid peroxidase antibody,context-specific,GP,autoimmune thyroid disease,no,Usually aetiological rather than longitudinal monitoring marker
+thyroid,thyroglobulin antibody,context-specific,GP,autoimmune thyroid disease and assay interference,no,Include only for a defined thyroid question
+haematology,white blood cell count,core,UKB blood count plus GP,inflammation and immune state,PhenoAge,
+haematology,lymphocyte percentage,core,UKB blood count,immune cell composition,PhenoAge,Use the directly measured UKB field for the published algorithm
+haematology,mean corpuscular volume,core,UKB blood count plus GP,red-cell morphology,PhenoAge,
+haematology,red cell distribution width,core,UKB blood count plus GP,red-cell heterogeneity,PhenoAge,
+haematology,haemoglobin,core,UKB blood count plus GP,anaemia and oxygen-carrying capacity,no,
+haematology,platelet count,secondary,UKB blood count plus GP,haemostasis and inflammation,no,
+metabolic,urate,core,UKB biochemistry plus GP,purine and cardiometabolic risk,no,
+metabolic,calcium,secondary,UKB biochemistry plus GP,mineral metabolism,no,Distinguish albumin-adjusted from unadjusted calcium
+metabolic,phosphate,secondary,UKB biochemistry plus GP,mineral and kidney metabolism,no,
+metabolic,vitamin D,secondary,UKB biochemistry plus GP,bone and general health research,no,Prefer total 25-hydroxyvitamin D
+endocrine,IGF-1,context-specific,UKB biochemistry,growth and ageing research,no,Use when linked to the specific hypothesis
+endocrine,testosterone and SHBG,context-specific,UKB biochemistry,sex-hormone and metabolic research,no,Interpret by sex menopausal status and sampling context
+derived,PhenoAge,secondary,derive from UKB biochemistry and blood count,mortality-linked biological age,derived,Requires chronological age plus all nine published biomarkers and exact units

@@ -1,0 +1,10 @@
+{
+  "source_file": "all_lkps_maps_v4.xlsx",
+  "source_version": "UK Biobank lookups and mappings version 4 (June 2023)",
+  "method": "Rule-based candidate selection from local lookup descriptions and BNF hierarchy",
+  "trait_count": 49,
+  "codelist_count": 97,
+  "row_count": 3136,
+  "core_row_count": 2666,
+  "review_status": "All outputs require domain review before analysis"
+}
