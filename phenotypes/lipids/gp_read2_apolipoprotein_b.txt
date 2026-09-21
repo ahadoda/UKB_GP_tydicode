@@ -1,0 +1,3 @@
+code	description
+44c4.	Serum apolipoprotein B level
+44d8.	Plasma apolipoprotein B level

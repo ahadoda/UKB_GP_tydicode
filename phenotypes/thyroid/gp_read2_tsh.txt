@@ -1,0 +1,4 @@
+code	description
+442..	TSH level
+442W.	Serum TSH level
+442X.	Plasma TSH level

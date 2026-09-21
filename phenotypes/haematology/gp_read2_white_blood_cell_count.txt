@@ -1,0 +1,4 @@
+code	description
+42H..	White cell count
+42HZ.	Total white cell count NOS
+42IZ.	Diff. white cell count NOS

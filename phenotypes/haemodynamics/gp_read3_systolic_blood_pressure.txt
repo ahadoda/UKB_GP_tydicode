@@ -1,0 +1,29 @@
+code	description
+.2469	O/E - Systolic BP reading
+.246N	Standing systolic blood pressure
+.246Q	Sitting systolic blood pressure
+.246S	Lying systolic blood pressure
+.246W	Average 24 hour systolic blood pressure
+.246Y	Average day interval systolic blood pressure
+.246b	Average night interval systolic blood pressure
+.246d	Average home systolic blood pressure
+.246e	Ambulatory systolic blood pressure
+2469.	O/E - Systolic BP reading
+246N.	Standing systolic blood pressure
+246Q.	Sitting systolic blood pressure
+246S.	Lying systolic blood pressure
+246W.	Average 24 hour systolic blood pressure
+246Y.	Average day interval systolic blood pressure
+246b.	Average night interval systolic blood pressure
+246d.	Average home systolic blood pressure
+246e.	Ambulatory systolic blood pressure
+246l.	Average systolic blood pressure
+XaF4F	Average systolic blood pressure
+XaF4K	Average night interval systolic blood pressure
+XaF4L	Average day interval systolic blood pressure
+XaF4O	Average 24 hour systolic blood pressure
+XaIwj	Standing systolic blood pressure
+XaJ2E	Sitting systolic blood pressure
+XaJ2G	Lying systolic blood pressure
+XaKFx	Average home systolic blood pressure
+XaKjF	Ambulatory systolic blood pressure

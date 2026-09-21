@@ -1,0 +1,5 @@
+code	description
+.42Z7	Red blood cell distribut width
+42Z7.	Red blood cell distribut width
+X76ta	RDW - Red blood cell distribution width
+XE2mO	RDW - Red blood cell distribution width

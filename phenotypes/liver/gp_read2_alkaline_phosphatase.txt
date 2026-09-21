@@ -1,0 +1,3 @@
+code	description
+44CU.	Plasma alkaline phosphatase level
+44F..	Serum alkaline phosphatase

@@ -1,0 +1,7 @@
+code	description
+.44M4	Serum albumin
+.44MI	Plasma albumin level
+44M4.	Serum albumin
+44MI.	Plasma albumin level
+XE2eA	Serum albumin
+XaIRc	Plasma albumin level

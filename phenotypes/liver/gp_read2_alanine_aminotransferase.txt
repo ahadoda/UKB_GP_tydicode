@@ -1,0 +1,4 @@
+code	description
+44G3.	ALT/SGPT serum level
+44GA.	Plasma alanine aminotransferase level
+44GB.	Serum alanine aminotransferase level

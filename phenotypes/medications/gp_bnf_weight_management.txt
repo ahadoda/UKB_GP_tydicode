@@ -1,0 +1,12 @@
+code	description
+0405010M0	Methylcellulose
+0405010P0	Orlistat
+0405010S0	Sterculia
+0405020D0	Dexfenfluramine Hydrochloride
+0405020E0	Diethylpropion Hydrochloride
+0405020I0	Fenfluramine Hydrochloride
+0405020N0	Mazindol
+0405020R0	Phentermine
+0405020S0	Sibutramine
+0405020T0	Rimonabant
+0405020U0	Naltrexone/Bupropion

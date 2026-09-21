@@ -1,0 +1,2 @@
+code	description
+22A..	O/E - weight

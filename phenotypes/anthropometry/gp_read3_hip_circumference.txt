@@ -1,0 +1,4 @@
+code	description
+.22N6	Hip circumference
+22N6.	Hip circumference
+Xa2jZ	Hip circumference

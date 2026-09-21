@@ -1,0 +1,2 @@
+code	description
+22N6.	Hip circumference

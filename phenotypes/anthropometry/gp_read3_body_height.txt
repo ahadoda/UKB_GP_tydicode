@@ -1,0 +1,4 @@
+code	description
+.229.	O/E - height
+229..	O/E - height
+X76Bs	Body height

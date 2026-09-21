@@ -1,0 +1,4 @@
+code	description
+44J..	Serum urea level
+44J9.	Serum urea level
+44JA.	Plasma urea level

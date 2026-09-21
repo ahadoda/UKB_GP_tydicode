@@ -1,0 +1,6 @@
+code	description
+.44ZX	Blood cystatin C level
+44ZX.	Blood cystatin C level
+44ZX0	Serum cystatin C level
+XaJjz	Blood cystatin C level
+XabBD	Serum cystatin C level

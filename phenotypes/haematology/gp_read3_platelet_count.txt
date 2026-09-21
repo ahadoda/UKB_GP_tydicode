@@ -1,0 +1,5 @@
+code	description
+.42P.	Plt - Platelet count
+.42PZ	Platelet count NOS
+42P..	Plt - Platelet count
+42PZ.	Platelet count NOS

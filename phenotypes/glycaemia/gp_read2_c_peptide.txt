@@ -1,0 +1,3 @@
+code	description
+449A.	C-peptide level
+449E.	Plasma insulin C-peptide level

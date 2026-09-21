@@ -1,0 +1,6 @@
+code	description
+.44Q.	Serum triglycerides
+.44e.	Plasma triglyceride level
+44Q..	Serum triglycerides
+44e..	Plasma triglyceride level
+XE2q9	Serum triglycerides

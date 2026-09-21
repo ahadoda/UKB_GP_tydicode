@@ -1,0 +1,11 @@
+code	description
+246A.	O/E - Diastolic BP reading
+246P.	Standing diastolic blood pressure
+246R.	Sitting diastolic blood pressure
+246T.	Lying diastolic blood pressure
+246V.	Average 24 hour diastolic blood pressure
+246X.	Average day interval diastolic blood pressure
+246a.	Average night interval diastolic blood pressure
+246c.	Average home diastolic blood pressure
+246f.	Ambulatory diastolic blood pressure
+246m.	Average diastolic blood pressure

@@ -1,0 +1,6 @@
+code	description
+44E..	Serum bilirubin level
+44E8.	Plasma conjugated bilirubin level
+44E9.	Plasma total bilirubin level
+44EB.	Serum conjugated bilirubin level
+44EC.	Serum total bilirubin level

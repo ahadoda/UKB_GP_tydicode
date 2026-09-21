@@ -1,0 +1,3 @@
+code	description
+43Gd.	Thyroid peroxidase antibody level
+43Gd0	Serum thyroid peroxidase antibody concentration

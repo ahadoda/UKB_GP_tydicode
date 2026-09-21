@@ -1,0 +1,4 @@
+code	description
+44H5.	AST serum level
+44HB.	AST serum level
+44HC.	Plasma aspartate transaminase level

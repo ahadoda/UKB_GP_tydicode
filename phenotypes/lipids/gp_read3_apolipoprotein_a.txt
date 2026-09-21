@@ -1,0 +1,7 @@
+code	description
+.44c2	Serum apolipoprotein A-I level
+.44d6	Plasma apolipoprotein A-I level
+44c2.	Serum apolipoprotein A-I level
+44d6.	Plasma apolipoprotein A-I level
+XaEQj	Plasma apolipoprotein A-I level
+XaEQk	Serum apolipoprotein A-I level

@@ -1,0 +1,7 @@
+code	description
+44P5.	Serum HDL cholesterol level
+44PB.	Serum fasting HDL cholesterol level
+44PC.	Serum random HDL cholesterol level
+44d2.	Plasma random HDL cholesterol level
+44d3.	Plasma fasting HDL cholesterol level
+44dA.	Plasma HDL cholesterol level

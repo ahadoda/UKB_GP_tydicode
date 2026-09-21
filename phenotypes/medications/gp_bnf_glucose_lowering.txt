@@ -1,0 +1,69 @@
+code	description
+0601011A0	Insulin Aspart
+0601011I0	Acid Insulin Injection
+0601011L0	Insulin Lispro
+0601011N0	Soluble Insulin (Neutral Insulin)
+0601011P0	Insulin Glulisine
+0601011Q0	Insulin Human Inhaled
+0601011R0	Insulin Human
+060101200	Other Intermed&Long-Acting Insulin Preps
+0601012C0	Biphasic Insulin Injection
+0601012D0	Biphasic Isophane Insulin
+0601012F0	Biphasic Insulin Lispro
+0601012G0	Insulin Zinc Suspension
+0601012L0	Insulin Zinc Suspension (Amorphous)
+0601012N0	Insulin Zinc Suspension (Crystalline)
+0601012S0	Isophane Insulin
+0601012U0	Protamine Zinc Insulin
+0601012V0	Insulin Glargine
+0601012W0	Biphasic Insulin Aspart
+0601012X0	Insulin Detemir
+0601012Z0	Insulin Degludec
+0601021A0	Glimepiride
+0601021B0	Acetohexamide
+0601021E0	Chlorpropamide
+0601021H0	Glibenclamide
+0601021K0	Glibornuride
+0601021M0	Gliclazide
+0601021P0	Glipizide
+0601021R0	Gliquidone
+0601021T0	Glymidine
+0601021V0	Tolazamide
+0601021X0	Tolbutamide
+0601022B0	Metformin Hydrochloride
+0601022P0	Phenformin Hydrochloride
+0601023A0	Acarbose
+0601023AA	Vildagliptin
+0601023AB	Liraglutide
+0601023AC	Saxagliptin
+0601023AD	Metformin Hydrochloride/Sitagliptin
+0601023AE	Linagliptin
+0601023AF	Linagliptin/Metformin
+0601023AG	Dapagliflozin
+0601023AH	Saxagliptin/Metformin
+0601023AI	Lixisenatide
+0601023AJ	Alogliptin/Metformin
+0601023AK	Alogliptin
+0601023AL	Dapagliflozin/Metformin
+0601023AM	Canagliflozin
+0601023AN	Empagliflozin
+0601023AP	Canagliflozin/Metformin
+0601023AQ	Dulaglutide
+0601023AR	Empagliflozin/Metformin
+0601023AS	Albiglutide
+0601023AU	Ins Degludec/Liraglutide
+0601023AV	Saxagliptin/Dapagliflozin
+0601023AW	Semaglutide
+0601023AX	Ertugliflozin
+0601023B0	Pioglitazone Hydrochloride
+0601023I0	Guar Gum
+0601023M0	Miglitol
+0601023R0	Repaglinide
+0601023S0	Rosiglitazone
+0601023T0	Troglitazone
+0601023U0	Nateglinide
+0601023V0	Metformin Hydrochloride/Rosiglitazone
+0601023W0	Metformin Hydrochloride/Pioglitazone
+0601023X0	Sitagliptin
+0601023Y0	Exenatide
+0601023Z0	Metformin Hydrochloride/Vildagliptin

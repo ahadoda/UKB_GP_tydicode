@@ -1,0 +1,8 @@
+code	description
+.42W4	HbA1c level (DCCT aligned)
+.44TB	HbA1c - Haemoglobin A1c level
+42W4.	HbA1c level (DCCT aligned)
+44TB.	HbA1c - Haemoglobin A1c level
+X772q	HbA1c - Haemoglobin A1c level
+X80U4	HbA1c - Glycosylated haemoglobin-c fraction
+XaERp	HbA1c level (DCCT aligned)

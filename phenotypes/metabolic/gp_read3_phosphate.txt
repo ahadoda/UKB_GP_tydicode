@@ -1,0 +1,7 @@
+code	description
+.44I9	Serum inorganic phosphate (& level)
+.44i2	Plasma inorganic phosphate level
+44I9.	Serum inorganic phosphate (& level)
+44i2.	Plasma inorganic phosphate level
+XE2q4	Serum inorganic phosphate level
+XaItO	Plasma inorganic phosphate level

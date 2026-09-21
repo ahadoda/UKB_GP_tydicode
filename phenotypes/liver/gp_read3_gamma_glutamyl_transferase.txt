@@ -1,0 +1,9 @@
+code	description
+.44G7	Plasma gamma-glutamyl transferase level
+.44G9	Serum gamma-glutamyl transferase level
+44G4.	Gamma-glutamyl transferase level
+44G7.	Plasma gamma-glutamyl transferase level
+44G9.	Serum gamma-glutamyl transferase level
+X80E1	Gamma-glutamyl transpeptidase
+XaES3	Serum gamma-glutamyl transferase level
+XaES4	Plasma gamma-glutamyl transferase level

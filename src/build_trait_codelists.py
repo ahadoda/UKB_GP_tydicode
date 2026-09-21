@@ -99,6 +99,74 @@ MEDICATION_RULES = {
 }
 
 
+PUBLIC_NAMES = {
+    "body_weight": "Body weight",
+    "body_height": "Body height",
+    "body_mass_index": "Body mass index (BMI)",
+    "waist_circumference": "Waist circumference",
+    "hip_circumference": "Hip circumference",
+    "blood_pressure": "Blood pressure (generic)",
+    "systolic_blood_pressure": "Systolic blood pressure",
+    "diastolic_blood_pressure": "Diastolic blood pressure",
+    "blood_glucose": "Blood glucose",
+    "hba1c": "HbA1c",
+    "insulin": "Insulin",
+    "c_peptide": "C-peptide",
+    "total_cholesterol": "Total cholesterol",
+    "hdl_cholesterol": "HDL cholesterol",
+    "ldl_cholesterol": "LDL cholesterol",
+    "triglycerides": "Triglycerides",
+    "apolipoprotein_a": "Apolipoprotein A-I",
+    "apolipoprotein_b": "Apolipoprotein B",
+    "lipoprotein_a": "Lipoprotein(a)",
+    "creatinine": "Creatinine",
+    "egfr": "Estimated glomerular filtration rate (eGFR)",
+    "albumin_creatinine_ratio": "Urine albumin-creatinine ratio",
+    "urea": "Urea",
+    "cystatin_c": "Cystatin C",
+    "alanine_aminotransferase": "Alanine aminotransferase (ALT)",
+    "aspartate_aminotransferase": "Aspartate aminotransferase (AST)",
+    "gamma_glutamyl_transferase": "Gamma-glutamyl transferase (GGT)",
+    "alkaline_phosphatase": "Alkaline phosphatase (ALP)",
+    "albumin": "Serum albumin",
+    "bilirubin": "Bilirubin",
+    "c_reactive_protein": "C-reactive protein (CRP)",
+    "urate": "Urate",
+    "calcium": "Calcium",
+    "phosphate": "Phosphate",
+    "vitamin_d": "25-hydroxyvitamin D",
+    "tsh": "Thyroid-stimulating hormone (TSH)",
+    "free_t4": "Free T4",
+    "free_t3": "Free T3",
+    "thyroid_peroxidase_antibody": "Thyroid peroxidase antibody",
+    "thyroglobulin_antibody": "Thyroglobulin antibody",
+    "white_blood_cell_count": "White blood cell count",
+    "mean_corpuscular_volume": "Mean corpuscular volume (MCV)",
+    "red_cell_distribution_width": "Red cell distribution width (RDW)",
+    "haemoglobin": "Haemoglobin",
+    "platelet_count": "Platelet count",
+    "glucose_lowering": "Glucose-lowering medicines",
+    "lipid_lowering": "Lipid-lowering medicines",
+    "antihypertensive": "Antihypertensive medicines",
+    "weight_management": "Weight-management medicines",
+}
+
+
+PUBLIC_USE = {
+    "anthropometry": "Body size and adiposity",
+    "haemodynamics": "Blood-pressure measurements",
+    "glycaemia": "Glycaemia and diabetes monitoring",
+    "lipids": "Lipid and cardiovascular-risk biomarkers",
+    "renal": "Kidney function and kidney damage",
+    "liver": "Liver biomarkers",
+    "inflammation": "Systemic inflammation",
+    "metabolic": "Other cardiometabolic biomarkers",
+    "thyroid": "Thyroid function and autoimmunity",
+    "haematology": "Blood count and biological-age inputs",
+    "medication": "Cardiometabolic prescriptions",
+}
+
+
 def compile_rules() -> list[tuple[TraitRule, re.Pattern[str], re.Pattern[str] | None, re.Pattern[str]]]:
     compiled = []
     for rule in TRAITS:
@@ -293,6 +361,43 @@ def output_path(frame: pd.DataFrame) -> Path:
     return folder / f"{first['coding_system']}.csv"
 
 
+def write_public_codelists(master: pd.DataFrame) -> None:
+    """Write the simple, reader-facing lists used from the GitHub front page."""
+    public_root = ROOT / "phenotypes"
+    index_rows = []
+    for (group, trait, coding_system), data in master.groupby(
+        ["trait_group", "trait", "coding_system"], sort=True
+    ):
+        core = data[data["selection_tier"].eq("core")]
+        selected = core if not core.empty else data
+        if group == "medication":
+            folder = public_root / "medications"
+            prefix = "gp_bnf" if coding_system == "bnf" else "gp_read2drugs"
+        else:
+            folder = public_root / group
+            prefix = "gp_read2" if coding_system == "read_v2" else "gp_read3"
+        folder.mkdir(parents=True, exist_ok=True)
+        path = folder / f"{prefix}_{trait}.txt"
+        simple = selected[["code", "description"]].drop_duplicates().sort_values("code")
+        simple.to_csv(path, sep="\t", index=False, lineterminator="\n")
+        index_rows.append(
+            {
+                "research_use": PUBLIC_USE[group],
+                "phenotype": PUBLIC_NAMES.get(trait, trait.replace("_", " ").title()),
+                "ukb_table": selected.iloc[0]["source_dataset"],
+                "ukb_field": selected.iloc[0]["source_field"],
+                "coding_system": coding_system,
+                "matching": selected.iloc[0]["match_type"],
+                "expected_units": selected.iloc[0]["expected_units"],
+                "code_count": len(simple),
+                "codelist": path.relative_to(ROOT).as_posix(),
+            }
+        )
+    pd.DataFrame(index_rows).sort_values(
+        ["research_use", "phenotype", "coding_system"]
+    ).to_csv(public_root / "index.csv", index=False, lineterminator="\n")
+
+
 def build(source: Path) -> None:
     if not source.exists():
         raise FileNotFoundError(source)
@@ -334,6 +439,7 @@ def build(source: Path) -> None:
         ["trait_group", "trait", "coding_system", "selection_tier", "code"]
     )
     master.to_csv(catalogue / "clinical_trait_codelists.csv", index=False, lineterminator="\n")
+    write_public_codelists(master)
     pd.DataFrame(manifest).sort_values(
         ["trait_group", "trait", "coding_system"]
     ).to_csv(catalogue / "trait_manifest.csv", index=False, lineterminator="\n")

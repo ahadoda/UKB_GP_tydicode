@@ -1,0 +1,5 @@
+code	description
+.449D	Plasma insulin level
+449D.	Plasma insulin level
+XE2pp	Serum insulin level
+XaItV	Plasma insulin level

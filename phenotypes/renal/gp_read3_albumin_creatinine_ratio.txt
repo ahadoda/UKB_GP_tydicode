@@ -1,0 +1,10 @@
+code	description
+.44J7	Albumin/creatinine ratio
+.46TC	Urine albumin:creatinine ratio
+.46TD	Urine microalbumin:creatinine ratio
+44J7.	Albumin/creatinine ratio
+46TC.	Urine albumin:creatinine ratio
+46TD.	Urine microalbumin:creatinine ratio
+X773Y	Albumin/creatinine ratio
+XE2n3	Urine albumin:creatinine ratio
+XE2n4	Urine microalbumin/creatinine ratio

@@ -1,0 +1,7 @@
+code	description
+.42H.	WCC - White blood cell count
+.42HZ	Total white cell count NOS
+.42IZ	Diff. white cell count NOS
+42H..	WCC - White blood cell count
+42HZ.	Total white cell count NOS
+42IZ.	Diff. white cell count NOS

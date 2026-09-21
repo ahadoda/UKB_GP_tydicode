@@ -1,0 +1,7 @@
+code	description
+.44J3	Serum creatinine
+.44JF	Plasma creatinine level
+44J3.	Serum creatinine
+44JF.	Plasma creatinine level
+XE2q5	Serum creatinine
+XaETQ	Plasma creatinine level

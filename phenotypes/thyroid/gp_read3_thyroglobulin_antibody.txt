@@ -1,0 +1,4 @@
+code	description
+.43G5	Thyroglobulin antibodies
+43G5.	Thyroglobulin antibodies
+X80cx	Thyroglobulin antibody

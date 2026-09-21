@@ -1,0 +1,9 @@
+code	description
+.4427	FT4 - Free thyroxine level
+.442V	Serum free thyroxine level
+.442c	Plasma free thyroxine level
+4427.	FT4 - Free thyroxine level
+442V.	Serum free thyroxine level
+442c.	Plasma free thyroxine level
+XaERr	Serum free thyroxine level
+XaERs	Plasma free thyroxine level

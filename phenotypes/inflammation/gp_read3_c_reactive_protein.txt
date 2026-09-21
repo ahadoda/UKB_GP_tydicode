@@ -1,0 +1,8 @@
+code	description
+.44CC	Plasma C reactive protein (& level)
+.44CS	Serum C reactive protein level
+44CC.	Plasma C reactive protein (& level)
+44CS.	Serum C reactive protein level
+X772l	CRP - C-reactive protein level
+XE2dy	Plasma C-reactive protein level
+XaINL	Serum C reactive protein level

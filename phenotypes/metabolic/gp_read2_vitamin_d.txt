@@ -1,0 +1,3 @@
+code	description
+44LM.	Plasma 25-Hydroxyvitamin D3 level
+44Ln.	Serum 25-Hydroxyvitamin D2 level

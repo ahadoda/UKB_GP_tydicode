@@ -1,0 +1,4 @@
+code	description
+4425.	Free T3 level
+442U.	Serum free triiodothyronine level
+442Y.	Plasma free triiodothyronine level

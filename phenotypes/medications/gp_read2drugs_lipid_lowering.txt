@@ -1,0 +1,190 @@
+code	description
+bx...	LIPID-LOWERING DRUGS
+bx1..	BEZAFIBRATE
+bx11.	BEZALIP 200mg tablets
+bx12.	BEZALIP-MONO 400mg m/r tablets
+bx13.	BEZAFIBRATE 200mg tablets
+bx14.	BEZAFIBRATE 400mg m/r tablets
+bx15.	BEZAGEN XL 400mg m/r tablets
+bx16.	*LIPAROL XL 400mg m/r tablets
+bx17.	ZIMBACOL XL 400mg m/r tablets
+bx18.	FIBRAZATE XL 400mg m/r tablets
+bx2..	COLESTYRAMINE [LIPID LOWERING USE]
+bx21.	QUESTRAN powder 4g/sachet
+bx22.	QUESTRAN LIGHT 4g/sachet powder
+bx23.	COLESTYRAMINE powder 4g/sachet
+bx24.	CHOLESTYRAMINE SUG FREE powder 4g/sachet
+bx25.	COLESTYRAMINE+ASPARTAME 4g/sachet powder
+bx26.	*CHOLEMIN 4g/sachet powder
+bx27.	COLESTYRAMINE+ASPARTAME 4g/sachet sugar free powder
+bx28.	QUESTRAN LIGHT 4g/sachet s/f powder
+bx3..	CLOFIBRATE
+bx31.	*ATROMID-S 500mg capsules
+bx3z.	*CLOFIBRATE 500mg capsules
+bx4..	COLESTIPOL HYDROCHLORIDE
+bx41.	COLESTID granules 5g sachet
+bx42.	COLESTIPOL granules 5g sachet
+bx43.	COLESTID ORANGE granules 5g sachet
+bx44.	COLESTIPOL orange 5g/sachet granules
+bx6..	GEMFIBROZIL
+bx61.	LOPID 300mg capsules
+bx62.	LOPID 600mg tablets
+bx63.	GEMFIBROZIL 600mg tablets
+bx64.	*EMFIB 300mg capsules
+bx6z.	GEMFIBROZIL 300mg capsules
+bx7..	*NICOFURANOSE
+bx71.	*BRADILAN 250mg e/c tablets
+bx7z.	NICOFURANOSE 250mg e/c tablets
+bx8..	NICOTINIC ACID
+bx81.	*NICOTINIC ACID 25mg tablets
+bx82.	NICOTINIC ACID 50mg tablets
+bx83.	*NICOTINIC ACID 100mg tablets
+bx84.	NICOTINIC ACID 375mg and 500mg and 750mg m/r tablets starter pack
+bx85.	NICOTINIC ACID 500mg m/r tablets
+bx86.	NICOTINIC ACID 750mg m/r tablets
+bx87.	NICOTINIC ACID 1000mg m/r tablets
+bx88.	NIASPAN 375mg and 500mg and 750mg m/r tablets starter pack
+bx89.	*NIASPAN 500mg m/r tablets
+bx8a.	*NIASPAN 750mg m/r tablets
+bx8b.	*NIASPAN 1000mg m/r tablets
+bx8c.	TREDAPTIVE 1000mg/20mg m/r tablets
+bx8d.	NICOTINIC ACID/LAROPIPRANT 1000mg/20mg m/r tablets
+bx9..	PROBUCOL
+bx91.	*LURSELLE 250mg tablets
+bx9z.	*PROBUCOL 250mg tablets
+bxa..	OMEGA-3 MARINE TRIGLYCERIDES
+bxa1.	*MAXEPA 1g capsules
+bxa2.	*MAXEPA liquid
+bxa3.	FISH OIL(CONCENTRATE) 1g capsules
+bxa4.	FISH OIL(CONCENTRATE) oral liquid
+bxa5.	FISH OIL(CONCENTRATE) oral emulsion
+bxa6.	*MAXEPA oral emulsion
+bxa7.	OMACOR 1g capsules
+bxa8.	TEROMEG 1g capsules
+bxa9.	PRESTYLON 1g capsules
+bxaA.	NEBBARO 1000mg capsules
+bxaB.	DUALTIS 1000mg capsules
+bxb..	ACIPIMOX
+bxb1.	OLBETAM 250mg capsules
+bxb2.	ACIPIMOX 250mg capsules
+bxc..	FENOFIBRATE
+bxc1.	*FENOFIBRATE 100mg capsules
+bxc3.	*LIPANTIL 100mg capsules 84CP
+bxc4.	FENOFIBRATE 200mg capsules
+bxc5.	LIPANTIL MICRO 200mg capsules
+bxc6.	FENOFIBRATE 67mg capsules
+bxc7.	LIPANTIL MICRO 67mg capsules
+bxc8.	FENOFIBRATE 267mg capsules
+bxc9.	LIPANTIL MICRO 267mg capsules
+bxcA.	FENOFIBRATE 160mg m/r tablets
+bxcB.	SUPRALIP 160mg m/r tablets
+bxcC.	FENOFIBRATE MICRO 200mg capsules
+bxcD.	*FENOGAL 200mg capsules
+bxcE.	FENOFIBRATE 160mg tablets
+bxd..	SIMVASTATIN
+bxd1.	SIMVASTATIN 10mg tablets
+bxd2.	SIMVASTATIN 20mg tablets
+bxd3.	ZOCOR 10mg tablets 28CP
+bxd4.	ZOCOR 20mg tablets 28CP
+bxd5.	SIMVASTATIN 40mg tablets
+bxd6.	ZOCOR 40mg tablets
+bxd7.	ZOCOR 10mg tablets
+bxd8.	ZOCOR 20mg tablets
+bxd9.	ZOCOR 80mg tablets
+bxdA.	SIMVADOR 10mg tablets
+bxdB.	SIMVADOR 20mg tablets
+bxdC.	SIMVADOR 40mg tablets
+bxdD.	*RANZOLONT 10mg tablets
+bxdE.	*RANZOLONT 20mg tablets
+bxdF.	*RANZOLONT 40mg tablets
+bxdG.	*ZOCOR HEART-PRO 10mg tablets
+bxdH.	INEGY 10mg/20mg tablets
+bxdI.	INEGY 10mg/40mg tablets
+bxdJ.	INEGY 10mg/80mg tablets
+bxdK.	SIMVADOR 80mg tablets
+bxdu.	SIMVASTATIN 20mg/5mL oral suspension
+bxdv.	SIMVASTATIN 40mg/5mL oral suspension
+bxdw.	SIMVASTATIN 80mg/EZETIMIBE 10mg tablets
+bxdx.	SIMVASTATIN 40mg/EZETIMIBE 10mg tablets
+bxdy.	SIMVASTATIN 20mg/EZETIMIBE 10mg tablets
+bxdz.	SIMVASTATIN 80mg tablets
+bxe..	PRAVASTATIN SODIUM
+bxe1.	*PRAVASTATIN 10mg tablets
+bxe2.	*PRAVASTATIN 20mg tablets
+bxe3.	LIPOSTAT 10mg tablets
+bxe4.	LIPOSTAT 20mg tablets
+bxe5.	PRAVASTATIN SODIUM 10mg tablets
+bxe6.	PRAVASTATIN SODIUM 20mg tablets
+bxe7.	PRAVASTATIN SODIUM 40mg tablets
+bxe8.	LIPOSTAT 40mg tablets
+bxf..	CIPROFIBRATE
+bxf1.	*MODALIM 100mg tablets
+bxf2.	CIPROFIBRATE 100mg tablets
+bxg..	FLUVASTATIN SODIUM
+bxg1.	LESCOL 20mg capsules
+bxg2.	LESCOL 40mg capsules
+bxg3.	FLUVASTATIN 20mg capsules
+bxg4.	FLUVASTATIN 40mg capsules
+bxg5.	LESCOL XL 80mg m/r tablets
+bxg6.	LUVINSTA XL 80mg m/r tablets
+bxg7.	STEFLUVIN XL 80mg m/r tablets
+bxg8.	DORISIN XL 80mg m/r tablets
+bxg9.	NANDOVAR XL 80mg m/r tablets
+bxgz.	FLUVASTATIN 80mg m/r tablets
+bxi..	ATORVASTATIN
+bxi1.	ATORVASTATIN 10mg tablets
+bxi2.	ATORVASTATIN 20mg tablets
+bxi3.	ATORVASTATIN 40mg tablets
+bxi4.	LIPITOR 10mg tablets
+bxi5.	LIPITOR 20mg tablets
+bxi6.	LIPITOR 40mg tablets
+bxi7.	LIPITOR 80mg tablets
+bxi8.	LIPITOR 10mg chewable tablets
+bxi9.	ATORVASTATIN 10mg chewable tablets
+bxiA.	LIPITOR 20mg chewable tablets
+bxiB.	ATORVASTATIN 20mg chewable tablets
+bxiy.	ATORVASTATIN 60mg tablets
+bxiz.	ATORVASTATIN 80mg tablets
+bxj..	CERIVASTATIN
+bxj1.	CERIVASTATIN SODIUM 100micrograms tablets
+bxj2.	CERIVASTATIN SODIUM 200micrograms tablets
+bxj3.	CERIVASTATIN SODIUM 300micrograms tablets
+bxj4.	*LIPOBAY 100micrograms tablets
+bxj5.	*LIPOBAY 200micrograms tablets
+bxj6.	*LIPOBAY 300micrograms tablets
+bxj7.	CERIVASTATIN SODIUM 400micrograms tablets
+bxj8.	*LIPOBAY 400micrograms tablets
+bxj9.	*LIPOBAY 800micrograms tablets
+bxjz.	CERIVASTATIN SODIUM 800micrograms tablets
+bxk..	ROSUVASTATIN
+bxk1.	CRESTOR 10mg tablets
+bxk2.	CRESTOR 20mg tablets
+bxk3.	CRESTOR 40mg tablets
+bxk4.	CRESTOR 5mg tablets
+bxkw.	ROSUVASTATIN 5mg tablets
+bxkx.	ROSUVASTATIN 10mg tablets
+bxky.	ROSUVASTATIN 20mg tablets
+bxkz.	ROSUVASTATIN 40mg tablets
+bxl..	EZETIMIBE
+bxl1.	EZETIMIBE 10mg tablets
+bxlz.	EZETROL 10mg tablets
+bxm..	COLESEVELAM HYDROCHLORIDE
+bxm1.	CHOLESTAGEL 625mg tablets
+bxm2.	COLESEVELAM 625mg tablets
+bxn..	LOMITAPIDE
+bxn1.	LOJUXTA 5mg capsules
+bxn2.	LOMITAPIDE 5mg capsules
+bxn3.	LOJUXTA 10mg capsules
+bxn4.	LOMITAPIDE 10mg capsules
+bxn5.	LOJUXTA 20mg capsules
+bxn6.	LOMITAPIDE 20mg capsules
+bxo..	EVOLOCUMAB
+bxo1.	REPATHA 140mg/1mL solution for injection prefilled syringe
+bxo2.	EVOLOCUMAB 140mg/1mL soln for inj prefilled syringe
+bxo3.	REPATHA SURECLICK 140mg/1mL soln for inj prefilled pen
+bxo4.	EVOLOCUMAB 140mg/1mL solution for injection prefilled pen
+bxp..	ALIROCUMAB
+bxp1.	PRALUENT 75mg/1mL solution for injection prefilled pen
+bxp2.	ALIROCUMAB 75mg/1mL solution for injection prefilled pen
+bxp3.	PRALUENT 150mg/1mL solution for injection prefilled pen
+bxp4.	ALIROCUMAB 150mg/1mL solution for injection prefilled pen

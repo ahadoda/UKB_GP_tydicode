@@ -1,0 +1,4 @@
+code	description
+4427.	Free T4 level
+442V.	Serum free T4 level
+442c.	Plasma free T4 level

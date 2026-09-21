@@ -1,0 +1,8 @@
+code	description
+.44P.	Serum cholesterol
+.44PH	Total cholesterol measurement
+44P..	Serum cholesterol
+44PH.	Total cholesterol measurement
+XE2eD	Serum cholesterol
+XSK14	Total cholesterol measurement
+Xa86v	Total cholesterol

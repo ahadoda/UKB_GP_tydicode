@@ -1,0 +1,6 @@
+code	description
+.423.	Hb estimation
+423..	Hb estimation
+XE2m6	Haemoglobin estimation
+XM1Vu	Hb estimation
+Xa96v	Hb - Haemoglobin concentration

@@ -1,0 +1,4 @@
+code	description
+.22A.	O/E - weight
+22A..	O/E - weight
+X76C7	Body weight

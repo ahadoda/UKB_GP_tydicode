@@ -1,0 +1,9 @@
+code	description
+.4425	FT3 - Free triiodothyronine level
+.442U	Serum free T3 level
+.442Y	Plasma free T3 level
+4425.	FT3 - Free triiodothyronine level
+442U.	Serum free T3 level
+442Y.	Plasma free T3 level
+XaERq	Serum free T3 level
+XaERt	Plasma free T3 level

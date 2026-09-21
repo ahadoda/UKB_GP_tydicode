@@ -19,13 +19,20 @@ def main() -> int:
     manifest_path = ROOT / "catalogue" / "trait_manifest.csv"
     master_path = ROOT / "catalogue" / "clinical_trait_codelists.csv"
     scope_path = ROOT / "catalogue" / "biomarker_scope.csv"
+    public_index_path = ROOT / "phenotypes" / "index.csv"
     errors: list[str] = []
-    if not manifest_path.exists() or not master_path.exists() or not scope_path.exists():
+    if (
+        not manifest_path.exists()
+        or not master_path.exists()
+        or not scope_path.exists()
+        or not public_index_path.exists()
+    ):
         print("Generated files are missing. Run src/build_trait_codelists.py.")
         return 1
     manifest = pd.read_csv(manifest_path, dtype="string", keep_default_na=False)
     master = pd.read_csv(master_path, dtype="string", keep_default_na=False)
     scope = pd.read_csv(scope_path, dtype="string", keep_default_na=False)
+    public_index = pd.read_csv(public_index_path, dtype="string", keep_default_na=False)
     scope_required = {
         "domain", "biomarker", "priority", "recommended_source", "role",
         "biological_age_role", "notes",
@@ -34,6 +41,22 @@ def main() -> int:
         errors.append(f"biomarker_scope.csv: missing {sorted(missing_scope)}")
     if not set(scope["priority"]).issubset({"core", "secondary", "context-specific"}):
         errors.append("biomarker_scope.csv: invalid priority")
+    public_required = {
+        "research_use", "phenotype", "ukb_table", "ukb_field", "coding_system",
+        "matching", "expected_units", "code_count", "codelist",
+    }
+    if missing_public := public_required.difference(public_index.columns):
+        errors.append(f"phenotypes/index.csv: missing {sorted(missing_public)}")
+    for record in public_index.to_dict("records"):
+        path = ROOT / record["codelist"]
+        if not path.exists():
+            errors.append(f"Missing public codelist: {record['codelist']}")
+            continue
+        data = pd.read_csv(path, sep="\t", dtype="string", keep_default_na=False)
+        if list(data.columns) != ["code", "description"]:
+            errors.append(f"{record['codelist']}: expected code and description only")
+        if len(data) != int(record["code_count"]):
+            errors.append(f"{record['codelist']}: public index count mismatch")
     total = 0
     for record in manifest.to_dict("records"):
         path = ROOT / record["path"]

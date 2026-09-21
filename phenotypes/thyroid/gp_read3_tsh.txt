@@ -1,0 +1,14 @@
+code	description
+.442.	TSH level
+.442A	TSH - Thyroid stimulating hormone
+.442W	Serum TSH level
+.442X	Plasma TSH level
+442..	TSH level
+442A.	TSH - thyroid stimulating hormone (& level)
+442W.	Serum TSH level
+442X.	Plasma TSH level
+X80Gc	TSH - Thyroid stimulating hormone
+XE27u	TSH - Thyroid stimulating hormone
+XE2wy	Thyroid stimulating hormone level
+XaELV	Serum TSH level
+XaELW	Plasma TSH level

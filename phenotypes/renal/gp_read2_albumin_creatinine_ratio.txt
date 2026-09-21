@@ -1,0 +1,3 @@
+code	description
+46TC.	Urine albumin:creatinine ratio
+46TD.	Urine microalbumin:creatinine ratio

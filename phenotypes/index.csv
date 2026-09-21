@@ -1,0 +1,98 @@
+research_use,phenotype,ukb_table,ukb_field,coding_system,matching,expected_units,code_count,codelist
+Blood count and biological-age inputs,Haemoglobin,gp_clinical,read_3,ctv3,exact,g/L; verify source unit,5,phenotypes/haematology/gp_read3_haemoglobin.txt
+Blood count and biological-age inputs,Haemoglobin,gp_clinical,read_2,read_v2,exact,g/L; verify source unit,1,phenotypes/haematology/gp_read2_haemoglobin.txt
+Blood count and biological-age inputs,Mean corpuscular volume (MCV),gp_clinical,read_3,ctv3,exact,fL,2,phenotypes/haematology/gp_read3_mean_corpuscular_volume.txt
+Blood count and biological-age inputs,Mean corpuscular volume (MCV),gp_clinical,read_2,read_v2,exact,fL,1,phenotypes/haematology/gp_read2_mean_corpuscular_volume.txt
+Blood count and biological-age inputs,Platelet count,gp_clinical,read_3,ctv3,exact,10^9/L,4,phenotypes/haematology/gp_read3_platelet_count.txt
+Blood count and biological-age inputs,Platelet count,gp_clinical,read_2,read_v2,exact,10^9/L,2,phenotypes/haematology/gp_read2_platelet_count.txt
+Blood count and biological-age inputs,Red cell distribution width (RDW),gp_clinical,read_3,ctv3,exact,%,4,phenotypes/haematology/gp_read3_red_cell_distribution_width.txt
+Blood count and biological-age inputs,Red cell distribution width (RDW),gp_clinical,read_2,read_v2,exact,%,1,phenotypes/haematology/gp_read2_red_cell_distribution_width.txt
+Blood count and biological-age inputs,White blood cell count,gp_clinical,read_3,ctv3,exact,10^9/L,6,phenotypes/haematology/gp_read3_white_blood_cell_count.txt
+Blood count and biological-age inputs,White blood cell count,gp_clinical,read_2,read_v2,exact,10^9/L,3,phenotypes/haematology/gp_read2_white_blood_cell_count.txt
+Blood-pressure measurements,Blood pressure (generic),gp_clinical,read_3,ctv3,exact,mmHg,2,phenotypes/haemodynamics/gp_read3_blood_pressure.txt
+Blood-pressure measurements,Blood pressure (generic),gp_clinical,read_2,read_v2,exact,mmHg,1,phenotypes/haemodynamics/gp_read2_blood_pressure.txt
+Blood-pressure measurements,Diastolic blood pressure,gp_clinical,read_3,ctv3,exact,mmHg,28,phenotypes/haemodynamics/gp_read3_diastolic_blood_pressure.txt
+Blood-pressure measurements,Diastolic blood pressure,gp_clinical,read_2,read_v2,exact,mmHg,10,phenotypes/haemodynamics/gp_read2_diastolic_blood_pressure.txt
+Blood-pressure measurements,Systolic blood pressure,gp_clinical,read_3,ctv3,exact,mmHg,28,phenotypes/haemodynamics/gp_read3_systolic_blood_pressure.txt
+Blood-pressure measurements,Systolic blood pressure,gp_clinical,read_2,read_v2,exact,mmHg,10,phenotypes/haemodynamics/gp_read2_systolic_blood_pressure.txt
+Body size and adiposity,Body height,gp_clinical,read_3,ctv3,exact,cm or m; verify source unit,3,phenotypes/anthropometry/gp_read3_body_height.txt
+Body size and adiposity,Body height,gp_clinical,read_2,read_v2,exact,cm or m; verify source unit,1,phenotypes/anthropometry/gp_read2_body_height.txt
+Body size and adiposity,Body mass index (BMI),gp_clinical,read_3,ctv3,exact,kg/m2,2,phenotypes/anthropometry/gp_read3_body_mass_index.txt
+Body size and adiposity,Body mass index (BMI),gp_clinical,read_2,read_v2,exact,kg/m2,1,phenotypes/anthropometry/gp_read2_body_mass_index.txt
+Body size and adiposity,Body weight,gp_clinical,read_3,ctv3,exact,kg; verify source unit,3,phenotypes/anthropometry/gp_read3_body_weight.txt
+Body size and adiposity,Body weight,gp_clinical,read_2,read_v2,exact,kg; verify source unit,1,phenotypes/anthropometry/gp_read2_body_weight.txt
+Body size and adiposity,Hip circumference,gp_clinical,read_3,ctv3,exact,cm; verify source unit,3,phenotypes/anthropometry/gp_read3_hip_circumference.txt
+Body size and adiposity,Hip circumference,gp_clinical,read_2,read_v2,exact,cm; verify source unit,1,phenotypes/anthropometry/gp_read2_hip_circumference.txt
+Body size and adiposity,Waist circumference,gp_clinical,read_3,ctv3,exact,cm; verify source unit,8,phenotypes/anthropometry/gp_read3_waist_circumference.txt
+Body size and adiposity,Waist circumference,gp_clinical,read_2,read_v2,exact,cm; verify source unit,3,phenotypes/anthropometry/gp_read2_waist_circumference.txt
+Cardiometabolic prescriptions,Antihypertensive medicines,gp_scripts,bnf_code,bnf,prefix,not applicable,131,phenotypes/medications/gp_bnf_antihypertensive.txt
+Cardiometabolic prescriptions,Antihypertensive medicines,gp_scripts,read_2,read_v2_drug,exact,not applicable,1098,phenotypes/medications/gp_read2drugs_antihypertensive.txt
+Cardiometabolic prescriptions,Glucose-lowering medicines,gp_scripts,bnf_code,bnf,prefix,not applicable,68,phenotypes/medications/gp_bnf_glucose_lowering.txt
+Cardiometabolic prescriptions,Glucose-lowering medicines,gp_scripts,read_2,read_v2_drug,exact,not applicable,507,phenotypes/medications/gp_read2drugs_glucose_lowering.txt
+Cardiometabolic prescriptions,Lipid-lowering medicines,gp_scripts,bnf_code,bnf,prefix,not applicable,34,phenotypes/medications/gp_bnf_lipid_lowering.txt
+Cardiometabolic prescriptions,Lipid-lowering medicines,gp_scripts,read_2,read_v2_drug,exact,not applicable,189,phenotypes/medications/gp_read2drugs_lipid_lowering.txt
+Cardiometabolic prescriptions,Weight-management medicines,gp_scripts,bnf_code,bnf,prefix,not applicable,11,phenotypes/medications/gp_bnf_weight_management.txt
+Cardiometabolic prescriptions,Weight-management medicines,gp_scripts,read_2,read_v2_drug,exact,not applicable,47,phenotypes/medications/gp_read2drugs_weight_management.txt
+Glycaemia and diabetes monitoring,Blood glucose,gp_clinical,read_3,ctv3,exact,mmol/L; verify source unit,97,phenotypes/glycaemia/gp_read3_blood_glucose.txt
+Glycaemia and diabetes monitoring,Blood glucose,gp_clinical,read_2,read_v2,exact,mmol/L; verify source unit,31,phenotypes/glycaemia/gp_read2_blood_glucose.txt
+Glycaemia and diabetes monitoring,C-peptide,gp_clinical,read_3,ctv3,exact,nmol/L or pmol/L; verify source unit,6,phenotypes/glycaemia/gp_read3_c_peptide.txt
+Glycaemia and diabetes monitoring,C-peptide,gp_clinical,read_2,read_v2,exact,nmol/L or pmol/L; verify source unit,2,phenotypes/glycaemia/gp_read2_c_peptide.txt
+Glycaemia and diabetes monitoring,HbA1c,gp_clinical,read_3,ctv3,exact,mmol/mol or %; determine from code and value,7,phenotypes/glycaemia/gp_read3_hba1c.txt
+Glycaemia and diabetes monitoring,HbA1c,gp_clinical,read_2,read_v2,exact,mmol/mol or %; determine from code and value,1,phenotypes/glycaemia/gp_read2_hba1c.txt
+Glycaemia and diabetes monitoring,Insulin,gp_clinical,read_3,ctv3,exact,mU/L or pmol/L; verify source unit,4,phenotypes/glycaemia/gp_read3_insulin.txt
+Glycaemia and diabetes monitoring,Insulin,gp_clinical,read_2,read_v2,exact,mU/L or pmol/L; verify source unit,1,phenotypes/glycaemia/gp_read2_insulin.txt
+Kidney function and kidney damage,Creatinine,gp_clinical,read_3,ctv3,exact,umol/L; verify source unit,6,phenotypes/renal/gp_read3_creatinine.txt
+Kidney function and kidney damage,Creatinine,gp_clinical,read_2,read_v2,exact,umol/L; verify source unit,2,phenotypes/renal/gp_read2_creatinine.txt
+Kidney function and kidney damage,Cystatin C,gp_clinical,read_3,ctv3,exact,mg/L; verify source unit,5,phenotypes/renal/gp_read3_cystatin_c.txt
+Kidney function and kidney damage,Cystatin C,gp_clinical,read_2,read_v2,exact,mg/L; verify source unit,2,phenotypes/renal/gp_read2_cystatin_c.txt
+Kidney function and kidney damage,Estimated glomerular filtration rate (eGFR),gp_clinical,read_3,ctv3,exact,mL/min/1.73m2; verify equation,12,phenotypes/renal/gp_read3_egfr.txt
+Kidney function and kidney damage,Estimated glomerular filtration rate (eGFR),gp_clinical,read_2,read_v2,exact,mL/min/1.73m2; verify equation,5,phenotypes/renal/gp_read2_egfr.txt
+Kidney function and kidney damage,Urea,gp_clinical,read_3,ctv3,exact,mmol/L; verify source unit,8,phenotypes/renal/gp_read3_urea.txt
+Kidney function and kidney damage,Urea,gp_clinical,read_2,read_v2,exact,mmol/L; verify source unit,3,phenotypes/renal/gp_read2_urea.txt
+Kidney function and kidney damage,Urine albumin-creatinine ratio,gp_clinical,read_3,ctv3,exact,mg/mmol; verify source unit,9,phenotypes/renal/gp_read3_albumin_creatinine_ratio.txt
+Kidney function and kidney damage,Urine albumin-creatinine ratio,gp_clinical,read_2,read_v2,exact,mg/mmol; verify source unit,2,phenotypes/renal/gp_read2_albumin_creatinine_ratio.txt
+Lipid and cardiovascular-risk biomarkers,Apolipoprotein A-I,gp_clinical,read_3,ctv3,exact,g/L; verify analyte and source unit,6,phenotypes/lipids/gp_read3_apolipoprotein_a.txt
+Lipid and cardiovascular-risk biomarkers,Apolipoprotein A-I,gp_clinical,read_2,read_v2,exact,g/L; verify analyte and source unit,2,phenotypes/lipids/gp_read2_apolipoprotein_a.txt
+Lipid and cardiovascular-risk biomarkers,Apolipoprotein B,gp_clinical,read_3,ctv3,exact,g/L; verify source unit,6,phenotypes/lipids/gp_read3_apolipoprotein_b.txt
+Lipid and cardiovascular-risk biomarkers,Apolipoprotein B,gp_clinical,read_2,read_v2,exact,g/L; verify source unit,2,phenotypes/lipids/gp_read2_apolipoprotein_b.txt
+Lipid and cardiovascular-risk biomarkers,HDL cholesterol,gp_clinical,read_3,ctv3,exact,mmol/L,13,phenotypes/lipids/gp_read3_hdl_cholesterol.txt
+Lipid and cardiovascular-risk biomarkers,HDL cholesterol,gp_clinical,read_2,read_v2,exact,mmol/L,6,phenotypes/lipids/gp_read2_hdl_cholesterol.txt
+Lipid and cardiovascular-risk biomarkers,LDL cholesterol,gp_clinical,read_3,ctv3,exact,mmol/L,16,phenotypes/lipids/gp_read3_ldl_cholesterol.txt
+Lipid and cardiovascular-risk biomarkers,LDL cholesterol,gp_clinical,read_2,read_v2,exact,mmol/L,7,phenotypes/lipids/gp_read2_ldl_cholesterol.txt
+Lipid and cardiovascular-risk biomarkers,Lipoprotein(a),gp_clinical,read_3,ctv3,exact,nmol/L or mg/dL; do not convert without an assay-specific factor,2,phenotypes/lipids/gp_read3_lipoprotein_a.txt
+Lipid and cardiovascular-risk biomarkers,Lipoprotein(a),gp_clinical,read_2,read_v2,exact,nmol/L or mg/dL; do not convert without an assay-specific factor,1,phenotypes/lipids/gp_read2_lipoprotein_a.txt
+Lipid and cardiovascular-risk biomarkers,Total cholesterol,gp_clinical,read_3,ctv3,exact,mmol/L,7,phenotypes/lipids/gp_read3_total_cholesterol.txt
+Lipid and cardiovascular-risk biomarkers,Total cholesterol,gp_clinical,read_2,read_v2,exact,mmol/L,2,phenotypes/lipids/gp_read2_total_cholesterol.txt
+Lipid and cardiovascular-risk biomarkers,Triglycerides,gp_clinical,read_3,ctv3,exact,mmol/L,5,phenotypes/lipids/gp_read3_triglycerides.txt
+Lipid and cardiovascular-risk biomarkers,Triglycerides,gp_clinical,read_2,read_v2,exact,mmol/L,2,phenotypes/lipids/gp_read2_triglycerides.txt
+Liver biomarkers,Alanine aminotransferase (ALT),gp_clinical,read_3,ctv3,exact,U/L,9,phenotypes/liver/gp_read3_alanine_aminotransferase.txt
+Liver biomarkers,Alanine aminotransferase (ALT),gp_clinical,read_2,read_v2,exact,U/L,3,phenotypes/liver/gp_read2_alanine_aminotransferase.txt
+Liver biomarkers,Alkaline phosphatase (ALP),gp_clinical,read_3,ctv3,exact,U/L,7,phenotypes/liver/gp_read3_alkaline_phosphatase.txt
+Liver biomarkers,Alkaline phosphatase (ALP),gp_clinical,read_2,read_v2,exact,U/L,2,phenotypes/liver/gp_read2_alkaline_phosphatase.txt
+Liver biomarkers,Aspartate aminotransferase (AST),gp_clinical,read_3,ctv3,exact,U/L,10,phenotypes/liver/gp_read3_aspartate_aminotransferase.txt
+Liver biomarkers,Aspartate aminotransferase (AST),gp_clinical,read_2,read_v2,exact,U/L,3,phenotypes/liver/gp_read2_aspartate_aminotransferase.txt
+Liver biomarkers,Bilirubin,gp_clinical,read_3,ctv3,exact,umol/L; distinguish total and direct,15,phenotypes/liver/gp_read3_bilirubin.txt
+Liver biomarkers,Bilirubin,gp_clinical,read_2,read_v2,exact,umol/L; distinguish total and direct,5,phenotypes/liver/gp_read2_bilirubin.txt
+Liver biomarkers,Gamma-glutamyl transferase (GGT),gp_clinical,read_3,ctv3,exact,U/L,8,phenotypes/liver/gp_read3_gamma_glutamyl_transferase.txt
+Liver biomarkers,Gamma-glutamyl transferase (GGT),gp_clinical,read_2,read_v2,exact,U/L,2,phenotypes/liver/gp_read2_gamma_glutamyl_transferase.txt
+Liver biomarkers,Serum albumin,gp_clinical,read_3,ctv3,exact,g/L; verify source unit,6,phenotypes/liver/gp_read3_albumin.txt
+Liver biomarkers,Serum albumin,gp_clinical,read_2,read_v2,exact,g/L; verify source unit,2,phenotypes/liver/gp_read2_albumin.txt
+Other cardiometabolic biomarkers,25-hydroxyvitamin D,gp_clinical,read_3,ctv3,exact,nmol/L; prefer total 25-hydroxyvitamin D,5,phenotypes/metabolic/gp_read3_vitamin_d.txt
+Other cardiometabolic biomarkers,25-hydroxyvitamin D,gp_clinical,read_2,read_v2,exact,nmol/L; prefer total 25-hydroxyvitamin D,2,phenotypes/metabolic/gp_read2_vitamin_d.txt
+Other cardiometabolic biomarkers,Calcium,gp_clinical,read_3,ctv3,exact,mmol/L; distinguish corrected and uncorrected,11,phenotypes/metabolic/gp_read3_calcium.txt
+Other cardiometabolic biomarkers,Calcium,gp_clinical,read_2,read_v2,exact,mmol/L; distinguish corrected and uncorrected,4,phenotypes/metabolic/gp_read2_calcium.txt
+Other cardiometabolic biomarkers,Phosphate,gp_clinical,read_3,ctv3,exact,mmol/L; verify source unit,6,phenotypes/metabolic/gp_read3_phosphate.txt
+Other cardiometabolic biomarkers,Phosphate,gp_clinical,read_2,read_v2,exact,mmol/L; verify source unit,1,phenotypes/metabolic/gp_read2_phosphate.txt
+Other cardiometabolic biomarkers,Urate,gp_clinical,read_3,ctv3,exact,umol/L; verify source unit,10,phenotypes/metabolic/gp_read3_urate.txt
+Other cardiometabolic biomarkers,Urate,gp_clinical,read_2,read_v2,exact,umol/L; verify source unit,3,phenotypes/metabolic/gp_read2_urate.txt
+Systemic inflammation,C-reactive protein (CRP),gp_clinical,read_3,ctv3,exact,mg/L,7,phenotypes/inflammation/gp_read3_c_reactive_protein.txt
+Systemic inflammation,C-reactive protein (CRP),gp_clinical,read_2,read_v2,exact,mg/L,1,phenotypes/inflammation/gp_read2_c_reactive_protein.txt
+Thyroid function and autoimmunity,Free T3,gp_clinical,read_3,ctv3,exact,pmol/L; verify source unit,8,phenotypes/thyroid/gp_read3_free_t3.txt
+Thyroid function and autoimmunity,Free T3,gp_clinical,read_2,read_v2,exact,pmol/L; verify source unit,3,phenotypes/thyroid/gp_read2_free_t3.txt
+Thyroid function and autoimmunity,Free T4,gp_clinical,read_3,ctv3,exact,pmol/L; verify source unit,8,phenotypes/thyroid/gp_read3_free_t4.txt
+Thyroid function and autoimmunity,Free T4,gp_clinical,read_2,read_v2,exact,pmol/L; verify source unit,3,phenotypes/thyroid/gp_read2_free_t4.txt
+Thyroid function and autoimmunity,Thyroglobulin antibody,gp_clinical,read_3,ctv3,exact,IU/mL or kIU/L; verify assay,3,phenotypes/thyroid/gp_read3_thyroglobulin_antibody.txt
+Thyroid function and autoimmunity,Thyroid peroxidase antibody,gp_clinical,read_3,ctv3,exact,IU/mL or kIU/L; verify assay,5,phenotypes/thyroid/gp_read3_thyroid_peroxidase_antibody.txt
+Thyroid function and autoimmunity,Thyroid peroxidase antibody,gp_clinical,read_2,read_v2,exact,IU/mL or kIU/L; verify assay,2,phenotypes/thyroid/gp_read2_thyroid_peroxidase_antibody.txt
+Thyroid function and autoimmunity,Thyroid-stimulating hormone (TSH),gp_clinical,read_3,ctv3,exact,mIU/L; verify source unit,13,phenotypes/thyroid/gp_read3_tsh.txt
+Thyroid function and autoimmunity,Thyroid-stimulating hormone (TSH),gp_clinical,read_2,read_v2,exact,mIU/L; verify source unit,3,phenotypes/thyroid/gp_read2_tsh.txt

@@ -1,0 +1,12 @@
+code	description
+.44I8	Serum calcium
+.44IC	Adjusted serum calcium level
+.44h7	Plasma calcium level
+.44h9	Plasma corrected calcium level
+44I8.	Serum calcium
+44IC.	Adjusted serum calcium level
+44h7.	Plasma calcium level
+44h9.	Plasma corrected calcium level
+XE2q3	Serum calcium
+XaIRk	Plasma calcium level
+XaIRn	Plasma corrected calcium level

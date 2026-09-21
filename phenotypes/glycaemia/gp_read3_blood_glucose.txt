@@ -1,0 +1,98 @@
+code	description
+.44TA	Plasma glucose level
+.44TE	30 minute blood glucose level
+.44TF	60 minute blood glucose level
+.44TG	90 minute blood glucose level
+.44TH	120 minute blood glucose level
+.44TI	150 minute blood glucose level
+.44TJ	BS - Blood glucose level
+.44TK	Fasting blood glucose level
+.44U.	Plasma glucose level
+.44U7	2 hour post-prandial blood glucose level
+.44f.	Serum glucose level
+.44f0	Serum random glucose level
+.44f1	Serum fasting glucose level
+.44f3	30 minute serum glucose level
+.44f4	60 minute serum glucose level
+.44f5	90 minute serum glucose level
+.44f6	120 minute serum glucose level
+.44f7	150 minute serum glucose level
+.44g.	Plasma glucose level
+.44g0	Plasma random glucose level
+.44g1	Plasma fasting glucose level
+.44g3	30 minute plasma glucose level
+.44g4	60 minute plasma glucose level
+.44g5	90 minute plasma glucose level
+.44g6	120 minute plasma glucose level
+.44g7	150 minute plasma glucose level
+.44g8	240 minute plasma glucose level
+.44g9	300 minute plasma glucose level
+44TA.	Plasma glucose level
+44TE.	30 minute blood glucose level
+44TF.	60 minute blood glucose level
+44TG.	90 minute blood glucose level
+44TH.	120 minute blood glucose level
+44TI.	150 minute blood glucose level
+44TJ.	BS - Blood glucose level
+44TJ8	Baseline blood glucose level
+44TJ9	Blood glucose level after evening meal
+44TJA	Blood glucose level during night
+44TK.	Fasting blood glucose level
+44U..	Plasma glucose level
+44U7.	2 hour post-prandial blood glucose level
+44f..	Serum glucose level
+44f0.	Serum random glucose level
+44f1.	Serum fasting glucose level
+44f3.	30 minute serum glucose level
+44f4.	60 minute serum glucose level
+44f5.	90 minute serum glucose level
+44f6.	120 minute serum glucose level
+44f7.	150 minute serum glucose level
+44g..	Plasma glucose level
+44g0.	Plasma random glucose level
+44g1.	Plasma fasting glucose level
+44g3.	30 minute plasma glucose level
+44g4.	60 minute plasma glucose level
+44g5.	90 minute plasma glucose level
+44g6.	120 minute plasma glucose level
+44g7.	150 minute plasma glucose level
+44g8.	240 minute plasma glucose level
+44g9.	300 minute plasma glucose level
+44gA.	180 minute plasma glucose level
+7P172	OGTT - Oral glucose tolerance test
+X772z	BS - Blood glucose level
+XE25Y	Blood glucose result
+XE25Z	OGTT - Oral glucose tolerance test
+XE28s	Plasma glucose level
+XE2mp	Random blood glucose level
+XE2mq	Fasting blood glucose level
+XE2mt	Blood glucose level at bedtime
+XM0ly	Plasma glucose level
+Xa974	Capillary blood glucose level
+XaEM2	60 minute blood glucose level
+XaENB	120 minute blood glucose level
+XaENC	90 minute blood glucose level
+XaEOS	150 minute blood glucose level
+XaEOT	30 minute plasma glucose level
+XaEOU	60 minute plasma glucose level
+XaEOV	120 minute plasma glucose level
+XaEOW	150 minute plasma glucose level
+XaEOX	30 minute serum glucose level
+XaEOY	60 minute serum glucose level
+XaEOZ	120 minute serum glucose level
+XaEOf	30 minute blood glucose level
+XaEPc	90 minute plasma glucose level
+XaEPd	90 minute serum glucose level
+XaERQ	150 minute serum glucose level
+XaOcC	240 minute plasma glucose level
+XaOcE	300 minute plasma glucose level
+XaX3x	180 minute plasma glucose level
+XaaFn	Blood glucose level before breakfast
+XaaFo	Blood glucose level after breakfast
+XaaFp	Blood glucose level before lunch
+XaaFq	Blood glucose level after lunch
+XaaFs	Blood glucose level before evening meal
+XaaFu	Blood glucose level at bedtime
+Xabhy	Baseline blood glucose level
+Xabmv	Blood glucose level after evening meal
+Xabmw	Blood glucose level during night

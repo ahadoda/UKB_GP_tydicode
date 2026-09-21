@@ -1,0 +1,3 @@
+code	description
+42P..	Platelet count
+42PZ.	Platelet count NOS

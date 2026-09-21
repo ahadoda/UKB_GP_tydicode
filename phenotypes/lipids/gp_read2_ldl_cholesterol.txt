@@ -1,0 +1,8 @@
+code	description
+44P6.	Serum LDL cholesterol level
+44PD.	Serum fasting LDL cholesterol level
+44PE.	Serum random LDL cholesterol level
+44PI.	Calculated LDL cholesterol level
+44d4.	Plasma random LDL cholesterol level
+44d5.	Plasma fasting LDL cholesterol level
+44dB.	Plasma LDL cholesterol level

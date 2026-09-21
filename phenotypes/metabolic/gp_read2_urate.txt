@@ -1,0 +1,4 @@
+code	description
+44K..	Serum uric acid
+44K5.	Serum urate level
+44K6.	Plasma urate level

@@ -1,0 +1,4 @@
+code	description
+22N0.	Waist circumference
+22N00	Baseline waist circumference
+22N8.	Abdominal circumference

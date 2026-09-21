@@ -1,6 +1,8 @@
 from __future__ import annotations
 
 import unittest
+from pathlib import Path
+import re
 
 import pandas as pd
 
@@ -35,6 +37,22 @@ class TraitCodelistTests(unittest.TestCase):
                 "white blood cell count",
             },
         )
+
+    def test_public_codelists_are_simple_and_final(self) -> None:
+        index = pd.read_csv("phenotypes/index.csv")
+        self.assertEqual(len(index), 97)
+        hba1c = pd.read_csv(
+            "phenotypes/glycaemia/gp_read2_hba1c.txt", sep="\t", dtype="string"
+        )
+        self.assertEqual(hba1c.columns.tolist(), ["code", "description"])
+        self.assertNotIn("selection_tier", hba1c.columns)
+
+    def test_readme_phenotype_links_exist(self) -> None:
+        readme = Path("README.md").read_text(encoding="utf-8")
+        links = re.findall(r"\]\((phenotypes/[^)]+)\)", readme)
+        self.assertGreater(len(links), 80)
+        missing = [link for link in links if not Path(link).exists()]
+        self.assertEqual(missing, [])
 
     def test_read_v2_matching_is_exact(self) -> None:
         codes = load_codelist(

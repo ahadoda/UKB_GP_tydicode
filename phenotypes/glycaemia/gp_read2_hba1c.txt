@@ -1,0 +1,2 @@
+code	description
+42W4.	HbA1c level (DCCT aligned)
