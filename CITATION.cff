@@ -4,4 +4,4 @@ title: "UK Biobank GP clinical trait codelists"
 type: dataset
 version: 0.1.0
 date-released: 2026-09-21
-repository-code: "local repository; add the GitHub URL after publishing"
+repository-code: "https://github.com/ahadoda/UKB_GP_tydicode"
