@@ -143,7 +143,7 @@ thyroid,thyroglobulin_antibody,ctv3,extended_review,3
 thyroid,thyroid_peroxidase_antibody,ctv3,core,5
 thyroid,thyroid_peroxidase_antibody,ctv3,extended_review,1
 thyroid,thyroid_peroxidase_antibody,read_v2,core,2
-thyroid,tsh,ctv3,core,13
+thyroid,tsh,ctv3,core,11
 thyroid,tsh,ctv3,extended_review,7
 thyroid,tsh,read_v2,core,3
-thyroid,tsh,read_v2,extended_review,3
+thyroid,tsh,read_v2,extended_review,2

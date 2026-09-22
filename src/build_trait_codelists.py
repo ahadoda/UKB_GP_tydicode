@@ -70,7 +70,7 @@ TRAITS = [
     TraitRule("metabolic", "calcium", "mmol/L; distinguish corrected and uncorrected", r"\b(?:serum|plasma) (?:adjusted |corrected )?calcium(?: level| measurement)?\b", r"urine|ionised|ionized|score|coronary|diet|supplement", r"level|measurement|^(?:serum|plasma) (?:adjusted |corrected )?calcium$"),
     TraitRule("metabolic", "phosphate", "mmol/L; verify source unit", r"\b(?:serum|plasma) (?:inorganic )?phosphate(?: level| measurement)?\b", r"urine|alkaline|buffer|supplement", r"level|measurement"),
     TraitRule("metabolic", "vitamin_d", "nmol/L; prefer total 25-hydroxyvitamin D", r"\b(?:serum|plasma) (?:total )?(?:25[- ]?hydroxy)?vitamin d(?:2|3)?(?: level| measurement)?\b", r"allergy|supplement|therapy|deficiency|rickets|1,25|dihydroxy", r"25[- ]?hydroxy"),
-    TraitRule("thyroid", "tsh", "mIU/L; verify source unit", r"\b(?:serum |plasma )?(?:tsh|thyroid[- ]stimulating hormone)(?: level| measurement)?\b", r"releasing hormone|suppression therapy|deficiency|resistance|secreting|overproduction|receptor|antibody|binding site|blood spot|\d+ minute", r"^(?:serum |plasma )?tsh(?: level| measurement)?$|^tsh\s*-\s*thyroid stimulating hormone(?: \(& level\))?$|^thyroid[- ]stimulating hormone level$"),
+    TraitRule("thyroid", "tsh", "mIU/L; verify source unit", r"\b(?:serum |plasma )?(?:tsh|thyroid[- ]stimulating hormone)(?: level| measurement)?\b", r"releasing hormone|suppression therapy|deficiency|resistance|secreting|overproduction|receptor|antibody|binding site|blood spot|\d+ minute", r"^(?:serum |plasma )?tsh(?: level| measurement)?$|^tsh\s*-\s*thyroid stim(?:ulating)?\.? hormone(?: \(& level\))?$|^thyroid[- ]stimulating hormone level$"),
     TraitRule("thyroid", "free_t4", "pmol/L; verify source unit", r"\b(?:serum|plasma )?(?:free t4|free thyroxine)(?: level| measurement)?\b", r"index|uptake|ratio|therapy", r"level|measurement"),
     TraitRule("thyroid", "free_t3", "pmol/L; verify source unit", r"\b(?:serum|plasma )?(?:free t3|free triiodothyronine)(?: level| measurement)?\b", r"uptake|ratio|therapy", r"level|measurement"),
     TraitRule("thyroid", "thyroid_peroxidase_antibody", "IU/mL or kIU/L; verify assay", r"\bthyroid peroxidase antibod(?:y|ies)(?: level| concentration| measurement)?\b", r"negative history|family history", r"level|concentration|measurement"),
@@ -81,6 +81,13 @@ TRAITS = [
     TraitRule("haematology", "haemoglobin", "g/L; verify source unit", r"\b(?:haemoglobin|hemoglobin|hb) estimation(?: \(& level\))?$|^(?:hb\s*-\s*)?haemoglobin (?:concentration|level)$", r"not estimated|requested|sample sent|glycat|glycosyl|fetal|foetal|carboxy|methaemoglobin|oxyhaemoglobin|urine|plasma|variant|electrophoresis|mean cell|mchc|unstable|alteration", r"estimation|concentration|level"),
     TraitRule("haematology", "platelet_count", "10^9/L", r"\bplatelet count(?: level| measurement| observation)?\b|\bplt\s*-\s*platelet count\b", r"reticulated|low|decreased|thrombocyt", r"count|level|measurement|observation"),
 ]
+
+
+# These parent concepts have analyte-specific synonyms in the lookup, but their
+# full meaning spans several tests. They are unsafe for a specific numeric trait.
+TRAIT_CODE_EXCLUSIONS = {
+    "tsh": {"442..", ".442."},
+}
 
 
 MEDICATION_RULES = {
@@ -300,6 +307,8 @@ def select_traits(workbook: openpyxl.Workbook) -> list[pd.DataFrame]:
             term = str(row[spec["term"]]).strip()
             lowered = term.casefold()
             for rule, include, exclude, core in compiled:
+                if code in TRAIT_CODE_EXCLUSIONS.get(rule.trait, set()):
+                    continue
                 if not include.search(lowered) or (exclude and exclude.search(lowered)):
                     continue
                 key = (rule.trait, code)
@@ -553,6 +562,7 @@ def build(source: Path) -> None:
             "trait": rule.trait,
             "include_regex": rule.include,
             "exclude_regex": rule.exclude,
+            "code_exclusions": " | ".join(sorted(TRAIT_CODE_EXCLUSIONS.get(rule.trait, set()))),
             "core_regex": rule.core,
             "expected_units": rule.expected_units,
             "selection_method": "terminology_description",
@@ -565,6 +575,7 @@ def build(source: Path) -> None:
             "trait": trait,
             "include_regex": "",
             "exclude_regex": "",
+            "code_exclusions": "",
             "core_regex": "",
             "expected_units": "not applicable",
             "selection_method": "named_bnf_hierarchy_categories",

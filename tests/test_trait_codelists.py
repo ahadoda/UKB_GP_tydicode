@@ -69,6 +69,18 @@ class TraitCodelistTests(unittest.TestCase):
         self.assertIn("Dots are literal characters", readme)
         self.assertIn("`422..`", readme)
 
+    def test_broad_thyroid_parent_is_not_used_as_tsh(self):
+        read2 = pd.read_csv(
+            "phenotypes/thyroid/gp_read2_tsh.txt", sep="\t", dtype="string"
+        )
+        read3 = pd.read_csv(
+            "phenotypes/thyroid/gp_read3_tsh.txt", sep="\t", dtype="string"
+        )
+        self.assertNotIn("442..", set(read2["code"]))
+        self.assertNotIn("442..", set(read3["code"]))
+        self.assertNotIn(".442.", set(read3["code"]))
+        self.assertIn("442A.", set(read2["code"]))
+
     def test_readme_phenotype_links_exist(self) -> None:
         readme = Path("README.md").read_text(encoding="utf-8")
         links = re.findall(r"\]\((phenotypes/[^)]+)\)", readme)

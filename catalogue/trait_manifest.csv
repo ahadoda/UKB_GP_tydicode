@@ -94,5 +94,5 @@ thyroid.free_t4.read_v2,thyroid,free_t4,read_v2,gp_clinical,read_2,exact,true,pm
 thyroid.thyroglobulin_antibody.ctv3,thyroid,thyroglobulin_antibody,ctv3,gp_clinical,read_3,exact,true,IU/mL or kIU/L; verify assay,0,3,3,codelists/clinical_traits/thyroid/thyroglobulin_antibody/ctv3.csv,candidate_requires_clinical_review
 thyroid.thyroid_peroxidase_antibody.ctv3,thyroid,thyroid_peroxidase_antibody,ctv3,gp_clinical,read_3,exact,true,IU/mL or kIU/L; verify assay,5,1,6,codelists/clinical_traits/thyroid/thyroid_peroxidase_antibody/ctv3.csv,candidate_requires_clinical_review
 thyroid.thyroid_peroxidase_antibody.read_v2,thyroid,thyroid_peroxidase_antibody,read_v2,gp_clinical,read_2,exact,true,IU/mL or kIU/L; verify assay,2,0,2,codelists/clinical_traits/thyroid/thyroid_peroxidase_antibody/read_v2.csv,candidate_requires_clinical_review
-thyroid.tsh.ctv3,thyroid,tsh,ctv3,gp_clinical,read_3,exact,true,mIU/L; verify source unit,13,7,20,codelists/clinical_traits/thyroid/tsh/ctv3.csv,candidate_requires_clinical_review
-thyroid.tsh.read_v2,thyroid,tsh,read_v2,gp_clinical,read_2,exact,true,mIU/L; verify source unit,3,3,6,codelists/clinical_traits/thyroid/tsh/read_v2.csv,candidate_requires_clinical_review
+thyroid.tsh.ctv3,thyroid,tsh,ctv3,gp_clinical,read_3,exact,true,mIU/L; verify source unit,11,7,18,codelists/clinical_traits/thyroid/tsh/ctv3.csv,candidate_requires_clinical_review
+thyroid.tsh.read_v2,thyroid,tsh,read_v2,gp_clinical,read_2,exact,true,mIU/L; verify source unit,3,2,5,codelists/clinical_traits/thyroid/tsh/read_v2.csv,candidate_requires_clinical_review

@@ -94,5 +94,5 @@ Thyroid function and autoimmunity,Free T4,gp_clinical,read_2,read_v2,exact,pmol/
 Thyroid function and autoimmunity,Thyroglobulin antibody,gp_clinical,read_3,ctv3,exact,IU/mL or kIU/L; verify assay,3,phenotypes/thyroid/gp_read3_thyroglobulin_antibody.txt
 Thyroid function and autoimmunity,Thyroid peroxidase antibody,gp_clinical,read_3,ctv3,exact,IU/mL or kIU/L; verify assay,5,phenotypes/thyroid/gp_read3_thyroid_peroxidase_antibody.txt
 Thyroid function and autoimmunity,Thyroid peroxidase antibody,gp_clinical,read_2,read_v2,exact,IU/mL or kIU/L; verify assay,2,phenotypes/thyroid/gp_read2_thyroid_peroxidase_antibody.txt
-Thyroid function and autoimmunity,Thyroid-stimulating hormone (TSH),gp_clinical,read_3,ctv3,exact,mIU/L; verify source unit,13,phenotypes/thyroid/gp_read3_tsh.txt
+Thyroid function and autoimmunity,Thyroid-stimulating hormone (TSH),gp_clinical,read_3,ctv3,exact,mIU/L; verify source unit,11,phenotypes/thyroid/gp_read3_tsh.txt
 Thyroid function and autoimmunity,Thyroid-stimulating hormone (TSH),gp_clinical,read_2,read_v2,exact,mIU/L; verify source unit,3,phenotypes/thyroid/gp_read2_tsh.txt

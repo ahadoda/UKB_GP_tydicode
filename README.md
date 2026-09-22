@@ -110,6 +110,12 @@ only when combined or non-component blood-pressure records are relevant.
 | Autoimmune thyroid disease: TPO antibody | [open list](phenotypes/thyroid/gp_read2_thyroid_peroxidase_antibody.txt) | [open list](phenotypes/thyroid/gp_read3_thyroid_peroxidase_antibody.txt) |
 | Thyroglobulin antibody | not available in supplied Read 2 lookup | [open list](phenotypes/thyroid/gp_read3_thyroglobulin_antibody.txt) |
 
+`442..` (and the CTV3 legacy form `.442.`) is a broad thyroid-function concept,
+not a TSH-only result. The supplied lookup attaches TSH, TRH, thyroid hormone
+tests, and thyroxine-binding globulin terms to this same code. It is therefore
+excluded from the TSH list. For numeric TSH, use the more specific codes such
+as `442A.`, `442W.`, and `442X.` where present.
+
 ## Blood count and biological age
 
 | Research measure | Read 2 codes | Read 3 codes |
