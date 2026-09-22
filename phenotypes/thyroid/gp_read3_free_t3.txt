@@ -1,9 +1,9 @@
-code	description
-.4425	FT3 - Free triiodothyronine level
-.442U	Serum free T3 level
-.442Y	Plasma free T3 level
-4425.	FT3 - Free triiodothyronine level
-442U.	Serum free T3 level
-442Y.	Plasma free T3 level
-XaERq	Serum free T3 level
-XaERt	Plasma free T3 level
+code	description	recommended_use
+.4425	FT3 - Free triiodothyronine level	DEFAULT - use as a direct numeric free t3 measurement; verify the recorded unit.
+.442U	Serum free T3 level	DEFAULT - use as a direct numeric free t3 measurement; verify the recorded unit.
+.442Y	Plasma free T3 level	DEFAULT - use as a direct numeric free t3 measurement; verify the recorded unit.
+4425.	FT3 - Free triiodothyronine level	DEFAULT - use as a direct numeric free t3 measurement; verify the recorded unit.
+442U.	Serum free T3 level	DEFAULT - use as a direct numeric free t3 measurement; verify the recorded unit.
+442Y.	Plasma free T3 level	DEFAULT - use as a direct numeric free t3 measurement; verify the recorded unit.
+XaERq	Serum free T3 level	DEFAULT - use as a direct numeric free t3 measurement; verify the recorded unit.
+XaERt	Plasma free T3 level	DEFAULT - use as a direct numeric free t3 measurement; verify the recorded unit.

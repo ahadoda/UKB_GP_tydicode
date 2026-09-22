@@ -1,7 +1,7 @@
-code	description
-.449A	C-peptide level
-.449E	Plasma insulin C-peptide level
-449A.	C-peptide level
-449E.	Plasma insulin C-peptide level
-XaIar	C-peptide level
-XaIxb	Plasma insulin C-peptide level
+code	description	recommended_use
+.449A	C-peptide level	DEFAULT - use as a direct numeric c-peptide measurement; verify the recorded unit.
+.449E	Plasma insulin C-peptide level	DEFAULT - use as a direct numeric c-peptide measurement; verify the recorded unit.
+449A.	C-peptide level	DEFAULT - use as a direct numeric c-peptide measurement; verify the recorded unit.
+449E.	Plasma insulin C-peptide level	DEFAULT - use as a direct numeric c-peptide measurement; verify the recorded unit.
+XaIar	C-peptide level	DEFAULT - use as a direct numeric c-peptide measurement; verify the recorded unit.
+XaIxb	Plasma insulin C-peptide level	DEFAULT - use as a direct numeric c-peptide measurement; verify the recorded unit.

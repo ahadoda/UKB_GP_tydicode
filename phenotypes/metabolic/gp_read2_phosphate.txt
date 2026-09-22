@@ -1,2 +1,2 @@
-code	description
-44i2.	Plasma inorganic phosphate level
+code	description	recommended_use
+44i2.	Plasma inorganic phosphate level	DEFAULT - use as a direct numeric phosphate measurement; verify the recorded unit.

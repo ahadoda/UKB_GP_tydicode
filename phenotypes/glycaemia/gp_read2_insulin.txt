@@ -1,2 +1,2 @@
-code	description
-449D.	Plasma insulin level
+code	description	recommended_use
+449D.	Plasma insulin level	DEFAULT - use as a direct numeric insulin measurement; verify the recorded unit.

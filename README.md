@@ -1,8 +1,11 @@
 # UK Biobank GP cardiometabolic codelists
 
 Use this repository to choose GP codes for common cardiometabolic research
-questions. Open the relevant link below and use the listed codes directly.
-Each text file contains only two columns: `code` and `description`.
+questions. Open the relevant link below, keep the `DEFAULT` rows, and add
+`CONTEXT` rows only when they match the analysis you intend to run.
+Each text file contains three columns: `code`, `description`, and
+`recommended_use`. The last column tells you whether the code is suitable for
+a default extraction or only for a particular context, unit, or supporting use.
 
 ## How to use the files
 
@@ -12,6 +15,22 @@ Each text file contains only two columns: `code` and `description`.
 - `gp_bnf_*.txt`: prefix-match to `gp_scripts.bnf_code`.
 - `gp_read2drugs_*.txt`: match to `gp_scripts.read_2`.
 - Keep codes as text so punctuation and leading characters are preserved.
+
+### How to choose between similar codes
+
+- `DEFAULT`: include for the usual version of that phenotype.
+- `CONTEXT`: include only when its stated specimen, posture, timing, fraction,
+  or calculation method matches the research question.
+- `UNIT-SPECIFIC`: include only with the stated unit convention, or harmonise
+  values before pooling.
+- `SUPPORTING`: useful for finding related records, but not interchangeable
+  with the main numeric phenotype.
+
+Dots are literal characters in Read codes, not wildcards. For example,
+`422..` is the complete code for `O/E: inspection of blood`; it does **not**
+mean every code beginning with `422`. It describes visual inspection of blood,
+not a numeric blood biomarker, so it is deliberately excluded from these
+measurement codelists.
 
 ## Body size and adiposity
 

@@ -1,6 +1,6 @@
-code	description
-.44LM	Plasma 25-Hydroxyvitamin D3 level
-44LM.	Plasma 25-Hydroxyvitamin D3 level
-44Ln.	Serum 25-Hydroxyvitamin D2 level
-XaEQZ	Plasma 25-Hydroxyvitamin D3 level
-XaXfU	Serum 25-Hydroxyvitamin D2 level
+code	description	recommended_use
+.44LM	Plasma 25-Hydroxyvitamin D3 level	CONTEXT - use for the named D2 or D3 fraction, not total 25-hydroxyvitamin D.
+44LM.	Plasma 25-Hydroxyvitamin D3 level	CONTEXT - use for the named D2 or D3 fraction, not total 25-hydroxyvitamin D.
+44Ln.	Serum 25-Hydroxyvitamin D2 level	CONTEXT - use for the named D2 or D3 fraction, not total 25-hydroxyvitamin D.
+XaEQZ	Plasma 25-Hydroxyvitamin D3 level	CONTEXT - use for the named D2 or D3 fraction, not total 25-hydroxyvitamin D.
+XaXfU	Serum 25-Hydroxyvitamin D2 level	CONTEXT - use for the named D2 or D3 fraction, not total 25-hydroxyvitamin D.

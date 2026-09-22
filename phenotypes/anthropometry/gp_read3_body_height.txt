@@ -1,4 +1,4 @@
-code	description
-.229.	O/E - height
-229..	O/E - height
-X76Bs	Body height
+code	description	recommended_use
+.229.	O/E - height	DEFAULT - use as a direct numeric body height measurement; verify the recorded unit.
+229..	O/E - height	DEFAULT - use as a direct numeric body height measurement; verify the recorded unit.
+X76Bs	Body height	DEFAULT - use as a direct numeric body height measurement; verify the recorded unit.

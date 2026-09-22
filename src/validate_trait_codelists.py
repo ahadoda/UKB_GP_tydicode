@@ -53,8 +53,10 @@ def main() -> int:
             errors.append(f"Missing public codelist: {record['codelist']}")
             continue
         data = pd.read_csv(path, sep="\t", dtype="string", keep_default_na=False)
-        if list(data.columns) != ["code", "description"]:
-            errors.append(f"{record['codelist']}: expected code and description only")
+        if list(data.columns) != ["code", "description", "recommended_use"]:
+            errors.append(
+                f"{record['codelist']}: expected code, description and recommended_use"
+            )
         if len(data) != int(record["code_count"]):
             errors.append(f"{record['codelist']}: public index count mismatch")
     total = 0

@@ -1,7 +1,7 @@
-code	description
-.44M4	Serum albumin
-.44MI	Plasma albumin level
-44M4.	Serum albumin
-44MI.	Plasma albumin level
-XE2eA	Serum albumin
-XaIRc	Plasma albumin level
+code	description	recommended_use
+.44M4	Serum albumin	DEFAULT - use as a direct numeric serum albumin measurement; verify the recorded unit.
+.44MI	Plasma albumin level	DEFAULT - use as a direct numeric serum albumin measurement; verify the recorded unit.
+44M4.	Serum albumin	DEFAULT - use as a direct numeric serum albumin measurement; verify the recorded unit.
+44MI.	Plasma albumin level	DEFAULT - use as a direct numeric serum albumin measurement; verify the recorded unit.
+XE2eA	Serum albumin	DEFAULT - use as a direct numeric serum albumin measurement; verify the recorded unit.
+XaIRc	Plasma albumin level	DEFAULT - use as a direct numeric serum albumin measurement; verify the recorded unit.

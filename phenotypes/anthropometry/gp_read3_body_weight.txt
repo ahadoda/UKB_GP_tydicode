@@ -1,4 +1,4 @@
-code	description
-.22A.	O/E - weight
-22A..	O/E - weight
-X76C7	Body weight
+code	description	recommended_use
+.22A.	O/E - weight	DEFAULT - use as a direct numeric body weight measurement; verify the recorded unit.
+22A..	O/E - weight	DEFAULT - use as a direct numeric body weight measurement; verify the recorded unit.
+X76C7	Body weight	DEFAULT - use as a direct numeric body weight measurement; verify the recorded unit.

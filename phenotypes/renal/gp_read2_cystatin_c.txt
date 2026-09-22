@@ -1,3 +1,3 @@
-code	description
-44ZX.	Blood cystatin C level
-44ZX0	Serum cystatin C level
+code	description	recommended_use
+44ZX.	Blood cystatin C level	DEFAULT - use as a direct numeric cystatin c measurement; verify the recorded unit.
+44ZX0	Serum cystatin C level	DEFAULT - use as a direct numeric cystatin c measurement; verify the recorded unit.

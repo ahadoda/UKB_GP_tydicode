@@ -1,5 +1,5 @@
-code	description
-.42Z7	Red blood cell distribut width
-42Z7.	Red blood cell distribut width
-X76ta	RDW - Red blood cell distribution width
-XE2mO	RDW - Red blood cell distribution width
+code	description	recommended_use
+.42Z7	Red blood cell distribut width	DEFAULT - use as a direct numeric red cell distribution width (rdw) measurement; verify the recorded unit.
+42Z7.	Red blood cell distribut width	DEFAULT - use as a direct numeric red cell distribution width (rdw) measurement; verify the recorded unit.
+X76ta	RDW - Red blood cell distribution width	DEFAULT - use as a direct numeric red cell distribution width (rdw) measurement; verify the recorded unit.
+XE2mO	RDW - Red blood cell distribution width	DEFAULT - use as a direct numeric red cell distribution width (rdw) measurement; verify the recorded unit.

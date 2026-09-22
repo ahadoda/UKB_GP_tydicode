@@ -1,2 +1,2 @@
-code	description
-22N6.	Hip circumference
+code	description	recommended_use
+22N6.	Hip circumference	DEFAULT - use as a direct numeric hip circumference measurement; verify the recorded unit.

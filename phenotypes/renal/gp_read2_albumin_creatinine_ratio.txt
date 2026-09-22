@@ -1,3 +1,3 @@
-code	description
-46TC.	Urine albumin:creatinine ratio
-46TD.	Urine microalbumin:creatinine ratio
+code	description	recommended_use
+46TC.	Urine albumin:creatinine ratio	DEFAULT - use as a direct numeric urine albumin-creatinine ratio measurement; verify the recorded unit.
+46TD.	Urine microalbumin:creatinine ratio	DEFAULT - use as a direct numeric urine albumin-creatinine ratio measurement; verify the recorded unit.

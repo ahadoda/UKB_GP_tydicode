@@ -1,132 +1,132 @@
-code	description
-0202010B0	Bendroflumethiazide
-0202010D0	Chlorothiazide
-0202010F0	Chlortalidone
-0202010J0	Cyclopenthiazide
-0202010L0	Hydrochlorothiazide
-0202010N0	Hydroflumethiazide
-0202010P0	Indapamide
-0202010R0	Mefruside
-0202010T0	Methyclothiazide
-0202010V0	Metolazone
-0202010X0	Polythiazide
-0202010Y0	Xipamide
-020400010	Pindolol With Diuretic
-020400020	Sotalol Hydrochloride With Diuretic
-020400030	Timolol With Diuretic
-020400040	Co-Tenidone (Atenolol/Chlortalidone)
-020400050	Tertatolol
-020400060	Celiprolol Hydrochloride
-020400070	Esmolol Hydrochloride
-020400080	Carvedilol
-020400090	Bisoprolol Fumarate With Diuretic
-0204000A0	Atenolol with Thiazides
-0204000AA	Penbutolol Sulfate
-0204000AB	Nebivolol
-0204000AC	Bisoprolol Fumarate/Aspirin
-0204000B0	Acebutolol Hydrochloride With Diuretic
-0204000C0	Acebutolol Hydrochloride
-0204000D0	Practolol
-0204000E0	Atenolol
-0204000F0	Atenolol With Diuretic
-0204000G0	Betaxolol Hydrochloride
-0204000H0	Bisoprolol Fumarate
-0204000I0	Labetalol Hydrochloride
-0204000J0	Metoprolol Fumarate
-0204000K0	Metoprolol Tartrate
-0204000L0	Carteolol Hydrochloride
-0204000M0	Nadolol
-0204000N0	Oxprenolol Hydrochloride
-0204000P0	Pindolol
-0204000Q0	Propranolol Hydrochloride With Diuretic
-0204000R0	Propranolol Hydrochloride
-0204000T0	Sotalol Hydrochloride
-0204000U0	Atenolol With Calcium Channel Blocker
-0204000V0	Timolol
-0204000W0	Metoprolol Tartrate With Diuretic
-0204000X0	Nadolol With Diuretic
-0204000Y0	Co-Prenozide (Oxprenolol HCl/Cyclopenth)
-0204000Z0	Penbutolol Sulphate With Diuretic
-0205010AA	Macitentan
-0205010AB	Riociguat
-0205010E0	Diazoxide
-0205010J0	Hydralazine Hydrochloride
-0205010N0	Minoxidil
-0205010T0	Sodium Nitroprusside
-0205010U0	Bosentan
-0205010V0	Iloprost
-0205010W0	Sitaxentan Sodium
-0205010X0	Ambrisentan
-0205010Y0	Sildenafil(Vasodilator Antihypertensive)
-0205010Z0	Tadalafil (Vasodilator Antihypertensive)
-020502000	Other Antihypertensive Preps
-0205020E0	Clonidine Hydrochloride
-0205020G0	Guanfacine Hydrochloride
-0205020H0	Methyldopa
-0205020I0	Methyldopa With Diuretic
-0205020J0	Methyldopate Hydrochloride
-0205020M0	Moxonidine
-0205020N0	Reserpine And Rauwolfia Alkaloids
-0205020P0	Reserp & Rauw Alk With Alkavervir
-0205020Q0	Reserp & Rauw Alk With Barbiturate
-0205020R0	Reserp & Rauw Alk With Diuretic
-0205051AA	Perindopril Tosilate
-0205051AB	Perindopril Tosilate/Indapamide
-0205051AC	Perindopril + Calcium Channel Blocker
-0205051C0	Moexipril Hydrochloride
-0205051E0	Cilazapril
-0205051F0	Captopril
-0205051G0	Co-Zidocapt (Hydchloroth/Captopril)
-0205051H0	Enalapril Maleate with Diuretic
-0205051I0	Enalapril Maleate
-0205051J0	Fosinopril Sodium
-0205051K0	Lisinopril with Diuretic
-0205051L0	Lisinopril
-0205051M0	Perindopril Erbumine
-0205051N0	Perindopril Erbumine with Diuretic
-0205051P0	Quinapril Hydrochloride with Diuretic
-0205051Q0	Quinapril Hydrochloride
-0205051R0	Ramipril
-0205051S0	Ramipril with Calcium Channel Blocker
-0205051U0	Trandolapril
-0205051V0	Trandolapril + Calcium Channel Blocker
-0205051W0	Imidapril Hydrochloride
-0205051X0	Benazepril Hydrochloride
-0205051Y0	Perindopril Arginine
-0205051Z0	Perindopril Arginine with Diuretic
-0205052A0	Irbesartan with Diuretic
-0205052AB	Olmesartan Medoxomil/Amlodipine
-0205052AC	Olmesartan Medox/Amlodipine/Hydchloroth
-0205052AD	Azilsartan Medoxomil
-0205052AE	Sacubitril/Valsartan
-0205052B0	Olmesartan Medoxomil
-0205052C0	Candesartan Cilexetil
-0205052I0	Irbesartan
-0205052N0	Losartan Potassium
-0205052P0	Losartan Potassium With Diuretic
-0205052Q0	Telmisartan
-0205052R0	Telmisartan with Diuretic
-0205052V0	Valsartan
-0205052W0	Eprosartan
-0205052X0	Valsartan with Diuretic
-0205052Y0	Olmesartan Medoxomil/Hydrochlorothiazide
-0206020A0	Amlodipine
-0206020B0	Trimetazidine Hydrochloride
-0206020C0	Diltiazem Hydrochloride
-0206020D0	Diltiazem Hydrochloride with Thiazides
-0206020F0	Felodipine
-0206020I0	Isradipine
-0206020K0	Lacidipine
-0206020L0	Lercanidipine Hydrochloride
-0206020M0	Nimodipine
-0206020N0	Lidoflazine
-0206020P0	Nitrendipine
-0206020Q0	Nicardipine Hydrochloride
-0206020R0	Nifedipine
-0206020S0	PrenylamineLactate
-0206020T0	Verapamil Hydrochloride
-0206020V0	Perhexiline Maleate
-0206020W0	Nisoldipine
-0206020X0	Mibefradil
-0206020Y0	Buflomedil Hydrochloride
-0206020Z0	Valsartan/Amlodipine
+code	description	recommended_use
+0202010B0	Bendroflumethiazide	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0202010D0	Chlorothiazide	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0202010F0	Chlortalidone	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0202010J0	Cyclopenthiazide	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0202010L0	Hydrochlorothiazide	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0202010N0	Hydroflumethiazide	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0202010P0	Indapamide	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0202010R0	Mefruside	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0202010T0	Methyclothiazide	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0202010V0	Metolazone	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0202010X0	Polythiazide	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0202010Y0	Xipamide	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+020400010	Pindolol With Diuretic	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+020400020	Sotalol Hydrochloride With Diuretic	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+020400030	Timolol With Diuretic	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+020400040	Co-Tenidone (Atenolol/Chlortalidone)	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+020400050	Tertatolol	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+020400060	Celiprolol Hydrochloride	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+020400070	Esmolol Hydrochloride	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+020400080	Carvedilol	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+020400090	Bisoprolol Fumarate With Diuretic	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0204000A0	Atenolol with Thiazides	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0204000AA	Penbutolol Sulfate	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0204000AB	Nebivolol	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0204000AC	Bisoprolol Fumarate/Aspirin	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0204000B0	Acebutolol Hydrochloride With Diuretic	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0204000C0	Acebutolol Hydrochloride	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0204000D0	Practolol	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0204000E0	Atenolol	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0204000F0	Atenolol With Diuretic	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0204000G0	Betaxolol Hydrochloride	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0204000H0	Bisoprolol Fumarate	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0204000I0	Labetalol Hydrochloride	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0204000J0	Metoprolol Fumarate	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0204000K0	Metoprolol Tartrate	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0204000L0	Carteolol Hydrochloride	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0204000M0	Nadolol	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0204000N0	Oxprenolol Hydrochloride	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0204000P0	Pindolol	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0204000Q0	Propranolol Hydrochloride With Diuretic	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0204000R0	Propranolol Hydrochloride	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0204000T0	Sotalol Hydrochloride	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0204000U0	Atenolol With Calcium Channel Blocker	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0204000V0	Timolol	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0204000W0	Metoprolol Tartrate With Diuretic	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0204000X0	Nadolol With Diuretic	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0204000Y0	Co-Prenozide (Oxprenolol HCl/Cyclopenth)	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0204000Z0	Penbutolol Sulphate With Diuretic	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0205010AA	Macitentan	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0205010AB	Riociguat	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0205010E0	Diazoxide	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0205010J0	Hydralazine Hydrochloride	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0205010N0	Minoxidil	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0205010T0	Sodium Nitroprusside	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0205010U0	Bosentan	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0205010V0	Iloprost	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0205010W0	Sitaxentan Sodium	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0205010X0	Ambrisentan	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0205010Y0	Sildenafil(Vasodilator Antihypertensive)	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0205010Z0	Tadalafil (Vasodilator Antihypertensive)	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+020502000	Other Antihypertensive Preps	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0205020E0	Clonidine Hydrochloride	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0205020G0	Guanfacine Hydrochloride	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0205020H0	Methyldopa	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0205020I0	Methyldopa With Diuretic	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0205020J0	Methyldopate Hydrochloride	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0205020M0	Moxonidine	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0205020N0	Reserpine And Rauwolfia Alkaloids	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0205020P0	Reserp & Rauw Alk With Alkavervir	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0205020Q0	Reserp & Rauw Alk With Barbiturate	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0205020R0	Reserp & Rauw Alk With Diuretic	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0205051AA	Perindopril Tosilate	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0205051AB	Perindopril Tosilate/Indapamide	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0205051AC	Perindopril + Calcium Channel Blocker	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0205051C0	Moexipril Hydrochloride	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0205051E0	Cilazapril	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0205051F0	Captopril	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0205051G0	Co-Zidocapt (Hydchloroth/Captopril)	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0205051H0	Enalapril Maleate with Diuretic	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0205051I0	Enalapril Maleate	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0205051J0	Fosinopril Sodium	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0205051K0	Lisinopril with Diuretic	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0205051L0	Lisinopril	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0205051M0	Perindopril Erbumine	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0205051N0	Perindopril Erbumine with Diuretic	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0205051P0	Quinapril Hydrochloride with Diuretic	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0205051Q0	Quinapril Hydrochloride	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0205051R0	Ramipril	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0205051S0	Ramipril with Calcium Channel Blocker	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0205051U0	Trandolapril	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0205051V0	Trandolapril + Calcium Channel Blocker	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0205051W0	Imidapril Hydrochloride	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0205051X0	Benazepril Hydrochloride	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0205051Y0	Perindopril Arginine	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0205051Z0	Perindopril Arginine with Diuretic	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0205052A0	Irbesartan with Diuretic	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0205052AB	Olmesartan Medoxomil/Amlodipine	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0205052AC	Olmesartan Medox/Amlodipine/Hydchloroth	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0205052AD	Azilsartan Medoxomil	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0205052AE	Sacubitril/Valsartan	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0205052B0	Olmesartan Medoxomil	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0205052C0	Candesartan Cilexetil	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0205052I0	Irbesartan	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0205052N0	Losartan Potassium	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0205052P0	Losartan Potassium With Diuretic	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0205052Q0	Telmisartan	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0205052R0	Telmisartan with Diuretic	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0205052V0	Valsartan	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0205052W0	Eprosartan	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0205052X0	Valsartan with Diuretic	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0205052Y0	Olmesartan Medoxomil/Hydrochlorothiazide	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0206020A0	Amlodipine	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0206020B0	Trimetazidine Hydrochloride	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0206020C0	Diltiazem Hydrochloride	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0206020D0	Diltiazem Hydrochloride with Thiazides	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0206020F0	Felodipine	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0206020I0	Isradipine	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0206020K0	Lacidipine	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0206020L0	Lercanidipine Hydrochloride	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0206020M0	Nimodipine	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0206020N0	Lidoflazine	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0206020P0	Nitrendipine	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0206020Q0	Nicardipine Hydrochloride	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0206020R0	Nifedipine	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0206020S0	PrenylamineLactate	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0206020T0	Verapamil Hydrochloride	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0206020V0	Perhexiline Maleate	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0206020W0	Nisoldipine	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0206020X0	Mibefradil	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0206020Y0	Buflomedil Hydrochloride	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.
+0206020Z0	Valsartan/Amlodipine	DEFAULT - prefix-match to identify antihypertensive medicines prescriptions.

@@ -167,6 +167,107 @@ PUBLIC_USE = {
 }
 
 
+def public_recommended_use(row: pd.Series) -> str:
+    """Give a short, code-level instruction for the reader-facing list."""
+    trait = row["trait"]
+    coding_system = row["coding_system"]
+    description = str(row["description"])
+    text = description.casefold()
+    name = PUBLIC_NAMES.get(trait, trait.replace("_", " ").title())
+
+    if row["trait_group"] == "medication":
+        if coding_system == "bnf":
+            return f"DEFAULT - prefix-match to identify {name.lower()} prescriptions."
+        return f"DEFAULT - exact-match to identify {name.lower()} prescriptions."
+
+    if trait == "blood_pressure":
+        return (
+            "SUPPORTING - use only for combined or non-component blood-pressure "
+            "records; do not treat as systolic or diastolic without field context."
+        )
+
+    if trait in {"systolic_blood_pressure", "diastolic_blood_pressure"}:
+        contexts = [
+            ("standing", "standing"),
+            ("sitting", "sitting"),
+            ("lying", "lying"),
+            ("24 hour", "24-hour ambulatory average"),
+            ("day interval", "daytime ambulatory average"),
+            ("night interval", "night-time ambulatory average"),
+            ("home", "home measurement"),
+            ("ambulatory", "ambulatory measurement"),
+        ]
+        for token, label in contexts:
+            if token in text:
+                return f"CONTEXT - use only when the analysis includes {label} blood pressure."
+        if "average" in text or "mean" in text:
+            return "CONTEXT - use for an averaged blood-pressure value, not a single reading."
+        return f"DEFAULT - use as a direct numeric {name.lower()} measurement."
+
+    if trait == "blood_glucose":
+        if "fasting" in text:
+            return "CONTEXT - use for fasting glucose analyses."
+        if "random" in text:
+            return "CONTEXT - use for random glucose analyses."
+        if "post-prandial" in text or "after evening meal" in text:
+            return "CONTEXT - use for post-prandial glucose analyses."
+        if "during night" in text:
+            return "CONTEXT - use only for overnight glucose measurements."
+        if "baseline" in text:
+            return "CONTEXT - use as the baseline value in a timed glucose test."
+        timed = re.search(r"(\d+)\s*(minute|hour)", text)
+        if timed:
+            return (
+                f"CONTEXT - use as the {timed.group(1)}-{timed.group(2)} value in a "
+                "timed or post-load glucose analysis."
+            )
+        if "tolerance" in text or "ogtt" in text:
+            return "CONTEXT - use for oral glucose-tolerance testing; retain test timing."
+        return "DEFAULT - use for glucose analyses when fasting or test timing is not required."
+
+    if trait == "hba1c":
+        if "ifcc" in text:
+            return "UNIT-SPECIFIC - use as IFCC HbA1c (normally mmol/mol); verify the recorded unit."
+        if "dcct" in text:
+            return "UNIT-SPECIFIC - use as DCCT HbA1c (normally %); verify the recorded unit."
+        return "DEFAULT - use for HbA1c, but confirm the unit before combining records."
+
+    if trait == "egfr":
+        if "cystatin c" in text:
+            return "CONTEXT - use for cystatin-C-based eGFR; do not mix with creatinine eGFR without a plan."
+        if "creatinine" in text:
+            return "CONTEXT - use for creatinine-based eGFR; retain the equation where available."
+        if "african american" in text:
+            return "CONTEXT - legacy race-adjusted MDRD eGFR; analyse separately or exclude per protocol."
+        if "modification of diet" in text:
+            return "CONTEXT - use for MDRD eGFR; retain the equation in harmonisation."
+        if "epidemiology collaboration" in text or "ckd-epi" in text:
+            return "CONTEXT - use for CKD-EPI eGFR; retain the equation in harmonisation."
+        return "DEFAULT - use for eGFR when the equation is not required; verify units."
+
+    if trait == "bilirubin":
+        if "conjugated" in text or "direct" in text:
+            return "CONTEXT - use for direct/conjugated bilirubin, not total bilirubin."
+        if "total" in text:
+            return "DEFAULT - use for total bilirubin analyses."
+        return "DEFAULT - use for bilirubin only when the source field confirms the fraction measured."
+
+    if trait == "calcium":
+        if "adjusted" in text or "corrected" in text:
+            return "CONTEXT - use for albumin-adjusted/corrected calcium."
+        return "DEFAULT - use for unadjusted total calcium; do not mix with corrected calcium without a plan."
+
+    if trait == "vitamin_d":
+        if re.search(r"vitamin d\s*[23]", text):
+            return "CONTEXT - use for the named D2 or D3 fraction, not total 25-hydroxyvitamin D."
+        return "DEFAULT - use for total 25-hydroxyvitamin D; verify assay and units."
+
+    if "baseline" in text:
+        return f"CONTEXT - use only when a baseline {name.lower()} measurement is intended."
+
+    return f"DEFAULT - use as a direct numeric {name.lower()} measurement; verify the recorded unit."
+
+
 def compile_rules() -> list[tuple[TraitRule, re.Pattern[str], re.Pattern[str] | None, re.Pattern[str]]]:
     compiled = []
     for rule in TRAITS:
@@ -379,6 +480,9 @@ def write_public_codelists(master: pd.DataFrame) -> None:
         folder.mkdir(parents=True, exist_ok=True)
         path = folder / f"{prefix}_{trait}.txt"
         simple = selected[["code", "description"]].drop_duplicates().sort_values("code")
+        simple["recommended_use"] = selected.loc[simple.index].apply(
+            public_recommended_use, axis=1
+        )
         simple.to_csv(path, sep="\t", index=False, lineterminator="\n")
         index_rows.append(
             {

@@ -1,2 +1,2 @@
-code	description
-44CS.	Serum C reactive protein level
+code	description	recommended_use
+44CS.	Serum C reactive protein level	DEFAULT - use as a direct numeric c-reactive protein (crp) measurement; verify the recorded unit.

@@ -1,7 +1,7 @@
-code	description
-.44c4	Serum apolipoprotein B level
-.44d8	Plasma apolipoprotein B level
-44c4.	Serum apolipoprotein B level
-44d8.	Plasma apolipoprotein B level
-XaEMC	Plasma apolipoprotein B level
-XaEQm	Serum apolipoprotein B level
+code	description	recommended_use
+.44c4	Serum apolipoprotein B level	DEFAULT - use as a direct numeric apolipoprotein b measurement; verify the recorded unit.
+.44d8	Plasma apolipoprotein B level	DEFAULT - use as a direct numeric apolipoprotein b measurement; verify the recorded unit.
+44c4.	Serum apolipoprotein B level	DEFAULT - use as a direct numeric apolipoprotein b measurement; verify the recorded unit.
+44d8.	Plasma apolipoprotein B level	DEFAULT - use as a direct numeric apolipoprotein b measurement; verify the recorded unit.
+XaEMC	Plasma apolipoprotein B level	DEFAULT - use as a direct numeric apolipoprotein b measurement; verify the recorded unit.
+XaEQm	Serum apolipoprotein B level	DEFAULT - use as a direct numeric apolipoprotein b measurement; verify the recorded unit.

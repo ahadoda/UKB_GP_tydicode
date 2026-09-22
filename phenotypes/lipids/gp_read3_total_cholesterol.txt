@@ -1,8 +1,8 @@
-code	description
-.44P.	Serum cholesterol
-.44PH	Total cholesterol measurement
-44P..	Serum cholesterol
-44PH.	Total cholesterol measurement
-XE2eD	Serum cholesterol
-XSK14	Total cholesterol measurement
-Xa86v	Total cholesterol
+code	description	recommended_use
+.44P.	Serum cholesterol	DEFAULT - use as a direct numeric total cholesterol measurement; verify the recorded unit.
+.44PH	Total cholesterol measurement	DEFAULT - use as a direct numeric total cholesterol measurement; verify the recorded unit.
+44P..	Serum cholesterol	DEFAULT - use as a direct numeric total cholesterol measurement; verify the recorded unit.
+44PH.	Total cholesterol measurement	DEFAULT - use as a direct numeric total cholesterol measurement; verify the recorded unit.
+XE2eD	Serum cholesterol	DEFAULT - use as a direct numeric total cholesterol measurement; verify the recorded unit.
+XSK14	Total cholesterol measurement	DEFAULT - use as a direct numeric total cholesterol measurement; verify the recorded unit.
+Xa86v	Total cholesterol	DEFAULT - use as a direct numeric total cholesterol measurement; verify the recorded unit.

@@ -1,4 +1,4 @@
-code	description
-44J..	Serum urea level
-44J9.	Serum urea level
-44JA.	Plasma urea level
+code	description	recommended_use
+44J..	Serum urea level	DEFAULT - use as a direct numeric urea measurement; verify the recorded unit.
+44J9.	Serum urea level	DEFAULT - use as a direct numeric urea measurement; verify the recorded unit.
+44JA.	Plasma urea level	DEFAULT - use as a direct numeric urea measurement; verify the recorded unit.

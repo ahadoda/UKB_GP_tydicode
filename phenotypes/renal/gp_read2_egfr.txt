@@ -1,6 +1,6 @@
-code	description
-451E.	Glomerular filtration rate calculated by abbreviated Modification of Diet in Renal Disease Study Group calculation
-451G.	Glomerular filtration rate calculated by abbreviated Modification of Diet in Renal Disease Study Group calculation adjusted for African American origin
-451K.	Estimated glomerular filtration rate using Chronic Kidney Disease Epidemiology Collaboration formula per 1.73 square metres
-451M.	Estimated glomerular filtration rate using cystatin C Chronic Kidney Disease Epidemiology Collaboration equation per 1.73 square metres
-451N.	Estimated glomerular filtration rate using creatinine Chronic Kidney Disease Epidemiology Collaboration equation per 1.73 square metres
+code	description	recommended_use
+451E.	Glomerular filtration rate calculated by abbreviated Modification of Diet in Renal Disease Study Group calculation	CONTEXT - use for MDRD eGFR; retain the equation in harmonisation.
+451G.	Glomerular filtration rate calculated by abbreviated Modification of Diet in Renal Disease Study Group calculation adjusted for African American origin	CONTEXT - legacy race-adjusted MDRD eGFR; analyse separately or exclude per protocol.
+451K.	Estimated glomerular filtration rate using Chronic Kidney Disease Epidemiology Collaboration formula per 1.73 square metres	CONTEXT - use for CKD-EPI eGFR; retain the equation in harmonisation.
+451M.	Estimated glomerular filtration rate using cystatin C Chronic Kidney Disease Epidemiology Collaboration equation per 1.73 square metres	CONTEXT - use for cystatin-C-based eGFR; do not mix with creatinine eGFR without a plan.
+451N.	Estimated glomerular filtration rate using creatinine Chronic Kidney Disease Epidemiology Collaboration equation per 1.73 square metres	CONTEXT - use for creatinine-based eGFR; retain the equation where available.

@@ -1,2 +1,2 @@
-code	description
-22A..	O/E - weight
+code	description	recommended_use
+22A..	O/E - weight	DEFAULT - use as a direct numeric body weight measurement; verify the recorded unit.

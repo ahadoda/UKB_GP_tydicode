@@ -1,2 +1,2 @@
-code	description
-42A..	Mean cell volume
+code	description	recommended_use
+42A..	Mean cell volume	DEFAULT - use as a direct numeric mean corpuscular volume (mcv) measurement; verify the recorded unit.

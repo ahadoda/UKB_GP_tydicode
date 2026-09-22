@@ -1,5 +1,5 @@
-code	description
-.449D	Plasma insulin level
-449D.	Plasma insulin level
-XE2pp	Serum insulin level
-XaItV	Plasma insulin level
+code	description	recommended_use
+.449D	Plasma insulin level	DEFAULT - use as a direct numeric insulin measurement; verify the recorded unit.
+449D.	Plasma insulin level	DEFAULT - use as a direct numeric insulin measurement; verify the recorded unit.
+XE2pp	Serum insulin level	DEFAULT - use as a direct numeric insulin measurement; verify the recorded unit.
+XaItV	Plasma insulin level	DEFAULT - use as a direct numeric insulin measurement; verify the recorded unit.

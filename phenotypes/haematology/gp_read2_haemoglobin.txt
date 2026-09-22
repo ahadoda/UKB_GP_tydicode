@@ -1,2 +1,2 @@
-code	description
-423..	Hb estimation
+code	description	recommended_use
+423..	Hb estimation	DEFAULT - use as a direct numeric haemoglobin measurement; verify the recorded unit.

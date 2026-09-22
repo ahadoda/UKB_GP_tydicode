@@ -1,4 +1,4 @@
-code	description
-442..	TSH level
-442W.	Serum TSH level
-442X.	Plasma TSH level
+code	description	recommended_use
+442..	TSH level	DEFAULT - use as a direct numeric thyroid-stimulating hormone (tsh) measurement; verify the recorded unit.
+442W.	Serum TSH level	DEFAULT - use as a direct numeric thyroid-stimulating hormone (tsh) measurement; verify the recorded unit.
+442X.	Plasma TSH level	DEFAULT - use as a direct numeric thyroid-stimulating hormone (tsh) measurement; verify the recorded unit.

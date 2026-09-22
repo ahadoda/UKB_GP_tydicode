@@ -1,6 +1,6 @@
-code	description
-44E..	Serum bilirubin level
-44E8.	Plasma conjugated bilirubin level
-44E9.	Plasma total bilirubin level
-44EB.	Serum conjugated bilirubin level
-44EC.	Serum total bilirubin level
+code	description	recommended_use
+44E..	Serum bilirubin level	DEFAULT - use for bilirubin only when the source field confirms the fraction measured.
+44E8.	Plasma conjugated bilirubin level	CONTEXT - use for direct/conjugated bilirubin, not total bilirubin.
+44E9.	Plasma total bilirubin level	DEFAULT - use for total bilirubin analyses.
+44EB.	Serum conjugated bilirubin level	CONTEXT - use for direct/conjugated bilirubin, not total bilirubin.
+44EC.	Serum total bilirubin level	DEFAULT - use for total bilirubin analyses.

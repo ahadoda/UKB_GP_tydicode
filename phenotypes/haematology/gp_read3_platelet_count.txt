@@ -1,5 +1,5 @@
-code	description
-.42P.	Plt - Platelet count
-.42PZ	Platelet count NOS
-42P..	Plt - Platelet count
-42PZ.	Platelet count NOS
+code	description	recommended_use
+.42P.	Plt - Platelet count	DEFAULT - use as a direct numeric platelet count measurement; verify the recorded unit.
+.42PZ	Platelet count NOS	DEFAULT - use as a direct numeric platelet count measurement; verify the recorded unit.
+42P..	Plt - Platelet count	DEFAULT - use as a direct numeric platelet count measurement; verify the recorded unit.
+42PZ.	Platelet count NOS	DEFAULT - use as a direct numeric platelet count measurement; verify the recorded unit.

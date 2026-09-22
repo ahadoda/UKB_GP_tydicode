@@ -1,5 +1,5 @@
-code	description
-44I8.	Serum calcium
-44IC.	Adjusted serum calcium level
-44h7.	Plasma calcium level
-44h9.	Plasma corrected calcium level
+code	description	recommended_use
+44I8.	Serum calcium	DEFAULT - use for unadjusted total calcium; do not mix with corrected calcium without a plan.
+44IC.	Adjusted serum calcium level	CONTEXT - use for albumin-adjusted/corrected calcium.
+44h7.	Plasma calcium level	DEFAULT - use for unadjusted total calcium; do not mix with corrected calcium without a plan.
+44h9.	Plasma corrected calcium level	CONTEXT - use for albumin-adjusted/corrected calcium.

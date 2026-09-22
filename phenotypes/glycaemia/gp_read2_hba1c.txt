@@ -1,2 +1,2 @@
-code	description
-42W4.	HbA1c level (DCCT aligned)
+code	description	recommended_use
+42W4.	HbA1c level (DCCT aligned)	UNIT-SPECIFIC - use as DCCT HbA1c (normally %); verify the recorded unit.

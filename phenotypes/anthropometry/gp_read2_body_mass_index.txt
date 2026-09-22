@@ -1,2 +1,2 @@
-code	description
-22K..	Body Mass Index
+code	description	recommended_use
+22K..	Body Mass Index	DEFAULT - use as a direct numeric body mass index (bmi) measurement; verify the recorded unit.

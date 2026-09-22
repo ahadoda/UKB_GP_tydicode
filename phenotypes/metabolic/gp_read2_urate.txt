@@ -1,4 +1,4 @@
-code	description
-44K..	Serum uric acid
-44K5.	Serum urate level
-44K6.	Plasma urate level
+code	description	recommended_use
+44K..	Serum uric acid	DEFAULT - use as a direct numeric urate measurement; verify the recorded unit.
+44K5.	Serum urate level	DEFAULT - use as a direct numeric urate measurement; verify the recorded unit.
+44K6.	Plasma urate level	DEFAULT - use as a direct numeric urate measurement; verify the recorded unit.

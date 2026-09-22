@@ -1,8 +1,8 @@
-code	description
-.44CU	Plasma alkaline phosphatase level
-.44F.	Serum alkaline phosphatase
-44CU.	Plasma alkaline phosphatase level
-44F..	Serum alkaline phosphatase
-XE28S	Serum alkaline phosphatase
-XE2px	Serum alkaline phosphatase
-XaIRj	Plasma alkaline phosphatase level
+code	description	recommended_use
+.44CU	Plasma alkaline phosphatase level	DEFAULT - use as a direct numeric alkaline phosphatase (alp) measurement; verify the recorded unit.
+.44F.	Serum alkaline phosphatase	DEFAULT - use as a direct numeric alkaline phosphatase (alp) measurement; verify the recorded unit.
+44CU.	Plasma alkaline phosphatase level	DEFAULT - use as a direct numeric alkaline phosphatase (alp) measurement; verify the recorded unit.
+44F..	Serum alkaline phosphatase	DEFAULT - use as a direct numeric alkaline phosphatase (alp) measurement; verify the recorded unit.
+XE28S	Serum alkaline phosphatase	DEFAULT - use as a direct numeric alkaline phosphatase (alp) measurement; verify the recorded unit.
+XE2px	Serum alkaline phosphatase	DEFAULT - use as a direct numeric alkaline phosphatase (alp) measurement; verify the recorded unit.
+XaIRj	Plasma alkaline phosphatase level	DEFAULT - use as a direct numeric alkaline phosphatase (alp) measurement; verify the recorded unit.

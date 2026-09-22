@@ -1,29 +1,29 @@
-code	description
-.2469	O/E - Systolic BP reading
-.246N	Standing systolic blood pressure
-.246Q	Sitting systolic blood pressure
-.246S	Lying systolic blood pressure
-.246W	Average 24 hour systolic blood pressure
-.246Y	Average day interval systolic blood pressure
-.246b	Average night interval systolic blood pressure
-.246d	Average home systolic blood pressure
-.246e	Ambulatory systolic blood pressure
-2469.	O/E - Systolic BP reading
-246N.	Standing systolic blood pressure
-246Q.	Sitting systolic blood pressure
-246S.	Lying systolic blood pressure
-246W.	Average 24 hour systolic blood pressure
-246Y.	Average day interval systolic blood pressure
-246b.	Average night interval systolic blood pressure
-246d.	Average home systolic blood pressure
-246e.	Ambulatory systolic blood pressure
-246l.	Average systolic blood pressure
-XaF4F	Average systolic blood pressure
-XaF4K	Average night interval systolic blood pressure
-XaF4L	Average day interval systolic blood pressure
-XaF4O	Average 24 hour systolic blood pressure
-XaIwj	Standing systolic blood pressure
-XaJ2E	Sitting systolic blood pressure
-XaJ2G	Lying systolic blood pressure
-XaKFx	Average home systolic blood pressure
-XaKjF	Ambulatory systolic blood pressure
+code	description	recommended_use
+.2469	O/E - Systolic BP reading	DEFAULT - use as a direct numeric systolic blood pressure measurement.
+.246N	Standing systolic blood pressure	CONTEXT - use only when the analysis includes standing blood pressure.
+.246Q	Sitting systolic blood pressure	CONTEXT - use only when the analysis includes sitting blood pressure.
+.246S	Lying systolic blood pressure	CONTEXT - use only when the analysis includes lying blood pressure.
+.246W	Average 24 hour systolic blood pressure	CONTEXT - use only when the analysis includes 24-hour ambulatory average blood pressure.
+.246Y	Average day interval systolic blood pressure	CONTEXT - use only when the analysis includes daytime ambulatory average blood pressure.
+.246b	Average night interval systolic blood pressure	CONTEXT - use only when the analysis includes night-time ambulatory average blood pressure.
+.246d	Average home systolic blood pressure	CONTEXT - use only when the analysis includes home measurement blood pressure.
+.246e	Ambulatory systolic blood pressure	CONTEXT - use only when the analysis includes ambulatory measurement blood pressure.
+2469.	O/E - Systolic BP reading	DEFAULT - use as a direct numeric systolic blood pressure measurement.
+246N.	Standing systolic blood pressure	CONTEXT - use only when the analysis includes standing blood pressure.
+246Q.	Sitting systolic blood pressure	CONTEXT - use only when the analysis includes sitting blood pressure.
+246S.	Lying systolic blood pressure	CONTEXT - use only when the analysis includes lying blood pressure.
+246W.	Average 24 hour systolic blood pressure	CONTEXT - use only when the analysis includes 24-hour ambulatory average blood pressure.
+246Y.	Average day interval systolic blood pressure	CONTEXT - use only when the analysis includes daytime ambulatory average blood pressure.
+246b.	Average night interval systolic blood pressure	CONTEXT - use only when the analysis includes night-time ambulatory average blood pressure.
+246d.	Average home systolic blood pressure	CONTEXT - use only when the analysis includes home measurement blood pressure.
+246e.	Ambulatory systolic blood pressure	CONTEXT - use only when the analysis includes ambulatory measurement blood pressure.
+246l.	Average systolic blood pressure	CONTEXT - use for an averaged blood-pressure value, not a single reading.
+XaF4F	Average systolic blood pressure	CONTEXT - use for an averaged blood-pressure value, not a single reading.
+XaF4K	Average night interval systolic blood pressure	CONTEXT - use only when the analysis includes night-time ambulatory average blood pressure.
+XaF4L	Average day interval systolic blood pressure	CONTEXT - use only when the analysis includes daytime ambulatory average blood pressure.
+XaF4O	Average 24 hour systolic blood pressure	CONTEXT - use only when the analysis includes 24-hour ambulatory average blood pressure.
+XaIwj	Standing systolic blood pressure	CONTEXT - use only when the analysis includes standing blood pressure.
+XaJ2E	Sitting systolic blood pressure	CONTEXT - use only when the analysis includes sitting blood pressure.
+XaJ2G	Lying systolic blood pressure	CONTEXT - use only when the analysis includes lying blood pressure.
+XaKFx	Average home systolic blood pressure	CONTEXT - use only when the analysis includes home measurement blood pressure.
+XaKjF	Ambulatory systolic blood pressure	CONTEXT - use only when the analysis includes ambulatory measurement blood pressure.

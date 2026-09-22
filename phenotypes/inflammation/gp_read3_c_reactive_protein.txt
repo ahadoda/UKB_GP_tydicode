@@ -1,8 +1,8 @@
-code	description
-.44CC	Plasma C reactive protein (& level)
-.44CS	Serum C reactive protein level
-44CC.	Plasma C reactive protein (& level)
-44CS.	Serum C reactive protein level
-X772l	CRP - C-reactive protein level
-XE2dy	Plasma C-reactive protein level
-XaINL	Serum C reactive protein level
+code	description	recommended_use
+.44CC	Plasma C reactive protein (& level)	DEFAULT - use as a direct numeric c-reactive protein (crp) measurement; verify the recorded unit.
+.44CS	Serum C reactive protein level	DEFAULT - use as a direct numeric c-reactive protein (crp) measurement; verify the recorded unit.
+44CC.	Plasma C reactive protein (& level)	DEFAULT - use as a direct numeric c-reactive protein (crp) measurement; verify the recorded unit.
+44CS.	Serum C reactive protein level	DEFAULT - use as a direct numeric c-reactive protein (crp) measurement; verify the recorded unit.
+X772l	CRP - C-reactive protein level	DEFAULT - use as a direct numeric c-reactive protein (crp) measurement; verify the recorded unit.
+XE2dy	Plasma C-reactive protein level	DEFAULT - use as a direct numeric c-reactive protein (crp) measurement; verify the recorded unit.
+XaINL	Serum C reactive protein level	DEFAULT - use as a direct numeric c-reactive protein (crp) measurement; verify the recorded unit.

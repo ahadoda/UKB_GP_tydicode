@@ -1,4 +1,4 @@
-code	description
-4427.	Free T4 level
-442V.	Serum free T4 level
-442c.	Plasma free T4 level
+code	description	recommended_use
+4427.	Free T4 level	DEFAULT - use as a direct numeric free t4 measurement; verify the recorded unit.
+442V.	Serum free T4 level	DEFAULT - use as a direct numeric free t4 measurement; verify the recorded unit.
+442c.	Plasma free T4 level	DEFAULT - use as a direct numeric free t4 measurement; verify the recorded unit.

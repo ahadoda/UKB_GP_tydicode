@@ -1,32 +1,32 @@
-code	description
-44TE.	30 minute blood glucose level
-44TF.	60 minute blood glucose level
-44TG.	90 minute blood glucose level
-44TH.	120 minute blood glucose level
-44TI.	150 minute blood glucose level
-44TJ.	Blood glucose level
-44TJ8	Baseline blood glucose level
-44TJ9	Blood glucose level after evening meal
-44TJA	Blood glucose level during night
-44TK.	Fasting blood glucose level
-44U..	Plasma glucose level
-44U7.	2 hour post-prandial blood glucose level
-44f..	Serum glucose level
-44f0.	Serum random glucose level
-44f1.	Serum fasting glucose level
-44f3.	30 minute serum glucose level
-44f4.	60 minute serum glucose level
-44f5.	90 minute serum glucose level
-44f6.	120 minute serum glucose level
-44f7.	150 minute serum glucose level
-44g..	Plasma glucose level
-44g0.	Plasma random glucose level
-44g1.	Plasma fasting glucose level
-44g3.	30 minute plasma glucose level
-44g4.	60 minute plasma glucose level
-44g5.	90 minute plasma glucose level
-44g6.	120 minute plasma glucose level
-44g7.	150 minute plasma glucose level
-44g8.	240 minute plasma glucose level
-44g9.	300 minute plasma glucose level
-44gA.	180 minute plasma glucose level
+code	description	recommended_use
+44TE.	30 minute blood glucose level	CONTEXT - use as the 30-minute value in a timed or post-load glucose analysis.
+44TF.	60 minute blood glucose level	CONTEXT - use as the 60-minute value in a timed or post-load glucose analysis.
+44TG.	90 minute blood glucose level	CONTEXT - use as the 90-minute value in a timed or post-load glucose analysis.
+44TH.	120 minute blood glucose level	CONTEXT - use as the 120-minute value in a timed or post-load glucose analysis.
+44TI.	150 minute blood glucose level	CONTEXT - use as the 150-minute value in a timed or post-load glucose analysis.
+44TJ.	Blood glucose level	DEFAULT - use for glucose analyses when fasting or test timing is not required.
+44TJ8	Baseline blood glucose level	CONTEXT - use as the baseline value in a timed glucose test.
+44TJ9	Blood glucose level after evening meal	CONTEXT - use for post-prandial glucose analyses.
+44TJA	Blood glucose level during night	CONTEXT - use only for overnight glucose measurements.
+44TK.	Fasting blood glucose level	CONTEXT - use for fasting glucose analyses.
+44U..	Plasma glucose level	DEFAULT - use for glucose analyses when fasting or test timing is not required.
+44U7.	2 hour post-prandial blood glucose level	CONTEXT - use for post-prandial glucose analyses.
+44f..	Serum glucose level	DEFAULT - use for glucose analyses when fasting or test timing is not required.
+44f0.	Serum random glucose level	CONTEXT - use for random glucose analyses.
+44f1.	Serum fasting glucose level	CONTEXT - use for fasting glucose analyses.
+44f3.	30 minute serum glucose level	CONTEXT - use as the 30-minute value in a timed or post-load glucose analysis.
+44f4.	60 minute serum glucose level	CONTEXT - use as the 60-minute value in a timed or post-load glucose analysis.
+44f5.	90 minute serum glucose level	CONTEXT - use as the 90-minute value in a timed or post-load glucose analysis.
+44f6.	120 minute serum glucose level	CONTEXT - use as the 120-minute value in a timed or post-load glucose analysis.
+44f7.	150 minute serum glucose level	CONTEXT - use as the 150-minute value in a timed or post-load glucose analysis.
+44g..	Plasma glucose level	DEFAULT - use for glucose analyses when fasting or test timing is not required.
+44g0.	Plasma random glucose level	CONTEXT - use for random glucose analyses.
+44g1.	Plasma fasting glucose level	CONTEXT - use for fasting glucose analyses.
+44g3.	30 minute plasma glucose level	CONTEXT - use as the 30-minute value in a timed or post-load glucose analysis.
+44g4.	60 minute plasma glucose level	CONTEXT - use as the 60-minute value in a timed or post-load glucose analysis.
+44g5.	90 minute plasma glucose level	CONTEXT - use as the 90-minute value in a timed or post-load glucose analysis.
+44g6.	120 minute plasma glucose level	CONTEXT - use as the 120-minute value in a timed or post-load glucose analysis.
+44g7.	150 minute plasma glucose level	CONTEXT - use as the 150-minute value in a timed or post-load glucose analysis.
+44g8.	240 minute plasma glucose level	CONTEXT - use as the 240-minute value in a timed or post-load glucose analysis.
+44g9.	300 minute plasma glucose level	CONTEXT - use as the 300-minute value in a timed or post-load glucose analysis.
+44gA.	180 minute plasma glucose level	CONTEXT - use as the 180-minute value in a timed or post-load glucose analysis.

@@ -1,2 +1,2 @@
-code	description
-229..	O/E - height
+code	description	recommended_use
+229..	O/E - height	DEFAULT - use as a direct numeric body height measurement; verify the recorded unit.

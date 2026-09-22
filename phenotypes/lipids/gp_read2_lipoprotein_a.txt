@@ -1,2 +1,2 @@
-code	description
-4Q3G0	Serum lipoprotein(a) level
+code	description	recommended_use
+4Q3G0	Serum lipoprotein(a) level	DEFAULT - use as a direct numeric lipoprotein(a) measurement; verify the recorded unit.

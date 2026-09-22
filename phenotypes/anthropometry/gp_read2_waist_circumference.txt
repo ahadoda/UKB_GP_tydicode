@@ -1,4 +1,4 @@
-code	description
-22N0.	Waist circumference
-22N00	Baseline waist circumference
-22N8.	Abdominal circumference
+code	description	recommended_use
+22N0.	Waist circumference	DEFAULT - use as a direct numeric waist circumference measurement; verify the recorded unit.
+22N00	Baseline waist circumference	CONTEXT - use only when a baseline waist circumference measurement is intended.
+22N8.	Abdominal circumference	DEFAULT - use as a direct numeric waist circumference measurement; verify the recorded unit.

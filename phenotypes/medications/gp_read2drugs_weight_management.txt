@@ -1,48 +1,48 @@
-code	description
-aw1..	ORLISTAT
-aw11.	ORLISTAT 120mg capsules
-aw12.	XENICAL 120mg capsules
-aw13.	ALLI 60mg capsules
-aw14.	ORLISTAT 60mg capsules
-aw15.	ALLI 27mg chewable tablets
-aw16.	ORLISTAT 27mg chewable tablets
-aw17.	BEACITA 120mg capsules
-de...	BULK-FORMING DRUGS [APPETITE SUPPRESSANTS]
-de1..	METHYLCELLULOSE [APPETITE SUPPRESSANTS]
-de11.	CELEVAC 500mg tablets
-de13.	*NILSTIM 400mg tablets
-de1y.	METHYLCELLULOSE 500mg tablets
-de1z.	*METHYLCELLULOSE 400mg tablets
-de2..	STERCULIA [APPETITE SUPPRESSANT]
-de21.	*PREFIL-80% granules
-de22.	*STERCULIA 80% granules
-de2z.	*STERCULIA 55% granules
-df...	CENTRAL APPETITE SUPPRESSANTS
-df1..	DIETHYLPROPION HYDROCHLORIDE
-df11.	*APISATE m/r tablets
-df12.	TENUATE DOSPAN 75mg m/r tablets
-df13.	DIETHYLPROPION HCL + VITAMINS 75mg m/r tablets
-df1x.	DIETHYLPROPION HYDROCHLORIDE 25mg tablets
-df1y.	DIETHYLPROPION HYDROCHLORIDE m/r tablets
-df1z.	DIETHYLPROPION HYDROCHLORIDE 75mg m/r tablets
-df2..	FENFLURAMINE HYDROCHLORIDE
-df21.	PONDERAX PACAPS 60mg m/r capsules
-df2z.	FENFLURAMINE HYDROCHLORIDE 60mg m/r capsules
-df3..	MAZINDOL
-df31.	*TERONAC 2mg tablets
-df3z.	*MAZINDOL 2mg tablets
-df4..	PHENTERMINE
-df41.	*DUROMINE 15mg m/r capsules
-df42.	*DUROMINE 30mg m/r capsules
-df43.	*IONAMIN 15mg m/r capsules
-df44.	*IONAMIN 30mg m/r capsules
-df4y.	*PHENTERMINE 15mg m/r capsules
-df4z.	*PHENTERMINE 30mg m/r capsules
-df5..	DEXFENFLURAMINE
-df51.	*DEXFENFLURAMINE 15mg capsules
-df52.	*ADIFAX 15mg capsules
-df6..	SIBUTRAMINE
-df61.	*REDUCTIL 15mg capsules
-df62.	*REDUCTIL 10mg capsules
-df6y.	SIBUTRAMINE HYDROCHLORIDE MONOHYDRATE 10mg capsules
-df6z.	SIBUTRAMINE HYDROCHLORIDE MONOHYDRATE 15mg capsules
+code	description	recommended_use
+aw1..	ORLISTAT	DEFAULT - exact-match to identify weight-management medicines prescriptions.
+aw11.	ORLISTAT 120mg capsules	DEFAULT - exact-match to identify weight-management medicines prescriptions.
+aw12.	XENICAL 120mg capsules	DEFAULT - exact-match to identify weight-management medicines prescriptions.
+aw13.	ALLI 60mg capsules	DEFAULT - exact-match to identify weight-management medicines prescriptions.
+aw14.	ORLISTAT 60mg capsules	DEFAULT - exact-match to identify weight-management medicines prescriptions.
+aw15.	ALLI 27mg chewable tablets	DEFAULT - exact-match to identify weight-management medicines prescriptions.
+aw16.	ORLISTAT 27mg chewable tablets	DEFAULT - exact-match to identify weight-management medicines prescriptions.
+aw17.	BEACITA 120mg capsules	DEFAULT - exact-match to identify weight-management medicines prescriptions.
+de...	BULK-FORMING DRUGS [APPETITE SUPPRESSANTS]	DEFAULT - exact-match to identify weight-management medicines prescriptions.
+de1..	METHYLCELLULOSE [APPETITE SUPPRESSANTS]	DEFAULT - exact-match to identify weight-management medicines prescriptions.
+de11.	CELEVAC 500mg tablets	DEFAULT - exact-match to identify weight-management medicines prescriptions.
+de13.	*NILSTIM 400mg tablets	DEFAULT - exact-match to identify weight-management medicines prescriptions.
+de1y.	METHYLCELLULOSE 500mg tablets	DEFAULT - exact-match to identify weight-management medicines prescriptions.
+de1z.	*METHYLCELLULOSE 400mg tablets	DEFAULT - exact-match to identify weight-management medicines prescriptions.
+de2..	STERCULIA [APPETITE SUPPRESSANT]	DEFAULT - exact-match to identify weight-management medicines prescriptions.
+de21.	*PREFIL-80% granules	DEFAULT - exact-match to identify weight-management medicines prescriptions.
+de22.	*STERCULIA 80% granules	DEFAULT - exact-match to identify weight-management medicines prescriptions.
+de2z.	*STERCULIA 55% granules	DEFAULT - exact-match to identify weight-management medicines prescriptions.
+df...	CENTRAL APPETITE SUPPRESSANTS	DEFAULT - exact-match to identify weight-management medicines prescriptions.
+df1..	DIETHYLPROPION HYDROCHLORIDE	DEFAULT - exact-match to identify weight-management medicines prescriptions.
+df11.	*APISATE m/r tablets	DEFAULT - exact-match to identify weight-management medicines prescriptions.
+df12.	TENUATE DOSPAN 75mg m/r tablets	DEFAULT - exact-match to identify weight-management medicines prescriptions.
+df13.	DIETHYLPROPION HCL + VITAMINS 75mg m/r tablets	DEFAULT - exact-match to identify weight-management medicines prescriptions.
+df1x.	DIETHYLPROPION HYDROCHLORIDE 25mg tablets	DEFAULT - exact-match to identify weight-management medicines prescriptions.
+df1y.	DIETHYLPROPION HYDROCHLORIDE m/r tablets	DEFAULT - exact-match to identify weight-management medicines prescriptions.
+df1z.	DIETHYLPROPION HYDROCHLORIDE 75mg m/r tablets	DEFAULT - exact-match to identify weight-management medicines prescriptions.
+df2..	FENFLURAMINE HYDROCHLORIDE	DEFAULT - exact-match to identify weight-management medicines prescriptions.
+df21.	PONDERAX PACAPS 60mg m/r capsules	DEFAULT - exact-match to identify weight-management medicines prescriptions.
+df2z.	FENFLURAMINE HYDROCHLORIDE 60mg m/r capsules	DEFAULT - exact-match to identify weight-management medicines prescriptions.
+df3..	MAZINDOL	DEFAULT - exact-match to identify weight-management medicines prescriptions.
+df31.	*TERONAC 2mg tablets	DEFAULT - exact-match to identify weight-management medicines prescriptions.
+df3z.	*MAZINDOL 2mg tablets	DEFAULT - exact-match to identify weight-management medicines prescriptions.
+df4..	PHENTERMINE	DEFAULT - exact-match to identify weight-management medicines prescriptions.
+df41.	*DUROMINE 15mg m/r capsules	DEFAULT - exact-match to identify weight-management medicines prescriptions.
+df42.	*DUROMINE 30mg m/r capsules	DEFAULT - exact-match to identify weight-management medicines prescriptions.
+df43.	*IONAMIN 15mg m/r capsules	DEFAULT - exact-match to identify weight-management medicines prescriptions.
+df44.	*IONAMIN 30mg m/r capsules	DEFAULT - exact-match to identify weight-management medicines prescriptions.
+df4y.	*PHENTERMINE 15mg m/r capsules	DEFAULT - exact-match to identify weight-management medicines prescriptions.
+df4z.	*PHENTERMINE 30mg m/r capsules	DEFAULT - exact-match to identify weight-management medicines prescriptions.
+df5..	DEXFENFLURAMINE	DEFAULT - exact-match to identify weight-management medicines prescriptions.
+df51.	*DEXFENFLURAMINE 15mg capsules	DEFAULT - exact-match to identify weight-management medicines prescriptions.
+df52.	*ADIFAX 15mg capsules	DEFAULT - exact-match to identify weight-management medicines prescriptions.
+df6..	SIBUTRAMINE	DEFAULT - exact-match to identify weight-management medicines prescriptions.
+df61.	*REDUCTIL 15mg capsules	DEFAULT - exact-match to identify weight-management medicines prescriptions.
+df62.	*REDUCTIL 10mg capsules	DEFAULT - exact-match to identify weight-management medicines prescriptions.
+df6y.	SIBUTRAMINE HYDROCHLORIDE MONOHYDRATE 10mg capsules	DEFAULT - exact-match to identify weight-management medicines prescriptions.
+df6z.	SIBUTRAMINE HYDROCHLORIDE MONOHYDRATE 15mg capsules	DEFAULT - exact-match to identify weight-management medicines prescriptions.

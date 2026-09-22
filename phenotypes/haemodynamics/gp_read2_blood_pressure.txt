@@ -1,2 +1,2 @@
-code	description
-246..	O/E - blood pressure
+code	description	recommended_use
+246..	O/E - blood pressure	SUPPORTING - use only for combined or non-component blood-pressure records; do not treat as systolic or diastolic without field context.

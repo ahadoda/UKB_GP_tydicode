@@ -1,4 +1,4 @@
-code	description
-42H..	White cell count
-42HZ.	Total white cell count NOS
-42IZ.	Diff. white cell count NOS
+code	description	recommended_use
+42H..	White cell count	DEFAULT - use as a direct numeric white blood cell count measurement; verify the recorded unit.
+42HZ.	Total white cell count NOS	DEFAULT - use as a direct numeric white blood cell count measurement; verify the recorded unit.
+42IZ.	Diff. white cell count NOS	DEFAULT - use as a direct numeric white blood cell count measurement; verify the recorded unit.

@@ -1,10 +1,10 @@
-code	description
-.44J7	Albumin/creatinine ratio
-.46TC	Urine albumin:creatinine ratio
-.46TD	Urine microalbumin:creatinine ratio
-44J7.	Albumin/creatinine ratio
-46TC.	Urine albumin:creatinine ratio
-46TD.	Urine microalbumin:creatinine ratio
-X773Y	Albumin/creatinine ratio
-XE2n3	Urine albumin:creatinine ratio
-XE2n4	Urine microalbumin/creatinine ratio
+code	description	recommended_use
+.44J7	Albumin/creatinine ratio	DEFAULT - use as a direct numeric urine albumin-creatinine ratio measurement; verify the recorded unit.
+.46TC	Urine albumin:creatinine ratio	DEFAULT - use as a direct numeric urine albumin-creatinine ratio measurement; verify the recorded unit.
+.46TD	Urine microalbumin:creatinine ratio	DEFAULT - use as a direct numeric urine albumin-creatinine ratio measurement; verify the recorded unit.
+44J7.	Albumin/creatinine ratio	DEFAULT - use as a direct numeric urine albumin-creatinine ratio measurement; verify the recorded unit.
+46TC.	Urine albumin:creatinine ratio	DEFAULT - use as a direct numeric urine albumin-creatinine ratio measurement; verify the recorded unit.
+46TD.	Urine microalbumin:creatinine ratio	DEFAULT - use as a direct numeric urine albumin-creatinine ratio measurement; verify the recorded unit.
+X773Y	Albumin/creatinine ratio	DEFAULT - use as a direct numeric urine albumin-creatinine ratio measurement; verify the recorded unit.
+XE2n3	Urine albumin:creatinine ratio	DEFAULT - use as a direct numeric urine albumin-creatinine ratio measurement; verify the recorded unit.
+XE2n4	Urine microalbumin/creatinine ratio	DEFAULT - use as a direct numeric urine albumin-creatinine ratio measurement; verify the recorded unit.

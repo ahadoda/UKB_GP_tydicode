@@ -1,4 +1,4 @@
-code	description
-.43G5	Thyroglobulin antibodies
-43G5.	Thyroglobulin antibodies
-X80cx	Thyroglobulin antibody
+code	description	recommended_use
+.43G5	Thyroglobulin antibodies	DEFAULT - use as a direct numeric thyroglobulin antibody measurement; verify the recorded unit.
+43G5.	Thyroglobulin antibodies	DEFAULT - use as a direct numeric thyroglobulin antibody measurement; verify the recorded unit.
+X80cx	Thyroglobulin antibody	DEFAULT - use as a direct numeric thyroglobulin antibody measurement; verify the recorded unit.

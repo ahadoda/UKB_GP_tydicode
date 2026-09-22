@@ -1,11 +1,11 @@
-code	description
-246A.	O/E - Diastolic BP reading
-246P.	Standing diastolic blood pressure
-246R.	Sitting diastolic blood pressure
-246T.	Lying diastolic blood pressure
-246V.	Average 24 hour diastolic blood pressure
-246X.	Average day interval diastolic blood pressure
-246a.	Average night interval diastolic blood pressure
-246c.	Average home diastolic blood pressure
-246f.	Ambulatory diastolic blood pressure
-246m.	Average diastolic blood pressure
+code	description	recommended_use
+246A.	O/E - Diastolic BP reading	DEFAULT - use as a direct numeric diastolic blood pressure measurement.
+246P.	Standing diastolic blood pressure	CONTEXT - use only when the analysis includes standing blood pressure.
+246R.	Sitting diastolic blood pressure	CONTEXT - use only when the analysis includes sitting blood pressure.
+246T.	Lying diastolic blood pressure	CONTEXT - use only when the analysis includes lying blood pressure.
+246V.	Average 24 hour diastolic blood pressure	CONTEXT - use only when the analysis includes 24-hour ambulatory average blood pressure.
+246X.	Average day interval diastolic blood pressure	CONTEXT - use only when the analysis includes daytime ambulatory average blood pressure.
+246a.	Average night interval diastolic blood pressure	CONTEXT - use only when the analysis includes night-time ambulatory average blood pressure.
+246c.	Average home diastolic blood pressure	CONTEXT - use only when the analysis includes home measurement blood pressure.
+246f.	Ambulatory diastolic blood pressure	CONTEXT - use only when the analysis includes ambulatory measurement blood pressure.
+246m.	Average diastolic blood pressure	CONTEXT - use for an averaged blood-pressure value, not a single reading.

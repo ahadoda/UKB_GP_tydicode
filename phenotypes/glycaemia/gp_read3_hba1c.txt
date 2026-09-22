@@ -1,8 +1,8 @@
-code	description
-.42W4	HbA1c level (DCCT aligned)
-.44TB	HbA1c - Haemoglobin A1c level
-42W4.	HbA1c level (DCCT aligned)
-44TB.	HbA1c - Haemoglobin A1c level
-X772q	HbA1c - Haemoglobin A1c level
-X80U4	HbA1c - Glycosylated haemoglobin-c fraction
-XaERp	HbA1c level (DCCT aligned)
+code	description	recommended_use
+.42W4	HbA1c level (DCCT aligned)	UNIT-SPECIFIC - use as DCCT HbA1c (normally %); verify the recorded unit.
+.44TB	HbA1c - Haemoglobin A1c level	DEFAULT - use for HbA1c, but confirm the unit before combining records.
+42W4.	HbA1c level (DCCT aligned)	UNIT-SPECIFIC - use as DCCT HbA1c (normally %); verify the recorded unit.
+44TB.	HbA1c - Haemoglobin A1c level	DEFAULT - use for HbA1c, but confirm the unit before combining records.
+X772q	HbA1c - Haemoglobin A1c level	DEFAULT - use for HbA1c, but confirm the unit before combining records.
+X80U4	HbA1c - Glycosylated haemoglobin-c fraction	DEFAULT - use for HbA1c, but confirm the unit before combining records.
+XaERp	HbA1c level (DCCT aligned)	UNIT-SPECIFIC - use as DCCT HbA1c (normally %); verify the recorded unit.

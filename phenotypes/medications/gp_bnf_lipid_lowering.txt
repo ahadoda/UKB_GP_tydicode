@@ -1,35 +1,35 @@
-code	description
-021200000	Other Lipid-Regulating Preps
-021200010	Ciprofibrate
-0212000A0	Acipimox
-0212000AA	Rosuvastatin Calcium
-0212000AB	Omega-3-Acid Ethyl Esters
-0212000AC	Simvastatin & Ezetimibe
-0212000AD	Colesevelam Hydrochloride
-0212000AE	Nicotinic Acid/Laropiprant
-0212000AF	Lomitapide
-0212000AG	Policosanol
-0212000AH	Evolocumab
-0212000AI	Alirocumab
-0212000AJ	Fenofibrate/Simvastatin
-0212000B0	Atorvastatin
-0212000C0	Cerivastatin
-0212000D0	Bezafibrate
-0212000F0	Colestyramine
-0212000G0	Chondroitin  Sulphate A
-0212000I0	Clofibrate
-0212000J0	Ispaghula Husk
-0212000K0	Colestipol Hydrochloride
-0212000L0	Ezetimibe
-0212000M0	Fluvastatin Sodium
-0212000N0	Dextrothyroxine Sodium
-0212000P0	Fenofibrate
-0212000Q0	Gemfibrozil
-0212000R0	Lovastatin
-0212000S0	Nicofuranose
-0212000U0	Nicotinic Acid
-0212000V0	Omega-3 Marine Triglycerides
-0212000W0	Probucol
-0212000X0	Pravastatin Sodium
-0212000Y0	Simvastatin
-0212000Z0	Sitosterol
+code	description	recommended_use
+021200000	Other Lipid-Regulating Preps	DEFAULT - prefix-match to identify lipid-lowering medicines prescriptions.
+021200010	Ciprofibrate	DEFAULT - prefix-match to identify lipid-lowering medicines prescriptions.
+0212000A0	Acipimox	DEFAULT - prefix-match to identify lipid-lowering medicines prescriptions.
+0212000AA	Rosuvastatin Calcium	DEFAULT - prefix-match to identify lipid-lowering medicines prescriptions.
+0212000AB	Omega-3-Acid Ethyl Esters	DEFAULT - prefix-match to identify lipid-lowering medicines prescriptions.
+0212000AC	Simvastatin & Ezetimibe	DEFAULT - prefix-match to identify lipid-lowering medicines prescriptions.
+0212000AD	Colesevelam Hydrochloride	DEFAULT - prefix-match to identify lipid-lowering medicines prescriptions.
+0212000AE	Nicotinic Acid/Laropiprant	DEFAULT - prefix-match to identify lipid-lowering medicines prescriptions.
+0212000AF	Lomitapide	DEFAULT - prefix-match to identify lipid-lowering medicines prescriptions.
+0212000AG	Policosanol	DEFAULT - prefix-match to identify lipid-lowering medicines prescriptions.
+0212000AH	Evolocumab	DEFAULT - prefix-match to identify lipid-lowering medicines prescriptions.
+0212000AI	Alirocumab	DEFAULT - prefix-match to identify lipid-lowering medicines prescriptions.
+0212000AJ	Fenofibrate/Simvastatin	DEFAULT - prefix-match to identify lipid-lowering medicines prescriptions.
+0212000B0	Atorvastatin	DEFAULT - prefix-match to identify lipid-lowering medicines prescriptions.
+0212000C0	Cerivastatin	DEFAULT - prefix-match to identify lipid-lowering medicines prescriptions.
+0212000D0	Bezafibrate	DEFAULT - prefix-match to identify lipid-lowering medicines prescriptions.
+0212000F0	Colestyramine	DEFAULT - prefix-match to identify lipid-lowering medicines prescriptions.
+0212000G0	Chondroitin  Sulphate A	DEFAULT - prefix-match to identify lipid-lowering medicines prescriptions.
+0212000I0	Clofibrate	DEFAULT - prefix-match to identify lipid-lowering medicines prescriptions.
+0212000J0	Ispaghula Husk	DEFAULT - prefix-match to identify lipid-lowering medicines prescriptions.
+0212000K0	Colestipol Hydrochloride	DEFAULT - prefix-match to identify lipid-lowering medicines prescriptions.
+0212000L0	Ezetimibe	DEFAULT - prefix-match to identify lipid-lowering medicines prescriptions.
+0212000M0	Fluvastatin Sodium	DEFAULT - prefix-match to identify lipid-lowering medicines prescriptions.
+0212000N0	Dextrothyroxine Sodium	DEFAULT - prefix-match to identify lipid-lowering medicines prescriptions.
+0212000P0	Fenofibrate	DEFAULT - prefix-match to identify lipid-lowering medicines prescriptions.
+0212000Q0	Gemfibrozil	DEFAULT - prefix-match to identify lipid-lowering medicines prescriptions.
+0212000R0	Lovastatin	DEFAULT - prefix-match to identify lipid-lowering medicines prescriptions.
+0212000S0	Nicofuranose	DEFAULT - prefix-match to identify lipid-lowering medicines prescriptions.
+0212000U0	Nicotinic Acid	DEFAULT - prefix-match to identify lipid-lowering medicines prescriptions.
+0212000V0	Omega-3 Marine Triglycerides	DEFAULT - prefix-match to identify lipid-lowering medicines prescriptions.
+0212000W0	Probucol	DEFAULT - prefix-match to identify lipid-lowering medicines prescriptions.
+0212000X0	Pravastatin Sodium	DEFAULT - prefix-match to identify lipid-lowering medicines prescriptions.
+0212000Y0	Simvastatin	DEFAULT - prefix-match to identify lipid-lowering medicines prescriptions.
+0212000Z0	Sitosterol	DEFAULT - prefix-match to identify lipid-lowering medicines prescriptions.

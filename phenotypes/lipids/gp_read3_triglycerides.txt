@@ -1,6 +1,6 @@
-code	description
-.44Q.	Serum triglycerides
-.44e.	Plasma triglyceride level
-44Q..	Serum triglycerides
-44e..	Plasma triglyceride level
-XE2q9	Serum triglycerides
+code	description	recommended_use
+.44Q.	Serum triglycerides	DEFAULT - use as a direct numeric triglycerides measurement; verify the recorded unit.
+.44e.	Plasma triglyceride level	DEFAULT - use as a direct numeric triglycerides measurement; verify the recorded unit.
+44Q..	Serum triglycerides	DEFAULT - use as a direct numeric triglycerides measurement; verify the recorded unit.
+44e..	Plasma triglyceride level	DEFAULT - use as a direct numeric triglycerides measurement; verify the recorded unit.
+XE2q9	Serum triglycerides	DEFAULT - use as a direct numeric triglycerides measurement; verify the recorded unit.
