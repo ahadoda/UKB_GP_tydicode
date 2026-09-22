@@ -1,4 +1,10 @@
-code	description	recommended_use
-4425.	Free T3 level	DEFAULT - use as a direct numeric free t3 measurement; verify the recorded unit.
-442U.	Serum free triiodothyronine level	DEFAULT - use as a direct numeric free t3 measurement; verify the recorded unit.
-442Y.	Plasma free triiodothyronine level	DEFAULT - use as a direct numeric free t3 measurement; verify the recorded unit.
+code	description	code_group	recommended_use
+
+# Routine or specimen-unspecified measurement
+4425.	Free T3 level	Routine or specimen-unspecified measurement	DEFAULT - use as a direct numeric free t3 measurement; verify the recorded unit.
+
+# Plasma measurement
+442Y.	Plasma free triiodothyronine level	Plasma measurement	DEFAULT - use as a direct numeric free t3 measurement; verify the recorded unit.
+
+# Serum measurement
+442U.	Serum free triiodothyronine level	Serum measurement	DEFAULT - use as a direct numeric free t3 measurement; verify the recorded unit.

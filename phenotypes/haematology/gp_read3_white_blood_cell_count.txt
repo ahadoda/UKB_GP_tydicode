@@ -1,7 +1,11 @@
-code	description	recommended_use
-.42H.	WCC - White blood cell count	DEFAULT - use as a direct numeric white blood cell count measurement; verify the recorded unit.
-.42HZ	Total white cell count NOS	DEFAULT - use as a direct numeric white blood cell count measurement; verify the recorded unit.
-.42IZ	Diff. white cell count NOS	DEFAULT - use as a direct numeric white blood cell count measurement; verify the recorded unit.
-42H..	WCC - White blood cell count	DEFAULT - use as a direct numeric white blood cell count measurement; verify the recorded unit.
-42HZ.	Total white cell count NOS	DEFAULT - use as a direct numeric white blood cell count measurement; verify the recorded unit.
-42IZ.	Diff. white cell count NOS	DEFAULT - use as a direct numeric white blood cell count measurement; verify the recorded unit.
+code	description	code_group	recommended_use
+
+# Routine or specimen-unspecified measurement
+.42HZ	Total white cell count NOS	Routine or specimen-unspecified measurement	DEFAULT - use as a direct numeric white blood cell count measurement; verify the recorded unit.
+.42IZ	Diff. white cell count NOS	Routine or specimen-unspecified measurement	DEFAULT - use as a direct numeric white blood cell count measurement; verify the recorded unit.
+42HZ.	Total white cell count NOS	Routine or specimen-unspecified measurement	DEFAULT - use as a direct numeric white blood cell count measurement; verify the recorded unit.
+42IZ.	Diff. white cell count NOS	Routine or specimen-unspecified measurement	DEFAULT - use as a direct numeric white blood cell count measurement; verify the recorded unit.
+
+# Blood measurement
+.42H.	WCC - White blood cell count	Blood measurement	DEFAULT - use as a direct numeric white blood cell count measurement; verify the recorded unit.
+42H..	WCC - White blood cell count	Blood measurement	DEFAULT - use as a direct numeric white blood cell count measurement; verify the recorded unit.

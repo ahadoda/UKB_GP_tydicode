@@ -1,3 +1,7 @@
-code	description	recommended_use
-44P..	Serum cholesterol	DEFAULT - use as a direct numeric total cholesterol measurement; verify the recorded unit.
-44PH.	Total cholesterol measurement	DEFAULT - use as a direct numeric total cholesterol measurement; verify the recorded unit.
+code	description	code_group	recommended_use
+
+# Routine or specimen-unspecified measurement
+44PH.	Total cholesterol measurement	Routine or specimen-unspecified measurement	DEFAULT - use as a direct numeric total cholesterol measurement; verify the recorded unit.
+
+# Serum measurement
+44P..	Serum cholesterol	Serum measurement	DEFAULT - use as a direct numeric total cholesterol measurement; verify the recorded unit.

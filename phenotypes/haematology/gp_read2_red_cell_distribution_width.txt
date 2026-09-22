@@ -1,2 +1,4 @@
-code	description	recommended_use
-42Z7.	Red blood cell distribution width	DEFAULT - use as a direct numeric red cell distribution width (rdw) measurement; verify the recorded unit.
+code	description	code_group	recommended_use
+
+# Blood measurement
+42Z7.	Red blood cell distribution width	Blood measurement	DEFAULT - use as a direct numeric red cell distribution width (rdw) measurement; verify the recorded unit.

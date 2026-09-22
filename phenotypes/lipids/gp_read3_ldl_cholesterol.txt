@@ -1,17 +1,23 @@
-code	description	recommended_use
-.44P6	Serum LDL cholesterol level	DEFAULT - use as a direct numeric ldl cholesterol measurement; verify the recorded unit.
-.44PD	Serum fasting LDL cholesterol level	DEFAULT - use as a direct numeric ldl cholesterol measurement; verify the recorded unit.
-.44PE	Serum random LDL cholesterol level	DEFAULT - use as a direct numeric ldl cholesterol measurement; verify the recorded unit.
-.44PI	Calculated LDL cholesterol level	DEFAULT - use as a direct numeric ldl cholesterol measurement; verify the recorded unit.
-.44d4	Plasma random LDL cholesterol level	DEFAULT - use as a direct numeric ldl cholesterol measurement; verify the recorded unit.
-.44d5	Plasma fasting LDL cholesterol level	DEFAULT - use as a direct numeric ldl cholesterol measurement; verify the recorded unit.
-.44dB	Plasma LDL cholesterol level	DEFAULT - use as a direct numeric ldl cholesterol measurement; verify the recorded unit.
-44P6.	Serum LDL cholesterol level	DEFAULT - use as a direct numeric ldl cholesterol measurement; verify the recorded unit.
-44PD.	Serum fasting LDL cholesterol level	DEFAULT - use as a direct numeric ldl cholesterol measurement; verify the recorded unit.
-44PE.	Serum random LDL cholesterol level	DEFAULT - use as a direct numeric ldl cholesterol measurement; verify the recorded unit.
-44PI.	Calculated LDL cholesterol level	DEFAULT - use as a direct numeric ldl cholesterol measurement; verify the recorded unit.
-44d4.	Plasma random LDL cholesterol level	DEFAULT - use as a direct numeric ldl cholesterol measurement; verify the recorded unit.
-44d5.	Plasma fasting LDL cholesterol level	DEFAULT - use as a direct numeric ldl cholesterol measurement; verify the recorded unit.
-44dB.	Plasma LDL cholesterol level	DEFAULT - use as a direct numeric ldl cholesterol measurement; verify the recorded unit.
-XaEVs	Plasma LDL cholesterol level	DEFAULT - use as a direct numeric ldl cholesterol measurement; verify the recorded unit.
-XaIp4	Calculated LDL cholesterol level	DEFAULT - use as a direct numeric ldl cholesterol measurement; verify the recorded unit.
+code	description	code_group	recommended_use
+
+# Routine or specimen-unspecified measurement
+.44PI	Calculated LDL cholesterol level	Routine or specimen-unspecified measurement	DEFAULT - use as a direct numeric ldl cholesterol measurement; verify the recorded unit.
+44PI.	Calculated LDL cholesterol level	Routine or specimen-unspecified measurement	DEFAULT - use as a direct numeric ldl cholesterol measurement; verify the recorded unit.
+XaIp4	Calculated LDL cholesterol level	Routine or specimen-unspecified measurement	DEFAULT - use as a direct numeric ldl cholesterol measurement; verify the recorded unit.
+
+# Plasma measurement
+.44d4	Plasma random LDL cholesterol level	Plasma measurement	DEFAULT - use as a direct numeric ldl cholesterol measurement; verify the recorded unit.
+.44d5	Plasma fasting LDL cholesterol level	Plasma measurement	DEFAULT - use as a direct numeric ldl cholesterol measurement; verify the recorded unit.
+.44dB	Plasma LDL cholesterol level	Plasma measurement	DEFAULT - use as a direct numeric ldl cholesterol measurement; verify the recorded unit.
+44d4.	Plasma random LDL cholesterol level	Plasma measurement	DEFAULT - use as a direct numeric ldl cholesterol measurement; verify the recorded unit.
+44d5.	Plasma fasting LDL cholesterol level	Plasma measurement	DEFAULT - use as a direct numeric ldl cholesterol measurement; verify the recorded unit.
+44dB.	Plasma LDL cholesterol level	Plasma measurement	DEFAULT - use as a direct numeric ldl cholesterol measurement; verify the recorded unit.
+XaEVs	Plasma LDL cholesterol level	Plasma measurement	DEFAULT - use as a direct numeric ldl cholesterol measurement; verify the recorded unit.
+
+# Serum measurement
+.44P6	Serum LDL cholesterol level	Serum measurement	DEFAULT - use as a direct numeric ldl cholesterol measurement; verify the recorded unit.
+.44PD	Serum fasting LDL cholesterol level	Serum measurement	DEFAULT - use as a direct numeric ldl cholesterol measurement; verify the recorded unit.
+.44PE	Serum random LDL cholesterol level	Serum measurement	DEFAULT - use as a direct numeric ldl cholesterol measurement; verify the recorded unit.
+44P6.	Serum LDL cholesterol level	Serum measurement	DEFAULT - use as a direct numeric ldl cholesterol measurement; verify the recorded unit.
+44PD.	Serum fasting LDL cholesterol level	Serum measurement	DEFAULT - use as a direct numeric ldl cholesterol measurement; verify the recorded unit.
+44PE.	Serum random LDL cholesterol level	Serum measurement	DEFAULT - use as a direct numeric ldl cholesterol measurement; verify the recorded unit.

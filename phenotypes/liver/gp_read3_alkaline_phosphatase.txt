@@ -1,8 +1,12 @@
-code	description	recommended_use
-.44CU	Plasma alkaline phosphatase level	DEFAULT - use as a direct numeric alkaline phosphatase (alp) measurement; verify the recorded unit.
-.44F.	Serum alkaline phosphatase	DEFAULT - use as a direct numeric alkaline phosphatase (alp) measurement; verify the recorded unit.
-44CU.	Plasma alkaline phosphatase level	DEFAULT - use as a direct numeric alkaline phosphatase (alp) measurement; verify the recorded unit.
-44F..	Serum alkaline phosphatase	DEFAULT - use as a direct numeric alkaline phosphatase (alp) measurement; verify the recorded unit.
-XE28S	Serum alkaline phosphatase	DEFAULT - use as a direct numeric alkaline phosphatase (alp) measurement; verify the recorded unit.
-XE2px	Serum alkaline phosphatase	DEFAULT - use as a direct numeric alkaline phosphatase (alp) measurement; verify the recorded unit.
-XaIRj	Plasma alkaline phosphatase level	DEFAULT - use as a direct numeric alkaline phosphatase (alp) measurement; verify the recorded unit.
+code	description	code_group	recommended_use
+
+# Plasma measurement
+.44CU	Plasma alkaline phosphatase level	Plasma measurement	DEFAULT - use as a direct numeric alkaline phosphatase (alp) measurement; verify the recorded unit.
+44CU.	Plasma alkaline phosphatase level	Plasma measurement	DEFAULT - use as a direct numeric alkaline phosphatase (alp) measurement; verify the recorded unit.
+XaIRj	Plasma alkaline phosphatase level	Plasma measurement	DEFAULT - use as a direct numeric alkaline phosphatase (alp) measurement; verify the recorded unit.
+
+# Serum measurement
+.44F.	Serum alkaline phosphatase	Serum measurement	DEFAULT - use as a direct numeric alkaline phosphatase (alp) measurement; verify the recorded unit.
+44F..	Serum alkaline phosphatase	Serum measurement	DEFAULT - use as a direct numeric alkaline phosphatase (alp) measurement; verify the recorded unit.
+XE28S	Serum alkaline phosphatase	Serum measurement	DEFAULT - use as a direct numeric alkaline phosphatase (alp) measurement; verify the recorded unit.
+XE2px	Serum alkaline phosphatase	Serum measurement	DEFAULT - use as a direct numeric alkaline phosphatase (alp) measurement; verify the recorded unit.

@@ -10,7 +10,7 @@ ROOT = Path(__file__).resolve().parents[1]
 REQUIRED = {
     "trait_id", "trait_group", "trait", "coding_system", "source_dataset",
     "source_field", "match_type", "case_sensitive", "code", "description",
-    "selection_tier", "value_type", "expected_units", "source_sheet",
+    "all_lookup_terms", "selection_tier", "value_type", "expected_units", "source_sheet",
     "review_status",
 }
 
@@ -52,11 +52,17 @@ def main() -> int:
         if not path.exists():
             errors.append(f"Missing public codelist: {record['codelist']}")
             continue
-        data = pd.read_csv(path, sep="\t", dtype="string", keep_default_na=False)
-        if list(data.columns) != ["code", "description", "recommended_use"]:
+        data = pd.read_csv(
+            path, sep="\t", dtype="string", keep_default_na=False, comment="#"
+        )
+        if list(data.columns) != [
+            "code", "description", "code_group", "recommended_use"
+        ]:
             errors.append(
-                f"{record['codelist']}: expected code, description and recommended_use"
+                f"{record['codelist']}: expected code, description, code_group and recommended_use"
             )
+        elif data["code_group"].eq("").any() or data["recommended_use"].eq("").any():
+            errors.append(f"{record['codelist']}: blank code_group or recommended_use")
         if len(data) != int(record["code_count"]):
             errors.append(f"{record['codelist']}: public index count mismatch")
     total = 0

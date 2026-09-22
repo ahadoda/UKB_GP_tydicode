@@ -1,7 +1,11 @@
-code	description	recommended_use
-.44I9	Serum inorganic phosphate (& level)	DEFAULT - use as a direct numeric phosphate measurement; verify the recorded unit.
-.44i2	Plasma inorganic phosphate level	DEFAULT - use as a direct numeric phosphate measurement; verify the recorded unit.
-44I9.	Serum inorganic phosphate (& level)	DEFAULT - use as a direct numeric phosphate measurement; verify the recorded unit.
-44i2.	Plasma inorganic phosphate level	DEFAULT - use as a direct numeric phosphate measurement; verify the recorded unit.
-XE2q4	Serum inorganic phosphate level	DEFAULT - use as a direct numeric phosphate measurement; verify the recorded unit.
-XaItO	Plasma inorganic phosphate level	DEFAULT - use as a direct numeric phosphate measurement; verify the recorded unit.
+code	description	code_group	recommended_use
+
+# Plasma measurement
+.44i2	Plasma inorganic phosphate level	Plasma measurement	DEFAULT - use as a direct numeric phosphate measurement; verify the recorded unit.
+44i2.	Plasma inorganic phosphate level	Plasma measurement	DEFAULT - use as a direct numeric phosphate measurement; verify the recorded unit.
+XaItO	Plasma inorganic phosphate level	Plasma measurement	DEFAULT - use as a direct numeric phosphate measurement; verify the recorded unit.
+
+# Serum measurement
+.44I9	Serum inorganic phosphate (& level)	Serum measurement	DEFAULT - use as a direct numeric phosphate measurement; verify the recorded unit.
+44I9.	Serum inorganic phosphate (& level)	Serum measurement	DEFAULT - use as a direct numeric phosphate measurement; verify the recorded unit.
+XE2q4	Serum inorganic phosphate level	Serum measurement	DEFAULT - use as a direct numeric phosphate measurement; verify the recorded unit.

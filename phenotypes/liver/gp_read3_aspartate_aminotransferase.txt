@@ -1,11 +1,17 @@
-code	description	recommended_use
-.44H5	AST serum level	DEFAULT - use as a direct numeric aspartate aminotransferase (ast) measurement; verify the recorded unit.
-.44HB	AST serum level	DEFAULT - use as a direct numeric aspartate aminotransferase (ast) measurement; verify the recorded unit.
-.44HC	Plasma aspartate transaminase level	DEFAULT - use as a direct numeric aspartate aminotransferase (ast) measurement; verify the recorded unit.
-44H5.	AST serum level	DEFAULT - use as a direct numeric aspartate aminotransferase (ast) measurement; verify the recorded unit.
-44HB.	AST serum level	DEFAULT - use as a direct numeric aspartate aminotransferase (ast) measurement; verify the recorded unit.
-44HC.	Plasma aspartate transaminase level	DEFAULT - use as a direct numeric aspartate aminotransferase (ast) measurement; verify the recorded unit.
-X771h	AST serum level	DEFAULT - use as a direct numeric aspartate aminotransferase (ast) measurement; verify the recorded unit.
-X771i	AST serum level	DEFAULT - use as a direct numeric aspartate aminotransferase (ast) measurement; verify the recorded unit.
-XE25Q	Aspartate transaminase level	DEFAULT - use as a direct numeric aspartate aminotransferase (ast) measurement; verify the recorded unit.
-XaES6	Plasma aspartate transaminase level	DEFAULT - use as a direct numeric aspartate aminotransferase (ast) measurement; verify the recorded unit.
+code	description	code_group	recommended_use
+
+# Routine or specimen-unspecified measurement
+XE25Q	Aspartate transaminase level	Routine or specimen-unspecified measurement	DEFAULT - use as a direct numeric aspartate aminotransferase (ast) measurement; verify the recorded unit.
+
+# Plasma measurement
+.44HC	Plasma aspartate transaminase level	Plasma measurement	DEFAULT - use as a direct numeric aspartate aminotransferase (ast) measurement; verify the recorded unit.
+44HC.	Plasma aspartate transaminase level	Plasma measurement	DEFAULT - use as a direct numeric aspartate aminotransferase (ast) measurement; verify the recorded unit.
+XaES6	Plasma aspartate transaminase level	Plasma measurement	DEFAULT - use as a direct numeric aspartate aminotransferase (ast) measurement; verify the recorded unit.
+
+# Serum measurement
+.44H5	AST serum level	Serum measurement	DEFAULT - use as a direct numeric aspartate aminotransferase (ast) measurement; verify the recorded unit.
+.44HB	AST serum level	Serum measurement	DEFAULT - use as a direct numeric aspartate aminotransferase (ast) measurement; verify the recorded unit.
+44H5.	AST serum level	Serum measurement	DEFAULT - use as a direct numeric aspartate aminotransferase (ast) measurement; verify the recorded unit.
+44HB.	AST serum level	Serum measurement	DEFAULT - use as a direct numeric aspartate aminotransferase (ast) measurement; verify the recorded unit.
+X771h	AST serum level	Serum measurement	DEFAULT - use as a direct numeric aspartate aminotransferase (ast) measurement; verify the recorded unit.
+X771i	AST serum level	Serum measurement	DEFAULT - use as a direct numeric aspartate aminotransferase (ast) measurement; verify the recorded unit.

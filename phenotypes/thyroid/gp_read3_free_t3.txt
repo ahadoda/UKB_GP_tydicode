@@ -1,9 +1,15 @@
-code	description	recommended_use
-.4425	FT3 - Free triiodothyronine level	DEFAULT - use as a direct numeric free t3 measurement; verify the recorded unit.
-.442U	Serum free T3 level	DEFAULT - use as a direct numeric free t3 measurement; verify the recorded unit.
-.442Y	Plasma free T3 level	DEFAULT - use as a direct numeric free t3 measurement; verify the recorded unit.
-4425.	FT3 - Free triiodothyronine level	DEFAULT - use as a direct numeric free t3 measurement; verify the recorded unit.
-442U.	Serum free T3 level	DEFAULT - use as a direct numeric free t3 measurement; verify the recorded unit.
-442Y.	Plasma free T3 level	DEFAULT - use as a direct numeric free t3 measurement; verify the recorded unit.
-XaERq	Serum free T3 level	DEFAULT - use as a direct numeric free t3 measurement; verify the recorded unit.
-XaERt	Plasma free T3 level	DEFAULT - use as a direct numeric free t3 measurement; verify the recorded unit.
+code	description	code_group	recommended_use
+
+# Routine or specimen-unspecified measurement
+.4425	FT3 - Free triiodothyronine level	Routine or specimen-unspecified measurement	DEFAULT - use as a direct numeric free t3 measurement; verify the recorded unit.
+4425.	FT3 - Free triiodothyronine level	Routine or specimen-unspecified measurement	DEFAULT - use as a direct numeric free t3 measurement; verify the recorded unit.
+
+# Plasma measurement
+.442Y	Plasma free T3 level	Plasma measurement	DEFAULT - use as a direct numeric free t3 measurement; verify the recorded unit.
+442Y.	Plasma free T3 level	Plasma measurement	DEFAULT - use as a direct numeric free t3 measurement; verify the recorded unit.
+XaERt	Plasma free T3 level	Plasma measurement	DEFAULT - use as a direct numeric free t3 measurement; verify the recorded unit.
+
+# Serum measurement
+.442U	Serum free T3 level	Serum measurement	DEFAULT - use as a direct numeric free t3 measurement; verify the recorded unit.
+442U.	Serum free T3 level	Serum measurement	DEFAULT - use as a direct numeric free t3 measurement; verify the recorded unit.
+XaERq	Serum free T3 level	Serum measurement	DEFAULT - use as a direct numeric free t3 measurement; verify the recorded unit.

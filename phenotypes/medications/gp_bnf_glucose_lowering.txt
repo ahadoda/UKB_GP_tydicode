@@ -1,69 +1,79 @@
-code	description	recommended_use
-0601011A0	Insulin Aspart	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
-0601011I0	Acid Insulin Injection	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
-0601011L0	Insulin Lispro	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
-0601011N0	Soluble Insulin (Neutral Insulin)	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
-0601011P0	Insulin Glulisine	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
-0601011Q0	Insulin Human Inhaled	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
-0601011R0	Insulin Human	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
-060101200	Other Intermed&Long-Acting Insulin Preps	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
-0601012C0	Biphasic Insulin Injection	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
-0601012D0	Biphasic Isophane Insulin	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
-0601012F0	Biphasic Insulin Lispro	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
-0601012G0	Insulin Zinc Suspension	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
-0601012L0	Insulin Zinc Suspension (Amorphous)	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
-0601012N0	Insulin Zinc Suspension (Crystalline)	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
-0601012S0	Isophane Insulin	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
-0601012U0	Protamine Zinc Insulin	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
-0601012V0	Insulin Glargine	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
-0601012W0	Biphasic Insulin Aspart	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
-0601012X0	Insulin Detemir	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
-0601012Z0	Insulin Degludec	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
-0601021A0	Glimepiride	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
-0601021B0	Acetohexamide	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
-0601021E0	Chlorpropamide	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
-0601021H0	Glibenclamide	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
-0601021K0	Glibornuride	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
-0601021M0	Gliclazide	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
-0601021P0	Glipizide	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
-0601021R0	Gliquidone	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
-0601021T0	Glymidine	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
-0601021V0	Tolazamide	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
-0601021X0	Tolbutamide	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
-0601022B0	Metformin Hydrochloride	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
-0601022P0	Phenformin Hydrochloride	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
-0601023A0	Acarbose	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
-0601023AA	Vildagliptin	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
-0601023AB	Liraglutide	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
-0601023AC	Saxagliptin	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
-0601023AD	Metformin Hydrochloride/Sitagliptin	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
-0601023AE	Linagliptin	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
-0601023AF	Linagliptin/Metformin	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
-0601023AG	Dapagliflozin	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
-0601023AH	Saxagliptin/Metformin	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
-0601023AI	Lixisenatide	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
-0601023AJ	Alogliptin/Metformin	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
-0601023AK	Alogliptin	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
-0601023AL	Dapagliflozin/Metformin	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
-0601023AM	Canagliflozin	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
-0601023AN	Empagliflozin	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
-0601023AP	Canagliflozin/Metformin	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
-0601023AQ	Dulaglutide	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
-0601023AR	Empagliflozin/Metformin	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
-0601023AS	Albiglutide	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
-0601023AU	Ins Degludec/Liraglutide	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
-0601023AV	Saxagliptin/Dapagliflozin	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
-0601023AW	Semaglutide	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
-0601023AX	Ertugliflozin	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
-0601023B0	Pioglitazone Hydrochloride	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
-0601023I0	Guar Gum	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
-0601023M0	Miglitol	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
-0601023R0	Repaglinide	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
-0601023S0	Rosiglitazone	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
-0601023T0	Troglitazone	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
-0601023U0	Nateglinide	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
-0601023V0	Metformin Hydrochloride/Rosiglitazone	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
-0601023W0	Metformin Hydrochloride/Pioglitazone	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
-0601023X0	Sitagliptin	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
-0601023Y0	Exenatide	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
-0601023Z0	Metformin Hydrochloride/Vildagliptin	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
+code	description	code_group	recommended_use
+
+# Biguanides
+0601022B0	Metformin Hydrochloride	Biguanides	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
+0601022P0	Phenformin Hydrochloride	Biguanides	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
+
+# Intermediate And Long-Acting Insulins
+060101200	Other Intermed&Long-Acting Insulin Preps	Intermediate And Long-Acting Insulins	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
+0601012C0	Biphasic Insulin Injection	Intermediate And Long-Acting Insulins	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
+0601012D0	Biphasic Isophane Insulin	Intermediate And Long-Acting Insulins	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
+0601012F0	Biphasic Insulin Lispro	Intermediate And Long-Acting Insulins	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
+0601012G0	Insulin Zinc Suspension	Intermediate And Long-Acting Insulins	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
+0601012L0	Insulin Zinc Suspension (Amorphous)	Intermediate And Long-Acting Insulins	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
+0601012N0	Insulin Zinc Suspension (Crystalline)	Intermediate And Long-Acting Insulins	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
+0601012S0	Isophane Insulin	Intermediate And Long-Acting Insulins	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
+0601012U0	Protamine Zinc Insulin	Intermediate And Long-Acting Insulins	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
+0601012V0	Insulin Glargine	Intermediate And Long-Acting Insulins	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
+0601012W0	Biphasic Insulin Aspart	Intermediate And Long-Acting Insulins	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
+0601012X0	Insulin Detemir	Intermediate And Long-Acting Insulins	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
+0601012Z0	Insulin Degludec	Intermediate And Long-Acting Insulins	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
+
+# Other Antidiabetic Drugs
+0601023A0	Acarbose	Other Antidiabetic Drugs	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
+0601023AA	Vildagliptin	Other Antidiabetic Drugs	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
+0601023AB	Liraglutide	Other Antidiabetic Drugs	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
+0601023AC	Saxagliptin	Other Antidiabetic Drugs	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
+0601023AD	Metformin Hydrochloride/Sitagliptin	Other Antidiabetic Drugs	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
+0601023AE	Linagliptin	Other Antidiabetic Drugs	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
+0601023AF	Linagliptin/Metformin	Other Antidiabetic Drugs	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
+0601023AG	Dapagliflozin	Other Antidiabetic Drugs	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
+0601023AH	Saxagliptin/Metformin	Other Antidiabetic Drugs	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
+0601023AI	Lixisenatide	Other Antidiabetic Drugs	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
+0601023AJ	Alogliptin/Metformin	Other Antidiabetic Drugs	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
+0601023AK	Alogliptin	Other Antidiabetic Drugs	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
+0601023AL	Dapagliflozin/Metformin	Other Antidiabetic Drugs	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
+0601023AM	Canagliflozin	Other Antidiabetic Drugs	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
+0601023AN	Empagliflozin	Other Antidiabetic Drugs	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
+0601023AP	Canagliflozin/Metformin	Other Antidiabetic Drugs	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
+0601023AQ	Dulaglutide	Other Antidiabetic Drugs	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
+0601023AR	Empagliflozin/Metformin	Other Antidiabetic Drugs	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
+0601023AS	Albiglutide	Other Antidiabetic Drugs	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
+0601023AU	Ins Degludec/Liraglutide	Other Antidiabetic Drugs	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
+0601023AV	Saxagliptin/Dapagliflozin	Other Antidiabetic Drugs	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
+0601023AW	Semaglutide	Other Antidiabetic Drugs	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
+0601023AX	Ertugliflozin	Other Antidiabetic Drugs	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
+0601023B0	Pioglitazone Hydrochloride	Other Antidiabetic Drugs	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
+0601023I0	Guar Gum	Other Antidiabetic Drugs	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
+0601023M0	Miglitol	Other Antidiabetic Drugs	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
+0601023R0	Repaglinide	Other Antidiabetic Drugs	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
+0601023S0	Rosiglitazone	Other Antidiabetic Drugs	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
+0601023T0	Troglitazone	Other Antidiabetic Drugs	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
+0601023U0	Nateglinide	Other Antidiabetic Drugs	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
+0601023V0	Metformin Hydrochloride/Rosiglitazone	Other Antidiabetic Drugs	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
+0601023W0	Metformin Hydrochloride/Pioglitazone	Other Antidiabetic Drugs	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
+0601023X0	Sitagliptin	Other Antidiabetic Drugs	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
+0601023Y0	Exenatide	Other Antidiabetic Drugs	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
+0601023Z0	Metformin Hydrochloride/Vildagliptin	Other Antidiabetic Drugs	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
+
+# Short-Acting Insulins
+0601011A0	Insulin Aspart	Short-Acting Insulins	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
+0601011I0	Acid Insulin Injection	Short-Acting Insulins	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
+0601011L0	Insulin Lispro	Short-Acting Insulins	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
+0601011N0	Soluble Insulin (Neutral Insulin)	Short-Acting Insulins	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
+0601011P0	Insulin Glulisine	Short-Acting Insulins	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
+0601011Q0	Insulin Human Inhaled	Short-Acting Insulins	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
+0601011R0	Insulin Human	Short-Acting Insulins	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
+
+# Sulfonylureas
+0601021A0	Glimepiride	Sulfonylureas	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
+0601021B0	Acetohexamide	Sulfonylureas	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
+0601021E0	Chlorpropamide	Sulfonylureas	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
+0601021H0	Glibenclamide	Sulfonylureas	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
+0601021K0	Glibornuride	Sulfonylureas	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
+0601021M0	Gliclazide	Sulfonylureas	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
+0601021P0	Glipizide	Sulfonylureas	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
+0601021R0	Gliquidone	Sulfonylureas	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
+0601021T0	Glymidine	Sulfonylureas	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
+0601021V0	Tolazamide	Sulfonylureas	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.
+0601021X0	Tolbutamide	Sulfonylureas	DEFAULT - prefix-match to identify glucose-lowering medicines prescriptions.

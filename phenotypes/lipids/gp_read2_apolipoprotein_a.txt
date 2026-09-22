@@ -1,3 +1,7 @@
-code	description	recommended_use
-44c2.	Serum apolipoprotein A-I level	DEFAULT - use as a direct numeric apolipoprotein a-i measurement; verify the recorded unit.
-44d6.	Plasma apolipoprotein A-I level	DEFAULT - use as a direct numeric apolipoprotein a-i measurement; verify the recorded unit.
+code	description	code_group	recommended_use
+
+# Plasma measurement
+44d6.	Plasma apolipoprotein A-I level	Plasma measurement	DEFAULT - use as a direct numeric apolipoprotein a-i measurement; verify the recorded unit.
+
+# Serum measurement
+44c2.	Serum apolipoprotein A-I level	Serum measurement	DEFAULT - use as a direct numeric apolipoprotein a-i measurement; verify the recorded unit.

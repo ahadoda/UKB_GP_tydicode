@@ -1,8 +1,14 @@
-code	description	recommended_use
-.44CC	Plasma C reactive protein (& level)	DEFAULT - use as a direct numeric c-reactive protein (crp) measurement; verify the recorded unit.
-.44CS	Serum C reactive protein level	DEFAULT - use as a direct numeric c-reactive protein (crp) measurement; verify the recorded unit.
-44CC.	Plasma C reactive protein (& level)	DEFAULT - use as a direct numeric c-reactive protein (crp) measurement; verify the recorded unit.
-44CS.	Serum C reactive protein level	DEFAULT - use as a direct numeric c-reactive protein (crp) measurement; verify the recorded unit.
-X772l	CRP - C-reactive protein level	DEFAULT - use as a direct numeric c-reactive protein (crp) measurement; verify the recorded unit.
-XE2dy	Plasma C-reactive protein level	DEFAULT - use as a direct numeric c-reactive protein (crp) measurement; verify the recorded unit.
-XaINL	Serum C reactive protein level	DEFAULT - use as a direct numeric c-reactive protein (crp) measurement; verify the recorded unit.
+code	description	code_group	recommended_use
+
+# Routine or specimen-unspecified measurement
+X772l	CRP - C-reactive protein level	Routine or specimen-unspecified measurement	DEFAULT - use as a direct numeric c-reactive protein (crp) measurement; verify the recorded unit.
+
+# Plasma measurement
+.44CC	Plasma C reactive protein (& level)	Plasma measurement	DEFAULT - use as a direct numeric c-reactive protein (crp) measurement; verify the recorded unit.
+44CC.	Plasma C reactive protein (& level)	Plasma measurement	DEFAULT - use as a direct numeric c-reactive protein (crp) measurement; verify the recorded unit.
+XE2dy	Plasma C-reactive protein level	Plasma measurement	DEFAULT - use as a direct numeric c-reactive protein (crp) measurement; verify the recorded unit.
+
+# Serum measurement
+.44CS	Serum C reactive protein level	Serum measurement	DEFAULT - use as a direct numeric c-reactive protein (crp) measurement; verify the recorded unit.
+44CS.	Serum C reactive protein level	Serum measurement	DEFAULT - use as a direct numeric c-reactive protein (crp) measurement; verify the recorded unit.
+XaINL	Serum C reactive protein level	Serum measurement	DEFAULT - use as a direct numeric c-reactive protein (crp) measurement; verify the recorded unit.

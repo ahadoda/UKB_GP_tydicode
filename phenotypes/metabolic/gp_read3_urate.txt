@@ -1,11 +1,17 @@
-code	description	recommended_use
-.44K.	Serum uric acid level	DEFAULT - use as a direct numeric urate measurement; verify the recorded unit.
-.44K5	Serum uric acid level	DEFAULT - use as a direct numeric urate measurement; verify the recorded unit.
-.44K6	Plasma urate level	DEFAULT - use as a direct numeric urate measurement; verify the recorded unit.
-44K..	Serum uric acid	DEFAULT - use as a direct numeric urate measurement; verify the recorded unit.
-44K5.	Serum uric acid level	DEFAULT - use as a direct numeric urate measurement; verify the recorded unit.
-44K6.	Plasma urate level	DEFAULT - use as a direct numeric urate measurement; verify the recorded unit.
-XE2p3	Serum uric acid level	DEFAULT - use as a direct numeric urate measurement; verify the recorded unit.
-XM0ls	Serum uric acid level	DEFAULT - use as a direct numeric urate measurement; verify the recorded unit.
-XM1Uq	Serum uric acid	DEFAULT - use as a direct numeric urate measurement; verify the recorded unit.
-XaDvn	Plasma urate level	DEFAULT - use as a direct numeric urate measurement; verify the recorded unit.
+code	description	code_group	recommended_use
+
+# Plasma measurement
+.44K6	Plasma urate level	Plasma measurement	DEFAULT - use as a direct numeric urate measurement; verify the recorded unit.
+44K6.	Plasma urate level	Plasma measurement	DEFAULT - use as a direct numeric urate measurement; verify the recorded unit.
+XaDvn	Plasma urate level	Plasma measurement	DEFAULT - use as a direct numeric urate measurement; verify the recorded unit.
+
+# Serum measurement
+.44K5	Serum uric acid level	Serum measurement	DEFAULT - use as a direct numeric urate measurement; verify the recorded unit.
+44K..	Serum uric acid	Serum measurement	DEFAULT - use as a direct numeric urate measurement; verify the recorded unit.
+44K5.	Serum uric acid level	Serum measurement	DEFAULT - use as a direct numeric urate measurement; verify the recorded unit.
+XM0ls	Serum uric acid level	Serum measurement	DEFAULT - use as a direct numeric urate measurement; verify the recorded unit.
+XM1Uq	Serum uric acid	Serum measurement	DEFAULT - use as a direct numeric urate measurement; verify the recorded unit.
+
+# Review: urate/hyperuricaemia concept
+.44K.	Serum uric acid level	Review: urate/hyperuricaemia concept	REVIEW - this code also carries a broader or diagnostic meaning in the UKB lookup; do not use as a primary numeric result without checking values.
+XE2p3	Serum uric acid level	Review: urate/hyperuricaemia concept	REVIEW - this code also carries a broader or diagnostic meaning in the UKB lookup; do not use as a primary numeric result without checking values.

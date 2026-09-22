@@ -1,16 +1,22 @@
-code	description	recommended_use
-.44E.	Serum bilirubin level	DEFAULT - use for bilirubin only when the source field confirms the fraction measured.
-.44E8	Plasma conjugated bilirubin level	CONTEXT - use for direct/conjugated bilirubin, not total bilirubin.
-.44E9	Plasma total bilirubin level	DEFAULT - use for total bilirubin analyses.
-.44EB	Serum conjugated bilirubin level	CONTEXT - use for direct/conjugated bilirubin, not total bilirubin.
-.44EC	Serum total bilirubin level	DEFAULT - use for total bilirubin analyses.
-44E..	Serum bilirubin level	DEFAULT - use for bilirubin only when the source field confirms the fraction measured.
-44E8.	Plasma conjugated bilirubin level	CONTEXT - use for direct/conjugated bilirubin, not total bilirubin.
-44E9.	Plasma total bilirubin level	DEFAULT - use for total bilirubin analyses.
-44EB.	Serum conjugated bilirubin level	CONTEXT - use for direct/conjugated bilirubin, not total bilirubin.
-44EC.	Serum total bilirubin level	DEFAULT - use for total bilirubin analyses.
-XE28O	Serum bilirubin level	DEFAULT - use for bilirubin only when the source field confirms the fraction measured.
-XaERu	Serum total bilirubin level	DEFAULT - use for total bilirubin analyses.
-XaERv	Plasma conjugated bilirubin level	CONTEXT - use for direct/conjugated bilirubin, not total bilirubin.
-XaESA	Serum conjugated bilirubin level	CONTEXT - use for direct/conjugated bilirubin, not total bilirubin.
-XaETf	Plasma total bilirubin level	DEFAULT - use for total bilirubin analyses.
+code	description	code_group	recommended_use
+
+# Bilirubin fraction unspecified
+.44E.	Serum bilirubin level	Bilirubin fraction unspecified	DEFAULT - use for bilirubin only when the source field confirms the fraction measured.
+44E..	Serum bilirubin level	Bilirubin fraction unspecified	DEFAULT - use for bilirubin only when the source field confirms the fraction measured.
+XE28O	Serum bilirubin level	Bilirubin fraction unspecified	DEFAULT - use for bilirubin only when the source field confirms the fraction measured.
+
+# Direct or conjugated bilirubin
+.44E8	Plasma conjugated bilirubin level	Direct or conjugated bilirubin	CONTEXT - use for direct/conjugated bilirubin, not total bilirubin.
+.44EB	Serum conjugated bilirubin level	Direct or conjugated bilirubin	CONTEXT - use for direct/conjugated bilirubin, not total bilirubin.
+44E8.	Plasma conjugated bilirubin level	Direct or conjugated bilirubin	CONTEXT - use for direct/conjugated bilirubin, not total bilirubin.
+44EB.	Serum conjugated bilirubin level	Direct or conjugated bilirubin	CONTEXT - use for direct/conjugated bilirubin, not total bilirubin.
+XaERv	Plasma conjugated bilirubin level	Direct or conjugated bilirubin	CONTEXT - use for direct/conjugated bilirubin, not total bilirubin.
+XaESA	Serum conjugated bilirubin level	Direct or conjugated bilirubin	CONTEXT - use for direct/conjugated bilirubin, not total bilirubin.
+
+# Total bilirubin
+.44E9	Plasma total bilirubin level	Total bilirubin	DEFAULT - use for total bilirubin analyses.
+.44EC	Serum total bilirubin level	Total bilirubin	DEFAULT - use for total bilirubin analyses.
+44E9.	Plasma total bilirubin level	Total bilirubin	DEFAULT - use for total bilirubin analyses.
+44EC.	Serum total bilirubin level	Total bilirubin	DEFAULT - use for total bilirubin analyses.
+XaERu	Serum total bilirubin level	Total bilirubin	DEFAULT - use for total bilirubin analyses.
+XaETf	Plasma total bilirubin level	Total bilirubin	DEFAULT - use for total bilirubin analyses.

@@ -1,2 +1,4 @@
-code	description	recommended_use
-229..	O/E - height	DEFAULT - use as a direct numeric body height measurement; verify the recorded unit.
+code	description	code_group	recommended_use
+
+# Routine or specimen-unspecified measurement
+229..	O/E - height	Routine or specimen-unspecified measurement	DEFAULT - use as a direct numeric body height measurement; verify the recorded unit.

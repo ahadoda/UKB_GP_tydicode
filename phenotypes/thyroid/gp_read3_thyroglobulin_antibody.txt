@@ -1,4 +1,6 @@
-code	description	recommended_use
-.43G5	Thyroglobulin antibodies	DEFAULT - use as a direct numeric thyroglobulin antibody measurement; verify the recorded unit.
-43G5.	Thyroglobulin antibodies	DEFAULT - use as a direct numeric thyroglobulin antibody measurement; verify the recorded unit.
-X80cx	Thyroglobulin antibody	DEFAULT - use as a direct numeric thyroglobulin antibody measurement; verify the recorded unit.
+code	description	code_group	recommended_use
+
+# Routine or specimen-unspecified measurement
+.43G5	Thyroglobulin antibodies	Routine or specimen-unspecified measurement	DEFAULT - use as a direct numeric thyroglobulin antibody measurement; verify the recorded unit.
+43G5.	Thyroglobulin antibodies	Routine or specimen-unspecified measurement	DEFAULT - use as a direct numeric thyroglobulin antibody measurement; verify the recorded unit.
+X80cx	Thyroglobulin antibody	Routine or specimen-unspecified measurement	DEFAULT - use as a direct numeric thyroglobulin antibody measurement; verify the recorded unit.

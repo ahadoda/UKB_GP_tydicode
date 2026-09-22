@@ -1,7 +1,11 @@
-code	description	recommended_use
-44P5.	Serum HDL cholesterol level	DEFAULT - use as a direct numeric hdl cholesterol measurement; verify the recorded unit.
-44PB.	Serum fasting HDL cholesterol level	DEFAULT - use as a direct numeric hdl cholesterol measurement; verify the recorded unit.
-44PC.	Serum random HDL cholesterol level	DEFAULT - use as a direct numeric hdl cholesterol measurement; verify the recorded unit.
-44d2.	Plasma random HDL cholesterol level	DEFAULT - use as a direct numeric hdl cholesterol measurement; verify the recorded unit.
-44d3.	Plasma fasting HDL cholesterol level	DEFAULT - use as a direct numeric hdl cholesterol measurement; verify the recorded unit.
-44dA.	Plasma HDL cholesterol level	DEFAULT - use as a direct numeric hdl cholesterol measurement; verify the recorded unit.
+code	description	code_group	recommended_use
+
+# Plasma measurement
+44d2.	Plasma random HDL cholesterol level	Plasma measurement	DEFAULT - use as a direct numeric hdl cholesterol measurement; verify the recorded unit.
+44d3.	Plasma fasting HDL cholesterol level	Plasma measurement	DEFAULT - use as a direct numeric hdl cholesterol measurement; verify the recorded unit.
+44dA.	Plasma HDL cholesterol level	Plasma measurement	DEFAULT - use as a direct numeric hdl cholesterol measurement; verify the recorded unit.
+
+# Serum measurement
+44P5.	Serum HDL cholesterol level	Serum measurement	DEFAULT - use as a direct numeric hdl cholesterol measurement; verify the recorded unit.
+44PB.	Serum fasting HDL cholesterol level	Serum measurement	DEFAULT - use as a direct numeric hdl cholesterol measurement; verify the recorded unit.
+44PC.	Serum random HDL cholesterol level	Serum measurement	DEFAULT - use as a direct numeric hdl cholesterol measurement; verify the recorded unit.

@@ -1,3 +1,7 @@
-code	description	recommended_use
-449A.	C-peptide level	DEFAULT - use as a direct numeric c-peptide measurement; verify the recorded unit.
-449E.	Plasma insulin C-peptide level	DEFAULT - use as a direct numeric c-peptide measurement; verify the recorded unit.
+code	description	code_group	recommended_use
+
+# Routine or specimen-unspecified measurement
+449A.	C-peptide level	Routine or specimen-unspecified measurement	DEFAULT - use as a direct numeric c-peptide measurement; verify the recorded unit.
+
+# Plasma measurement
+449E.	Plasma insulin C-peptide level	Plasma measurement	DEFAULT - use as a direct numeric c-peptide measurement; verify the recorded unit.

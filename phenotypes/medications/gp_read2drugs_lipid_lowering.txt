@@ -1,190 +1,192 @@
-code	description	recommended_use
-bx...	LIPID-LOWERING DRUGS	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bx1..	BEZAFIBRATE	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bx11.	BEZALIP 200mg tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bx12.	BEZALIP-MONO 400mg m/r tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bx13.	BEZAFIBRATE 200mg tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bx14.	BEZAFIBRATE 400mg m/r tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bx15.	BEZAGEN XL 400mg m/r tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bx16.	*LIPAROL XL 400mg m/r tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bx17.	ZIMBACOL XL 400mg m/r tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bx18.	FIBRAZATE XL 400mg m/r tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bx2..	COLESTYRAMINE [LIPID LOWERING USE]	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bx21.	QUESTRAN powder 4g/sachet	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bx22.	QUESTRAN LIGHT 4g/sachet powder	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bx23.	COLESTYRAMINE powder 4g/sachet	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bx24.	CHOLESTYRAMINE SUG FREE powder 4g/sachet	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bx25.	COLESTYRAMINE+ASPARTAME 4g/sachet powder	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bx26.	*CHOLEMIN 4g/sachet powder	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bx27.	COLESTYRAMINE+ASPARTAME 4g/sachet sugar free powder	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bx28.	QUESTRAN LIGHT 4g/sachet s/f powder	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bx3..	CLOFIBRATE	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bx31.	*ATROMID-S 500mg capsules	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bx3z.	*CLOFIBRATE 500mg capsules	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bx4..	COLESTIPOL HYDROCHLORIDE	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bx41.	COLESTID granules 5g sachet	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bx42.	COLESTIPOL granules 5g sachet	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bx43.	COLESTID ORANGE granules 5g sachet	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bx44.	COLESTIPOL orange 5g/sachet granules	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bx6..	GEMFIBROZIL	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bx61.	LOPID 300mg capsules	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bx62.	LOPID 600mg tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bx63.	GEMFIBROZIL 600mg tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bx64.	*EMFIB 300mg capsules	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bx6z.	GEMFIBROZIL 300mg capsules	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bx7..	*NICOFURANOSE	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bx71.	*BRADILAN 250mg e/c tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bx7z.	NICOFURANOSE 250mg e/c tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bx8..	NICOTINIC ACID	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bx81.	*NICOTINIC ACID 25mg tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bx82.	NICOTINIC ACID 50mg tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bx83.	*NICOTINIC ACID 100mg tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bx84.	NICOTINIC ACID 375mg and 500mg and 750mg m/r tablets starter pack	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bx85.	NICOTINIC ACID 500mg m/r tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bx86.	NICOTINIC ACID 750mg m/r tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bx87.	NICOTINIC ACID 1000mg m/r tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bx88.	NIASPAN 375mg and 500mg and 750mg m/r tablets starter pack	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bx89.	*NIASPAN 500mg m/r tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bx8a.	*NIASPAN 750mg m/r tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bx8b.	*NIASPAN 1000mg m/r tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bx8c.	TREDAPTIVE 1000mg/20mg m/r tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bx8d.	NICOTINIC ACID/LAROPIPRANT 1000mg/20mg m/r tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bx9..	PROBUCOL	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bx91.	*LURSELLE 250mg tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bx9z.	*PROBUCOL 250mg tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxa..	OMEGA-3 MARINE TRIGLYCERIDES	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxa1.	*MAXEPA 1g capsules	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxa2.	*MAXEPA liquid	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxa3.	FISH OIL(CONCENTRATE) 1g capsules	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxa4.	FISH OIL(CONCENTRATE) oral liquid	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxa5.	FISH OIL(CONCENTRATE) oral emulsion	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxa6.	*MAXEPA oral emulsion	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxa7.	OMACOR 1g capsules	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxa8.	TEROMEG 1g capsules	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxa9.	PRESTYLON 1g capsules	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxaA.	NEBBARO 1000mg capsules	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxaB.	DUALTIS 1000mg capsules	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxb..	ACIPIMOX	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxb1.	OLBETAM 250mg capsules	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxb2.	ACIPIMOX 250mg capsules	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxc..	FENOFIBRATE	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxc1.	*FENOFIBRATE 100mg capsules	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxc3.	*LIPANTIL 100mg capsules 84CP	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxc4.	FENOFIBRATE 200mg capsules	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxc5.	LIPANTIL MICRO 200mg capsules	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxc6.	FENOFIBRATE 67mg capsules	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxc7.	LIPANTIL MICRO 67mg capsules	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxc8.	FENOFIBRATE 267mg capsules	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxc9.	LIPANTIL MICRO 267mg capsules	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxcA.	FENOFIBRATE 160mg m/r tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxcB.	SUPRALIP 160mg m/r tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxcC.	FENOFIBRATE MICRO 200mg capsules	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxcD.	*FENOGAL 200mg capsules	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxcE.	FENOFIBRATE 160mg tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxd..	SIMVASTATIN	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxd1.	SIMVASTATIN 10mg tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxd2.	SIMVASTATIN 20mg tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxd3.	ZOCOR 10mg tablets 28CP	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxd4.	ZOCOR 20mg tablets 28CP	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxd5.	SIMVASTATIN 40mg tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxd6.	ZOCOR 40mg tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxd7.	ZOCOR 10mg tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxd8.	ZOCOR 20mg tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxd9.	ZOCOR 80mg tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxdA.	SIMVADOR 10mg tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxdB.	SIMVADOR 20mg tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxdC.	SIMVADOR 40mg tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxdD.	*RANZOLONT 10mg tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxdE.	*RANZOLONT 20mg tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxdF.	*RANZOLONT 40mg tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxdG.	*ZOCOR HEART-PRO 10mg tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxdH.	INEGY 10mg/20mg tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxdI.	INEGY 10mg/40mg tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxdJ.	INEGY 10mg/80mg tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxdK.	SIMVADOR 80mg tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxdu.	SIMVASTATIN 20mg/5mL oral suspension	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxdv.	SIMVASTATIN 40mg/5mL oral suspension	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxdw.	SIMVASTATIN 80mg/EZETIMIBE 10mg tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxdx.	SIMVASTATIN 40mg/EZETIMIBE 10mg tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxdy.	SIMVASTATIN 20mg/EZETIMIBE 10mg tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxdz.	SIMVASTATIN 80mg tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxe..	PRAVASTATIN SODIUM	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxe1.	*PRAVASTATIN 10mg tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxe2.	*PRAVASTATIN 20mg tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxe3.	LIPOSTAT 10mg tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxe4.	LIPOSTAT 20mg tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxe5.	PRAVASTATIN SODIUM 10mg tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxe6.	PRAVASTATIN SODIUM 20mg tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxe7.	PRAVASTATIN SODIUM 40mg tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxe8.	LIPOSTAT 40mg tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxf..	CIPROFIBRATE	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxf1.	*MODALIM 100mg tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxf2.	CIPROFIBRATE 100mg tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxg..	FLUVASTATIN SODIUM	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxg1.	LESCOL 20mg capsules	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxg2.	LESCOL 40mg capsules	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxg3.	FLUVASTATIN 20mg capsules	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxg4.	FLUVASTATIN 40mg capsules	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxg5.	LESCOL XL 80mg m/r tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxg6.	LUVINSTA XL 80mg m/r tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxg7.	STEFLUVIN XL 80mg m/r tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxg8.	DORISIN XL 80mg m/r tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxg9.	NANDOVAR XL 80mg m/r tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxgz.	FLUVASTATIN 80mg m/r tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxi..	ATORVASTATIN	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxi1.	ATORVASTATIN 10mg tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxi2.	ATORVASTATIN 20mg tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxi3.	ATORVASTATIN 40mg tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxi4.	LIPITOR 10mg tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxi5.	LIPITOR 20mg tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxi6.	LIPITOR 40mg tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxi7.	LIPITOR 80mg tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxi8.	LIPITOR 10mg chewable tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxi9.	ATORVASTATIN 10mg chewable tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxiA.	LIPITOR 20mg chewable tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxiB.	ATORVASTATIN 20mg chewable tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxiy.	ATORVASTATIN 60mg tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxiz.	ATORVASTATIN 80mg tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxj..	CERIVASTATIN	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxj1.	CERIVASTATIN SODIUM 100micrograms tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxj2.	CERIVASTATIN SODIUM 200micrograms tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxj3.	CERIVASTATIN SODIUM 300micrograms tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxj4.	*LIPOBAY 100micrograms tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxj5.	*LIPOBAY 200micrograms tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxj6.	*LIPOBAY 300micrograms tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxj7.	CERIVASTATIN SODIUM 400micrograms tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxj8.	*LIPOBAY 400micrograms tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxj9.	*LIPOBAY 800micrograms tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxjz.	CERIVASTATIN SODIUM 800micrograms tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxk..	ROSUVASTATIN	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxk1.	CRESTOR 10mg tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxk2.	CRESTOR 20mg tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxk3.	CRESTOR 40mg tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxk4.	CRESTOR 5mg tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxkw.	ROSUVASTATIN 5mg tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxkx.	ROSUVASTATIN 10mg tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxky.	ROSUVASTATIN 20mg tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxkz.	ROSUVASTATIN 40mg tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxl..	EZETIMIBE	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxl1.	EZETIMIBE 10mg tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxlz.	EZETROL 10mg tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxm..	COLESEVELAM HYDROCHLORIDE	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxm1.	CHOLESTAGEL 625mg tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxm2.	COLESEVELAM 625mg tablets	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxn..	LOMITAPIDE	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxn1.	LOJUXTA 5mg capsules	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxn2.	LOMITAPIDE 5mg capsules	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxn3.	LOJUXTA 10mg capsules	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxn4.	LOMITAPIDE 10mg capsules	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxn5.	LOJUXTA 20mg capsules	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxn6.	LOMITAPIDE 20mg capsules	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxo..	EVOLOCUMAB	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxo1.	REPATHA 140mg/1mL solution for injection prefilled syringe	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxo2.	EVOLOCUMAB 140mg/1mL soln for inj prefilled syringe	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxo3.	REPATHA SURECLICK 140mg/1mL soln for inj prefilled pen	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxo4.	EVOLOCUMAB 140mg/1mL solution for injection prefilled pen	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxp..	ALIROCUMAB	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxp1.	PRALUENT 75mg/1mL solution for injection prefilled pen	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxp2.	ALIROCUMAB 75mg/1mL solution for injection prefilled pen	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxp3.	PRALUENT 150mg/1mL solution for injection prefilled pen	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
-bxp4.	ALIROCUMAB 150mg/1mL solution for injection prefilled pen	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+code	description	code_group	recommended_use
+
+# Lipid-Regulating Drugs
+bx...	LIPID-LOWERING DRUGS	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bx1..	BEZAFIBRATE	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bx11.	BEZALIP 200mg tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bx12.	BEZALIP-MONO 400mg m/r tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bx13.	BEZAFIBRATE 200mg tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bx14.	BEZAFIBRATE 400mg m/r tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bx15.	BEZAGEN XL 400mg m/r tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bx16.	*LIPAROL XL 400mg m/r tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bx17.	ZIMBACOL XL 400mg m/r tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bx18.	FIBRAZATE XL 400mg m/r tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bx2..	COLESTYRAMINE [LIPID LOWERING USE]	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bx21.	QUESTRAN powder 4g/sachet	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bx22.	QUESTRAN LIGHT 4g/sachet powder	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bx23.	COLESTYRAMINE powder 4g/sachet	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bx24.	CHOLESTYRAMINE SUG FREE powder 4g/sachet	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bx25.	COLESTYRAMINE+ASPARTAME 4g/sachet powder	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bx26.	*CHOLEMIN 4g/sachet powder	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bx27.	COLESTYRAMINE+ASPARTAME 4g/sachet sugar free powder	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bx28.	QUESTRAN LIGHT 4g/sachet s/f powder	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bx3..	CLOFIBRATE	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bx31.	*ATROMID-S 500mg capsules	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bx3z.	*CLOFIBRATE 500mg capsules	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bx4..	COLESTIPOL HYDROCHLORIDE	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bx41.	COLESTID granules 5g sachet	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bx42.	COLESTIPOL granules 5g sachet	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bx43.	COLESTID ORANGE granules 5g sachet	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bx44.	COLESTIPOL orange 5g/sachet granules	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bx6..	GEMFIBROZIL	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bx61.	LOPID 300mg capsules	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bx62.	LOPID 600mg tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bx63.	GEMFIBROZIL 600mg tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bx64.	*EMFIB 300mg capsules	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bx6z.	GEMFIBROZIL 300mg capsules	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bx7..	*NICOFURANOSE	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bx71.	*BRADILAN 250mg e/c tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bx7z.	NICOFURANOSE 250mg e/c tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bx8..	NICOTINIC ACID	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bx81.	*NICOTINIC ACID 25mg tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bx82.	NICOTINIC ACID 50mg tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bx83.	*NICOTINIC ACID 100mg tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bx84.	NICOTINIC ACID 375mg and 500mg and 750mg m/r tablets starter pack	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bx85.	NICOTINIC ACID 500mg m/r tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bx86.	NICOTINIC ACID 750mg m/r tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bx87.	NICOTINIC ACID 1000mg m/r tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bx88.	NIASPAN 375mg and 500mg and 750mg m/r tablets starter pack	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bx89.	*NIASPAN 500mg m/r tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bx8a.	*NIASPAN 750mg m/r tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bx8b.	*NIASPAN 1000mg m/r tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bx8c.	TREDAPTIVE 1000mg/20mg m/r tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bx8d.	NICOTINIC ACID/LAROPIPRANT 1000mg/20mg m/r tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bx9..	PROBUCOL	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bx91.	*LURSELLE 250mg tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bx9z.	*PROBUCOL 250mg tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxa..	OMEGA-3 MARINE TRIGLYCERIDES	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxa1.	*MAXEPA 1g capsules	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxa2.	*MAXEPA liquid	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxa3.	FISH OIL(CONCENTRATE) 1g capsules	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxa4.	FISH OIL(CONCENTRATE) oral liquid	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxa5.	FISH OIL(CONCENTRATE) oral emulsion	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxa6.	*MAXEPA oral emulsion	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxa7.	OMACOR 1g capsules	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxa8.	TEROMEG 1g capsules	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxa9.	PRESTYLON 1g capsules	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxaA.	NEBBARO 1000mg capsules	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxaB.	DUALTIS 1000mg capsules	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxb..	ACIPIMOX	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxb1.	OLBETAM 250mg capsules	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxb2.	ACIPIMOX 250mg capsules	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxc..	FENOFIBRATE	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxc1.	*FENOFIBRATE 100mg capsules	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxc3.	*LIPANTIL 100mg capsules 84CP	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxc4.	FENOFIBRATE 200mg capsules	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxc5.	LIPANTIL MICRO 200mg capsules	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxc6.	FENOFIBRATE 67mg capsules	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxc7.	LIPANTIL MICRO 67mg capsules	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxc8.	FENOFIBRATE 267mg capsules	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxc9.	LIPANTIL MICRO 267mg capsules	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxcA.	FENOFIBRATE 160mg m/r tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxcB.	SUPRALIP 160mg m/r tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxcC.	FENOFIBRATE MICRO 200mg capsules	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxcD.	*FENOGAL 200mg capsules	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxcE.	FENOFIBRATE 160mg tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxd..	SIMVASTATIN	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxd1.	SIMVASTATIN 10mg tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxd2.	SIMVASTATIN 20mg tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxd3.	ZOCOR 10mg tablets 28CP	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxd4.	ZOCOR 20mg tablets 28CP	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxd5.	SIMVASTATIN 40mg tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxd6.	ZOCOR 40mg tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxd7.	ZOCOR 10mg tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxd8.	ZOCOR 20mg tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxd9.	ZOCOR 80mg tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxdA.	SIMVADOR 10mg tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxdB.	SIMVADOR 20mg tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxdC.	SIMVADOR 40mg tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxdD.	*RANZOLONT 10mg tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxdE.	*RANZOLONT 20mg tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxdF.	*RANZOLONT 40mg tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxdG.	*ZOCOR HEART-PRO 10mg tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxdH.	INEGY 10mg/20mg tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxdI.	INEGY 10mg/40mg tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxdJ.	INEGY 10mg/80mg tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxdK.	SIMVADOR 80mg tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxdu.	SIMVASTATIN 20mg/5mL oral suspension	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxdv.	SIMVASTATIN 40mg/5mL oral suspension	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxdw.	SIMVASTATIN 80mg/EZETIMIBE 10mg tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxdx.	SIMVASTATIN 40mg/EZETIMIBE 10mg tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxdy.	SIMVASTATIN 20mg/EZETIMIBE 10mg tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxdz.	SIMVASTATIN 80mg tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxe..	PRAVASTATIN SODIUM	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxe1.	*PRAVASTATIN 10mg tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxe2.	*PRAVASTATIN 20mg tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxe3.	LIPOSTAT 10mg tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxe4.	LIPOSTAT 20mg tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxe5.	PRAVASTATIN SODIUM 10mg tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxe6.	PRAVASTATIN SODIUM 20mg tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxe7.	PRAVASTATIN SODIUM 40mg tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxe8.	LIPOSTAT 40mg tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxf..	CIPROFIBRATE	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxf1.	*MODALIM 100mg tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxf2.	CIPROFIBRATE 100mg tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxg..	FLUVASTATIN SODIUM	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxg1.	LESCOL 20mg capsules	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxg2.	LESCOL 40mg capsules	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxg3.	FLUVASTATIN 20mg capsules	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxg4.	FLUVASTATIN 40mg capsules	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxg5.	LESCOL XL 80mg m/r tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxg6.	LUVINSTA XL 80mg m/r tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxg7.	STEFLUVIN XL 80mg m/r tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxg8.	DORISIN XL 80mg m/r tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxg9.	NANDOVAR XL 80mg m/r tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxgz.	FLUVASTATIN 80mg m/r tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxi..	ATORVASTATIN	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxi1.	ATORVASTATIN 10mg tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxi2.	ATORVASTATIN 20mg tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxi3.	ATORVASTATIN 40mg tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxi4.	LIPITOR 10mg tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxi5.	LIPITOR 20mg tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxi6.	LIPITOR 40mg tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxi7.	LIPITOR 80mg tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxi8.	LIPITOR 10mg chewable tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxi9.	ATORVASTATIN 10mg chewable tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxiA.	LIPITOR 20mg chewable tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxiB.	ATORVASTATIN 20mg chewable tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxiy.	ATORVASTATIN 60mg tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxiz.	ATORVASTATIN 80mg tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxj..	CERIVASTATIN	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxj1.	CERIVASTATIN SODIUM 100micrograms tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxj2.	CERIVASTATIN SODIUM 200micrograms tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxj3.	CERIVASTATIN SODIUM 300micrograms tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxj4.	*LIPOBAY 100micrograms tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxj5.	*LIPOBAY 200micrograms tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxj6.	*LIPOBAY 300micrograms tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxj7.	CERIVASTATIN SODIUM 400micrograms tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxj8.	*LIPOBAY 400micrograms tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxj9.	*LIPOBAY 800micrograms tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxjz.	CERIVASTATIN SODIUM 800micrograms tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxk..	ROSUVASTATIN	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxk1.	CRESTOR 10mg tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxk2.	CRESTOR 20mg tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxk3.	CRESTOR 40mg tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxk4.	CRESTOR 5mg tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxkw.	ROSUVASTATIN 5mg tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxkx.	ROSUVASTATIN 10mg tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxky.	ROSUVASTATIN 20mg tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxkz.	ROSUVASTATIN 40mg tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxl..	EZETIMIBE	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxl1.	EZETIMIBE 10mg tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxlz.	EZETROL 10mg tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxm..	COLESEVELAM HYDROCHLORIDE	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxm1.	CHOLESTAGEL 625mg tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxm2.	COLESEVELAM 625mg tablets	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxn..	LOMITAPIDE	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxn1.	LOJUXTA 5mg capsules	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxn2.	LOMITAPIDE 5mg capsules	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxn3.	LOJUXTA 10mg capsules	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxn4.	LOMITAPIDE 10mg capsules	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxn5.	LOJUXTA 20mg capsules	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxn6.	LOMITAPIDE 20mg capsules	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxo..	EVOLOCUMAB	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxo1.	REPATHA 140mg/1mL solution for injection prefilled syringe	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxo2.	EVOLOCUMAB 140mg/1mL soln for inj prefilled syringe	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxo3.	REPATHA SURECLICK 140mg/1mL soln for inj prefilled pen	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxo4.	EVOLOCUMAB 140mg/1mL solution for injection prefilled pen	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxp..	ALIROCUMAB	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxp1.	PRALUENT 75mg/1mL solution for injection prefilled pen	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxp2.	ALIROCUMAB 75mg/1mL solution for injection prefilled pen	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxp3.	PRALUENT 150mg/1mL solution for injection prefilled pen	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.
+bxp4.	ALIROCUMAB 150mg/1mL solution for injection prefilled pen	Lipid-Regulating Drugs	DEFAULT - exact-match to identify lipid-lowering medicines prescriptions.

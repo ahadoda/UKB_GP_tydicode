@@ -174,6 +174,129 @@ PUBLIC_USE = {
 }
 
 
+def public_code_group(row: pd.Series) -> str:
+    """Group visibly different codes before they are shown to researchers."""
+    trait = row["trait"]
+    text = str(row["description"]).casefold()
+    all_terms = str(row.get("all_lookup_terms", row["description"])).casefold()
+
+    if row["trait_group"] == "medication":
+        metadata = str(row.get("source_metadata", ""))
+        return metadata.split(" | ", 1)[0] or "Other medicines in this class"
+
+    if trait == "blood_pressure":
+        return "Supporting: combined blood-pressure record"
+
+    if trait in {"systolic_blood_pressure", "diastolic_blood_pressure"}:
+        contexts = [
+            ("standing", "Standing measurement"),
+            ("sitting", "Sitting measurement"),
+            ("lying", "Lying measurement"),
+            ("24 hour", "24-hour ambulatory average"),
+            ("day interval", "Daytime ambulatory average"),
+            ("night interval", "Night-time ambulatory average"),
+            ("home", "Home measurement"),
+            ("ambulatory", "Ambulatory measurement"),
+        ]
+        for token, label in contexts:
+            if token in text:
+                return label
+        if "average" in text or "mean" in text:
+            return "Average with unspecified setting"
+        return "Routine measurement"
+
+    if trait == "blood_glucose":
+        if "hyperglycaemia" in all_terms:
+            return "Review: broad glucose/hyperglycaemia concept"
+        if ("tolerance test" in text or "ogtt" in text) and not re.search(
+            r"\d+\s*(?:minute|hour)", text
+        ):
+            return "Supporting: glucose-tolerance test record"
+        if "fasting" in text:
+            return "Fasting glucose"
+        if "random" in text:
+            return "Random glucose"
+        if (
+            "post-prandial" in text
+            or "after evening meal" in text
+            or "after breakfast" in text
+            or "after lunch" in text
+        ):
+            return "Post-prandial glucose"
+        if "before breakfast" in text or "before lunch" in text or "before evening meal" in text:
+            return "Pre-meal glucose"
+        if "bedtime" in text or "during night" in text:
+            return "Bedtime or overnight glucose"
+        if "capillary" in text:
+            return "Capillary glucose with timing unspecified"
+        if "baseline" in text:
+            return "Baseline of a timed glucose test"
+        timed = re.search(r"(\d+)\s*(minute|hour)", text)
+        if timed:
+            return f"Timed test: {timed.group(1)} {timed.group(2)}"
+        return "Glucose with timing unspecified"
+
+    if trait == "hba1c":
+        if "ifcc" in text:
+            return "IFCC-aligned HbA1c"
+        if "dcct" in text:
+            return "DCCT-aligned HbA1c"
+        return "HbA1c unit convention unspecified"
+
+    if trait == "egfr":
+        if "cystatin c" in text:
+            return "Cystatin-C-based CKD-EPI eGFR"
+        if "african american" in text:
+            return "Legacy race-adjusted MDRD eGFR"
+        if "creatinine" in text and "epidemiology collaboration" in text:
+            return "Creatinine-based CKD-EPI eGFR"
+        if "modification of diet" in text:
+            return "MDRD eGFR"
+        if "epidemiology collaboration" in text or "ckd-epi" in text:
+            return "CKD-EPI eGFR"
+        return "eGFR equation unspecified"
+
+    if trait == "bilirubin":
+        if "conjugated" in text or "direct" in text:
+            return "Direct or conjugated bilirubin"
+        if "total" in text:
+            return "Total bilirubin"
+        return "Bilirubin fraction unspecified"
+
+    if trait == "calcium":
+        if "adjusted" in text or "corrected" in text:
+            return "Albumin-adjusted or corrected calcium"
+        return "Unadjusted total calcium"
+
+    if trait == "vitamin_d":
+        if re.search(r"vitamin d\s*2", text):
+            return "25-hydroxyvitamin D2"
+        if re.search(r"vitamin d\s*3", text):
+            return "25-hydroxyvitamin D3"
+        return "Total 25-hydroxyvitamin D"
+
+    if trait == "urate" and "hyperuricaemia" in all_terms:
+        return "Review: urate/hyperuricaemia concept"
+
+    if trait == "urea" and ("renal function" in all_terms or "electrolytes" in all_terms):
+        return "Review: broad urea/renal-function panel concept"
+
+    if trait == "body_height" and "body length" in all_terms:
+        return "Height or body-length concept"
+
+    if "baseline" in text:
+        return "Baseline measurement"
+    if "serum" in text:
+        return "Serum measurement"
+    if "plasma" in text:
+        return "Plasma measurement"
+    if "urine" in text:
+        return "Urine measurement"
+    if "blood" in text:
+        return "Blood measurement"
+    return "Routine or specimen-unspecified measurement"
+
+
 def public_recommended_use(row: pd.Series) -> str:
     """Give a short, code-level instruction for the reader-facing list."""
     trait = row["trait"]
@@ -181,6 +304,22 @@ def public_recommended_use(row: pd.Series) -> str:
     description = str(row["description"])
     text = description.casefold()
     name = PUBLIC_NAMES.get(trait, trait.replace("_", " ").title())
+    code_group = public_code_group(row)
+
+    if code_group.startswith("Review:"):
+        return (
+            "REVIEW - this code also carries a broader or diagnostic meaning in the "
+            "UKB lookup; do not use as a primary numeric result without checking values."
+        )
+
+    if code_group.startswith("Supporting:"):
+        return (
+            "SUPPORTING - use to identify that the test or combined record exists; "
+            "do not treat it as the analyte's numeric value."
+        )
+
+    if code_group == "Height or body-length concept":
+        return "CONTEXT - include only if body length is acceptable as height in the study population."
 
     if row["trait_group"] == "medication":
         if coding_system == "bnf":
@@ -216,10 +355,14 @@ def public_recommended_use(row: pd.Series) -> str:
             return "CONTEXT - use for fasting glucose analyses."
         if "random" in text:
             return "CONTEXT - use for random glucose analyses."
-        if "post-prandial" in text or "after evening meal" in text:
+        if code_group == "Post-prandial glucose":
             return "CONTEXT - use for post-prandial glucose analyses."
-        if "during night" in text:
+        if code_group == "Pre-meal glucose":
+            return "CONTEXT - use for pre-meal glucose analyses; retain the meal context."
+        if code_group == "Bedtime or overnight glucose":
             return "CONTEXT - use only for overnight glucose measurements."
+        if code_group == "Capillary glucose with timing unspecified":
+            return "CONTEXT - use for capillary glucose; do not mix with venous serum/plasma without a plan."
         if "baseline" in text:
             return "CONTEXT - use as the baseline value in a timed glucose test."
         timed = re.search(r"(\d+)\s*(minute|hour)", text)
@@ -275,6 +418,43 @@ def public_recommended_use(row: pd.Series) -> str:
     return f"DEFAULT - use as a direct numeric {name.lower()} measurement; verify the recorded unit."
 
 
+def public_group_sort_key(label: str) -> tuple[int, int, str]:
+    """Keep the usual measurement first and review-only sections last."""
+    default_groups = {
+        "Routine measurement",
+        "Routine or specimen-unspecified measurement",
+        "Glucose with timing unspecified",
+        "HbA1c unit convention unspecified",
+        "eGFR equation unspecified",
+        "Bilirubin fraction unspecified",
+        "Unadjusted total calcium",
+        "Total 25-hydroxyvitamin D",
+    }
+    if label in default_groups:
+        return (0, 0, label)
+    if label == "Fasting glucose":
+        return (10, 0, label)
+    if label == "Random glucose":
+        return (20, 0, label)
+    if label == "Pre-meal glucose":
+        return (30, 0, label)
+    if label == "Post-prandial glucose":
+        return (40, 0, label)
+    if label == "Bedtime or overnight glucose":
+        return (50, 0, label)
+    if label == "Baseline of a timed glucose test":
+        return (60, 0, label)
+    timed = re.search(r"Timed test: (\d+) (minute|hour)", label)
+    if timed:
+        minutes = int(timed.group(1)) * (60 if timed.group(2) == "hour" else 1)
+        return (70, minutes, label)
+    if label.startswith("Supporting:"):
+        return (900, 0, label)
+    if label.startswith("Review:"):
+        return (990, 0, label)
+    return (100, 0, label)
+
+
 def compile_rules() -> list[tuple[TraitRule, re.Pattern[str], re.Pattern[str] | None, re.Pattern[str]]]:
     compiled = []
     for rule in TRAITS:
@@ -300,6 +480,14 @@ def select_traits(workbook: openpyxl.Workbook) -> list[pd.DataFrame]:
     for sheet_name, spec in sheet_specs.items():
         matches: dict[tuple[str, str], dict[str, object]] = {}
         worksheet = workbook[sheet_name]
+        all_terms_by_code: dict[str, list[str]] = defaultdict(list)
+        for row in worksheet.iter_rows(min_row=2, values_only=True):
+            if row[spec["code"]] is None or row[spec["term"]] is None:
+                continue
+            lookup_code = str(row[spec["code"]]).strip()
+            lookup_term = str(row[spec["term"]]).strip()
+            if lookup_term not in all_terms_by_code[lookup_code]:
+                all_terms_by_code[lookup_code].append(lookup_term)
         for row in worksheet.iter_rows(min_row=2, values_only=True):
             if row[spec["code"]] is None or row[spec["term"]] is None:
                 continue
@@ -329,6 +517,7 @@ def select_traits(workbook: openpyxl.Workbook) -> list[pd.DataFrame]:
                         "code": code,
                         "description": term,
                         "matched_terms": [],
+                        "all_lookup_terms": " | ".join(all_terms_by_code[code])[:4000],
                         "selection_tier": "extended_review",
                         "value_type": "numeric_candidate",
                         "expected_units": rule.expected_units,
@@ -357,12 +546,21 @@ def select_traits(workbook: openpyxl.Workbook) -> list[pd.DataFrame]:
     return frames
 
 
-def select_medications(workbook: openpyxl.Workbook) -> tuple[list[pd.DataFrame], dict[str, set[str]]]:
+def select_medications(
+    workbook: openpyxl.Workbook,
+) -> tuple[
+    list[pd.DataFrame],
+    dict[str, set[str]],
+    dict[str, dict[str, str]],
+]:
     worksheet = workbook["bnf_lkp"]
     group_rows: dict[str, dict[str, dict[str, str]]] = {
         group: {} for group in MEDICATION_RULES
     }
     group_legacy_bnf: dict[str, set[str]] = {group: set() for group in MEDICATION_RULES}
+    legacy_bnf_labels: dict[str, dict[str, str]] = {
+        group: {} for group in MEDICATION_RULES
+    }
 
     def legacy_bnf_category(presentation_code: str) -> str:
         if len(presentation_code) < 7:
@@ -386,6 +584,10 @@ def select_medications(workbook: openpyxl.Workbook) -> tuple[list[pd.DataFrame],
             legacy_code = legacy_bnf_category(row[0])
             if legacy_code:
                 group_legacy_bnf[group].add(legacy_code)
+                legacy_bnf_labels[group].setdefault(
+                    legacy_code,
+                    row[4] or row[5] or row[6] or group.replace("_", " ").title(),
+                )
             group_rows[group].setdefault(
                 prefix,
                 {
@@ -400,6 +602,7 @@ def select_medications(workbook: openpyxl.Workbook) -> tuple[list[pd.DataFrame],
                     "code": prefix,
                     "description": row[3] or row[2] or row[1],
                     "matched_terms": row[3] or row[2] or row[1],
+                    "all_lookup_terms": row[3] or row[2] or row[1],
                     "selection_tier": "core",
                     "value_type": "prescription_exposure",
                     "expected_units": "not applicable",
@@ -410,11 +613,13 @@ def select_medications(workbook: openpyxl.Workbook) -> tuple[list[pd.DataFrame],
             )
 
     frames = [pd.DataFrame(group_rows[group].values()).sort_values("code") for group in MEDICATION_RULES]
-    return frames, group_legacy_bnf
+    return frames, group_legacy_bnf, legacy_bnf_labels
 
 
 def map_read_drugs(
-    workbook: openpyxl.Workbook, group_legacy_bnf: dict[str, set[str]]
+    workbook: openpyxl.Workbook,
+    group_legacy_bnf: dict[str, set[str]],
+    legacy_bnf_labels: dict[str, dict[str, str]],
 ) -> list[pd.DataFrame]:
     descriptions: dict[str, str] = {}
     for row in workbook["read_v2_drugs_lkp"].iter_rows(min_row=2, values_only=True):
@@ -446,11 +651,15 @@ def map_read_drugs(
                     "code": read_code,
                     "description": descriptions.get(read_code, ""),
                     "matched_terms": descriptions.get(read_code, ""),
+                    "all_lookup_terms": descriptions.get(read_code, ""),
                     "selection_tier": "core",
                     "value_type": "prescription_exposure",
                     "expected_units": "not applicable",
                     "source_sheet": "read_v2_drugs_bnf",
-                    "source_metadata": f"Mapped BNF code: {bnf_code}",
+                    "source_metadata": (
+                        f"{legacy_bnf_labels[group].get(bnf_code, 'Other')} | "
+                        f"Mapped BNF code: {bnf_code}"
+                    ),
                     "review_status": "candidate_requires_pharmacology_review",
                 },
             )
@@ -472,7 +681,7 @@ def output_path(frame: pd.DataFrame) -> Path:
 
 
 def write_public_codelists(master: pd.DataFrame) -> None:
-    """Write the simple, reader-facing lists used from the GitHub front page."""
+    """Write grouped, reader-facing lists used from the GitHub front page."""
     public_root = ROOT / "phenotypes"
     index_rows = []
     for (group, trait, coding_system), data in master.groupby(
@@ -489,10 +698,24 @@ def write_public_codelists(master: pd.DataFrame) -> None:
         folder.mkdir(parents=True, exist_ok=True)
         path = folder / f"{prefix}_{trait}.txt"
         simple = selected[["code", "description"]].drop_duplicates().sort_values("code")
+        simple["code_group"] = selected.loc[simple.index].apply(public_code_group, axis=1)
         simple["recommended_use"] = selected.loc[simple.index].apply(
             public_recommended_use, axis=1
         )
-        simple.to_csv(path, sep="\t", index=False, lineterminator="\n")
+        columns = ["code", "description", "code_group", "recommended_use"]
+        with path.open("w", encoding="utf-8", newline="") as handle:
+            handle.write("\t".join(columns) + "\n")
+            groups = sorted(simple["code_group"].unique(), key=public_group_sort_key)
+            for code_group in groups:
+                section = simple[simple["code_group"].eq(code_group)]
+                handle.write(f"\n# {code_group}\n")
+                section.sort_values("code")[columns].to_csv(
+                    handle,
+                    sep="\t",
+                    index=False,
+                    header=False,
+                    lineterminator="\n",
+                )
         index_rows.append(
             {
                 "research_use": PUBLIC_USE[group],
@@ -516,9 +739,9 @@ def build(source: Path) -> None:
         raise FileNotFoundError(source)
     workbook = openpyxl.load_workbook(source, read_only=True, data_only=True)
     frames = select_traits(workbook)
-    medication_frames, prefixes = select_medications(workbook)
+    medication_frames, prefixes, medication_labels = select_medications(workbook)
     frames.extend(medication_frames)
-    frames.extend(map_read_drugs(workbook, prefixes))
+    frames.extend(map_read_drugs(workbook, prefixes, medication_labels))
     workbook.close()
 
     frames = [frame for frame in frames if not frame.empty]

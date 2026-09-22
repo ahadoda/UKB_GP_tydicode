@@ -1,3 +1,7 @@
-code	description	recommended_use
-43Gd.	Thyroid peroxidase antibody level	DEFAULT - use as a direct numeric thyroid peroxidase antibody measurement; verify the recorded unit.
-43Gd0	Serum thyroid peroxidase antibody concentration	DEFAULT - use as a direct numeric thyroid peroxidase antibody measurement; verify the recorded unit.
+code	description	code_group	recommended_use
+
+# Routine or specimen-unspecified measurement
+43Gd.	Thyroid peroxidase antibody level	Routine or specimen-unspecified measurement	DEFAULT - use as a direct numeric thyroid peroxidase antibody measurement; verify the recorded unit.
+
+# Serum measurement
+43Gd0	Serum thyroid peroxidase antibody concentration	Serum measurement	DEFAULT - use as a direct numeric thyroid peroxidase antibody measurement; verify the recorded unit.

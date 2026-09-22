@@ -1,12 +1,16 @@
-code	description	recommended_use
-0405010M0	Methylcellulose	DEFAULT - prefix-match to identify weight-management medicines prescriptions.
-0405010P0	Orlistat	DEFAULT - prefix-match to identify weight-management medicines prescriptions.
-0405010S0	Sterculia	DEFAULT - prefix-match to identify weight-management medicines prescriptions.
-0405020D0	Dexfenfluramine Hydrochloride	DEFAULT - prefix-match to identify weight-management medicines prescriptions.
-0405020E0	Diethylpropion Hydrochloride	DEFAULT - prefix-match to identify weight-management medicines prescriptions.
-0405020I0	Fenfluramine Hydrochloride	DEFAULT - prefix-match to identify weight-management medicines prescriptions.
-0405020N0	Mazindol	DEFAULT - prefix-match to identify weight-management medicines prescriptions.
-0405020R0	Phentermine	DEFAULT - prefix-match to identify weight-management medicines prescriptions.
-0405020S0	Sibutramine	DEFAULT - prefix-match to identify weight-management medicines prescriptions.
-0405020T0	Rimonabant	DEFAULT - prefix-match to identify weight-management medicines prescriptions.
-0405020U0	Naltrexone/Bupropion	DEFAULT - prefix-match to identify weight-management medicines prescriptions.
+code	description	code_group	recommended_use
+
+# Centrally-Acting Appetite Suppressants
+0405020D0	Dexfenfluramine Hydrochloride	Centrally-Acting Appetite Suppressants	DEFAULT - prefix-match to identify weight-management medicines prescriptions.
+0405020E0	Diethylpropion Hydrochloride	Centrally-Acting Appetite Suppressants	DEFAULT - prefix-match to identify weight-management medicines prescriptions.
+0405020I0	Fenfluramine Hydrochloride	Centrally-Acting Appetite Suppressants	DEFAULT - prefix-match to identify weight-management medicines prescriptions.
+0405020N0	Mazindol	Centrally-Acting Appetite Suppressants	DEFAULT - prefix-match to identify weight-management medicines prescriptions.
+0405020R0	Phentermine	Centrally-Acting Appetite Suppressants	DEFAULT - prefix-match to identify weight-management medicines prescriptions.
+0405020S0	Sibutramine	Centrally-Acting Appetite Suppressants	DEFAULT - prefix-match to identify weight-management medicines prescriptions.
+0405020T0	Rimonabant	Centrally-Acting Appetite Suppressants	DEFAULT - prefix-match to identify weight-management medicines prescriptions.
+0405020U0	Naltrexone/Bupropion	Centrally-Acting Appetite Suppressants	DEFAULT - prefix-match to identify weight-management medicines prescriptions.
+
+# Gastro-Intestinal Anti-Obesity Drugs
+0405010M0	Methylcellulose	Gastro-Intestinal Anti-Obesity Drugs	DEFAULT - prefix-match to identify weight-management medicines prescriptions.
+0405010P0	Orlistat	Gastro-Intestinal Anti-Obesity Drugs	DEFAULT - prefix-match to identify weight-management medicines prescriptions.
+0405010S0	Sterculia	Gastro-Intestinal Anti-Obesity Drugs	DEFAULT - prefix-match to identify weight-management medicines prescriptions.

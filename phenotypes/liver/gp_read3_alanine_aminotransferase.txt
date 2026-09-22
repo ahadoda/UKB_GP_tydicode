@@ -1,10 +1,16 @@
-code	description	recommended_use
-.44G3	ALT/SGPT serum level	DEFAULT - use as a direct numeric alanine aminotransferase (alt) measurement; verify the recorded unit.
-.44GA	Plasma alanine aminotransferase level	DEFAULT - use as a direct numeric alanine aminotransferase (alt) measurement; verify the recorded unit.
-.44GB	ALT/SGPT serum level	DEFAULT - use as a direct numeric alanine aminotransferase (alt) measurement; verify the recorded unit.
-44G3.	ALT/SGPT serum level	DEFAULT - use as a direct numeric alanine aminotransferase (alt) measurement; verify the recorded unit.
-44GA.	Plasma alanine aminotransferase level	DEFAULT - use as a direct numeric alanine aminotransferase (alt) measurement; verify the recorded unit.
-44GB.	ALT/SGPT serum level	DEFAULT - use as a direct numeric alanine aminotransferase (alt) measurement; verify the recorded unit.
-X771d	Alanine transaminase level	DEFAULT - use as a direct numeric alanine aminotransferase (alt) measurement; verify the recorded unit.
-XaIRi	Plasma alanine aminotransferase level	DEFAULT - use as a direct numeric alanine aminotransferase (alt) measurement; verify the recorded unit.
-XaLJx	ALT/SGPT serum level	DEFAULT - use as a direct numeric alanine aminotransferase (alt) measurement; verify the recorded unit.
+code	description	code_group	recommended_use
+
+# Routine or specimen-unspecified measurement
+X771d	Alanine transaminase level	Routine or specimen-unspecified measurement	DEFAULT - use as a direct numeric alanine aminotransferase (alt) measurement; verify the recorded unit.
+
+# Plasma measurement
+.44GA	Plasma alanine aminotransferase level	Plasma measurement	DEFAULT - use as a direct numeric alanine aminotransferase (alt) measurement; verify the recorded unit.
+44GA.	Plasma alanine aminotransferase level	Plasma measurement	DEFAULT - use as a direct numeric alanine aminotransferase (alt) measurement; verify the recorded unit.
+XaIRi	Plasma alanine aminotransferase level	Plasma measurement	DEFAULT - use as a direct numeric alanine aminotransferase (alt) measurement; verify the recorded unit.
+
+# Serum measurement
+.44G3	ALT/SGPT serum level	Serum measurement	DEFAULT - use as a direct numeric alanine aminotransferase (alt) measurement; verify the recorded unit.
+.44GB	ALT/SGPT serum level	Serum measurement	DEFAULT - use as a direct numeric alanine aminotransferase (alt) measurement; verify the recorded unit.
+44G3.	ALT/SGPT serum level	Serum measurement	DEFAULT - use as a direct numeric alanine aminotransferase (alt) measurement; verify the recorded unit.
+44GB.	ALT/SGPT serum level	Serum measurement	DEFAULT - use as a direct numeric alanine aminotransferase (alt) measurement; verify the recorded unit.
+XaLJx	ALT/SGPT serum level	Serum measurement	DEFAULT - use as a direct numeric alanine aminotransferase (alt) measurement; verify the recorded unit.

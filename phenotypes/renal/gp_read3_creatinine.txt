@@ -1,7 +1,11 @@
-code	description	recommended_use
-.44J3	Serum creatinine	DEFAULT - use as a direct numeric creatinine measurement; verify the recorded unit.
-.44JF	Plasma creatinine level	DEFAULT - use as a direct numeric creatinine measurement; verify the recorded unit.
-44J3.	Serum creatinine	DEFAULT - use as a direct numeric creatinine measurement; verify the recorded unit.
-44JF.	Plasma creatinine level	DEFAULT - use as a direct numeric creatinine measurement; verify the recorded unit.
-XE2q5	Serum creatinine	DEFAULT - use as a direct numeric creatinine measurement; verify the recorded unit.
-XaETQ	Plasma creatinine level	DEFAULT - use as a direct numeric creatinine measurement; verify the recorded unit.
+code	description	code_group	recommended_use
+
+# Plasma measurement
+.44JF	Plasma creatinine level	Plasma measurement	DEFAULT - use as a direct numeric creatinine measurement; verify the recorded unit.
+44JF.	Plasma creatinine level	Plasma measurement	DEFAULT - use as a direct numeric creatinine measurement; verify the recorded unit.
+XaETQ	Plasma creatinine level	Plasma measurement	DEFAULT - use as a direct numeric creatinine measurement; verify the recorded unit.
+
+# Serum measurement
+.44J3	Serum creatinine	Serum measurement	DEFAULT - use as a direct numeric creatinine measurement; verify the recorded unit.
+44J3.	Serum creatinine	Serum measurement	DEFAULT - use as a direct numeric creatinine measurement; verify the recorded unit.
+XE2q5	Serum creatinine	Serum measurement	DEFAULT - use as a direct numeric creatinine measurement; verify the recorded unit.

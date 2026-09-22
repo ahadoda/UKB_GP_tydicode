@@ -1,12 +1,18 @@
-code	description	recommended_use
-.442A	TSH - thyroid stim. hormone	DEFAULT - use as a direct numeric thyroid-stimulating hormone (tsh) measurement; verify the recorded unit.
-.442W	Serum TSH level	DEFAULT - use as a direct numeric thyroid-stimulating hormone (tsh) measurement; verify the recorded unit.
-.442X	Plasma TSH level	DEFAULT - use as a direct numeric thyroid-stimulating hormone (tsh) measurement; verify the recorded unit.
-442A.	TSH - thyroid stim. hormone	DEFAULT - use as a direct numeric thyroid-stimulating hormone (tsh) measurement; verify the recorded unit.
-442W.	Serum TSH level	DEFAULT - use as a direct numeric thyroid-stimulating hormone (tsh) measurement; verify the recorded unit.
-442X.	Plasma TSH level	DEFAULT - use as a direct numeric thyroid-stimulating hormone (tsh) measurement; verify the recorded unit.
-X80Gc	TSH - Thyroid stimulating hormone	DEFAULT - use as a direct numeric thyroid-stimulating hormone (tsh) measurement; verify the recorded unit.
-XE27u	TSH - thyroid stim. hormone	DEFAULT - use as a direct numeric thyroid-stimulating hormone (tsh) measurement; verify the recorded unit.
-XE2wy	Thyroid stimulating hormone level	DEFAULT - use as a direct numeric thyroid-stimulating hormone (tsh) measurement; verify the recorded unit.
-XaELV	Serum TSH level	DEFAULT - use as a direct numeric thyroid-stimulating hormone (tsh) measurement; verify the recorded unit.
-XaELW	Plasma TSH level	DEFAULT - use as a direct numeric thyroid-stimulating hormone (tsh) measurement; verify the recorded unit.
+code	description	code_group	recommended_use
+
+# Routine or specimen-unspecified measurement
+.442A	TSH - thyroid stim. hormone	Routine or specimen-unspecified measurement	DEFAULT - use as a direct numeric thyroid-stimulating hormone (tsh) measurement; verify the recorded unit.
+442A.	TSH - thyroid stim. hormone	Routine or specimen-unspecified measurement	DEFAULT - use as a direct numeric thyroid-stimulating hormone (tsh) measurement; verify the recorded unit.
+X80Gc	TSH - Thyroid stimulating hormone	Routine or specimen-unspecified measurement	DEFAULT - use as a direct numeric thyroid-stimulating hormone (tsh) measurement; verify the recorded unit.
+XE27u	TSH - thyroid stim. hormone	Routine or specimen-unspecified measurement	DEFAULT - use as a direct numeric thyroid-stimulating hormone (tsh) measurement; verify the recorded unit.
+XE2wy	Thyroid stimulating hormone level	Routine or specimen-unspecified measurement	DEFAULT - use as a direct numeric thyroid-stimulating hormone (tsh) measurement; verify the recorded unit.
+
+# Plasma measurement
+.442X	Plasma TSH level	Plasma measurement	DEFAULT - use as a direct numeric thyroid-stimulating hormone (tsh) measurement; verify the recorded unit.
+442X.	Plasma TSH level	Plasma measurement	DEFAULT - use as a direct numeric thyroid-stimulating hormone (tsh) measurement; verify the recorded unit.
+XaELW	Plasma TSH level	Plasma measurement	DEFAULT - use as a direct numeric thyroid-stimulating hormone (tsh) measurement; verify the recorded unit.
+
+# Serum measurement
+.442W	Serum TSH level	Serum measurement	DEFAULT - use as a direct numeric thyroid-stimulating hormone (tsh) measurement; verify the recorded unit.
+442W.	Serum TSH level	Serum measurement	DEFAULT - use as a direct numeric thyroid-stimulating hormone (tsh) measurement; verify the recorded unit.
+XaELV	Serum TSH level	Serum measurement	DEFAULT - use as a direct numeric thyroid-stimulating hormone (tsh) measurement; verify the recorded unit.

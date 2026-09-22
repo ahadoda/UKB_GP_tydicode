@@ -1,11 +1,31 @@
-code	description	recommended_use
-246A.	O/E - Diastolic BP reading	DEFAULT - use as a direct numeric diastolic blood pressure measurement.
-246P.	Standing diastolic blood pressure	CONTEXT - use only when the analysis includes standing blood pressure.
-246R.	Sitting diastolic blood pressure	CONTEXT - use only when the analysis includes sitting blood pressure.
-246T.	Lying diastolic blood pressure	CONTEXT - use only when the analysis includes lying blood pressure.
-246V.	Average 24 hour diastolic blood pressure	CONTEXT - use only when the analysis includes 24-hour ambulatory average blood pressure.
-246X.	Average day interval diastolic blood pressure	CONTEXT - use only when the analysis includes daytime ambulatory average blood pressure.
-246a.	Average night interval diastolic blood pressure	CONTEXT - use only when the analysis includes night-time ambulatory average blood pressure.
-246c.	Average home diastolic blood pressure	CONTEXT - use only when the analysis includes home measurement blood pressure.
-246f.	Ambulatory diastolic blood pressure	CONTEXT - use only when the analysis includes ambulatory measurement blood pressure.
-246m.	Average diastolic blood pressure	CONTEXT - use for an averaged blood-pressure value, not a single reading.
+code	description	code_group	recommended_use
+
+# Routine measurement
+246A.	O/E - Diastolic BP reading	Routine measurement	DEFAULT - use as a direct numeric diastolic blood pressure measurement.
+
+# 24-hour ambulatory average
+246V.	Average 24 hour diastolic blood pressure	24-hour ambulatory average	CONTEXT - use only when the analysis includes 24-hour ambulatory average blood pressure.
+
+# Ambulatory measurement
+246f.	Ambulatory diastolic blood pressure	Ambulatory measurement	CONTEXT - use only when the analysis includes ambulatory measurement blood pressure.
+
+# Average with unspecified setting
+246m.	Average diastolic blood pressure	Average with unspecified setting	CONTEXT - use for an averaged blood-pressure value, not a single reading.
+
+# Daytime ambulatory average
+246X.	Average day interval diastolic blood pressure	Daytime ambulatory average	CONTEXT - use only when the analysis includes daytime ambulatory average blood pressure.
+
+# Home measurement
+246c.	Average home diastolic blood pressure	Home measurement	CONTEXT - use only when the analysis includes home measurement blood pressure.
+
+# Lying measurement
+246T.	Lying diastolic blood pressure	Lying measurement	CONTEXT - use only when the analysis includes lying blood pressure.
+
+# Night-time ambulatory average
+246a.	Average night interval diastolic blood pressure	Night-time ambulatory average	CONTEXT - use only when the analysis includes night-time ambulatory average blood pressure.
+
+# Sitting measurement
+246R.	Sitting diastolic blood pressure	Sitting measurement	CONTEXT - use only when the analysis includes sitting blood pressure.
+
+# Standing measurement
+246P.	Standing diastolic blood pressure	Standing measurement	CONTEXT - use only when the analysis includes standing blood pressure.

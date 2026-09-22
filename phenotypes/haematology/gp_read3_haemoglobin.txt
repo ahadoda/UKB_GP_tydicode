@@ -1,6 +1,8 @@
-code	description	recommended_use
-.423.	Hb estimation	DEFAULT - use as a direct numeric haemoglobin measurement; verify the recorded unit.
-423..	Hb estimation	DEFAULT - use as a direct numeric haemoglobin measurement; verify the recorded unit.
-XE2m6	Haemoglobin estimation	DEFAULT - use as a direct numeric haemoglobin measurement; verify the recorded unit.
-XM1Vu	Hb estimation	DEFAULT - use as a direct numeric haemoglobin measurement; verify the recorded unit.
-Xa96v	Hb - Haemoglobin concentration	DEFAULT - use as a direct numeric haemoglobin measurement; verify the recorded unit.
+code	description	code_group	recommended_use
+
+# Routine or specimen-unspecified measurement
+.423.	Hb estimation	Routine or specimen-unspecified measurement	DEFAULT - use as a direct numeric haemoglobin measurement; verify the recorded unit.
+423..	Hb estimation	Routine or specimen-unspecified measurement	DEFAULT - use as a direct numeric haemoglobin measurement; verify the recorded unit.
+XE2m6	Haemoglobin estimation	Routine or specimen-unspecified measurement	DEFAULT - use as a direct numeric haemoglobin measurement; verify the recorded unit.
+XM1Vu	Hb estimation	Routine or specimen-unspecified measurement	DEFAULT - use as a direct numeric haemoglobin measurement; verify the recorded unit.
+Xa96v	Hb - Haemoglobin concentration	Routine or specimen-unspecified measurement	DEFAULT - use as a direct numeric haemoglobin measurement; verify the recorded unit.

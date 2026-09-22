@@ -1,2 +1,4 @@
-code	description	recommended_use
-22A..	O/E - weight	DEFAULT - use as a direct numeric body weight measurement; verify the recorded unit.
+code	description	code_group	recommended_use
+
+# Routine or specimen-unspecified measurement
+22A..	O/E - weight	Routine or specimen-unspecified measurement	DEFAULT - use as a direct numeric body weight measurement; verify the recorded unit.

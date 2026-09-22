@@ -1,3 +1,5 @@
-code	description	recommended_use
-.246.	O/E - blood pressure	SUPPORTING - use only for combined or non-component blood-pressure records; do not treat as systolic or diastolic without field context.
-246..	O/E - blood pressure	SUPPORTING - use only for combined or non-component blood-pressure records; do not treat as systolic or diastolic without field context.
+code	description	code_group	recommended_use
+
+# Supporting: combined blood-pressure record
+.246.	O/E - blood pressure	Supporting: combined blood-pressure record	SUPPORTING - use to identify that the test or combined record exists; do not treat it as the analyte's numeric value.
+246..	O/E - blood pressure	Supporting: combined blood-pressure record	SUPPORTING - use to identify that the test or combined record exists; do not treat it as the analyte's numeric value.

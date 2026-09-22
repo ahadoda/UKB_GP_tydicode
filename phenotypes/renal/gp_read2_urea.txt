@@ -1,4 +1,10 @@
-code	description	recommended_use
-44J..	Serum urea level	DEFAULT - use as a direct numeric urea measurement; verify the recorded unit.
-44J9.	Serum urea level	DEFAULT - use as a direct numeric urea measurement; verify the recorded unit.
-44JA.	Plasma urea level	DEFAULT - use as a direct numeric urea measurement; verify the recorded unit.
+code	description	code_group	recommended_use
+
+# Plasma measurement
+44JA.	Plasma urea level	Plasma measurement	DEFAULT - use as a direct numeric urea measurement; verify the recorded unit.
+
+# Serum measurement
+44J9.	Serum urea level	Serum measurement	DEFAULT - use as a direct numeric urea measurement; verify the recorded unit.
+
+# Review: broad urea/renal-function panel concept
+44J..	Serum urea level	Review: broad urea/renal-function panel concept	REVIEW - this code also carries a broader or diagnostic meaning in the UKB lookup; do not use as a primary numeric result without checking values.

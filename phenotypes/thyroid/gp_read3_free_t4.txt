@@ -1,9 +1,15 @@
-code	description	recommended_use
-.4427	FT4 - Free thyroxine level	DEFAULT - use as a direct numeric free t4 measurement; verify the recorded unit.
-.442V	Serum free thyroxine level	DEFAULT - use as a direct numeric free t4 measurement; verify the recorded unit.
-.442c	Plasma free thyroxine level	DEFAULT - use as a direct numeric free t4 measurement; verify the recorded unit.
-4427.	FT4 - Free thyroxine level	DEFAULT - use as a direct numeric free t4 measurement; verify the recorded unit.
-442V.	Serum free thyroxine level	DEFAULT - use as a direct numeric free t4 measurement; verify the recorded unit.
-442c.	Plasma free thyroxine level	DEFAULT - use as a direct numeric free t4 measurement; verify the recorded unit.
-XaERr	Serum free thyroxine level	DEFAULT - use as a direct numeric free t4 measurement; verify the recorded unit.
-XaERs	Plasma free thyroxine level	DEFAULT - use as a direct numeric free t4 measurement; verify the recorded unit.
+code	description	code_group	recommended_use
+
+# Routine or specimen-unspecified measurement
+.4427	FT4 - Free thyroxine level	Routine or specimen-unspecified measurement	DEFAULT - use as a direct numeric free t4 measurement; verify the recorded unit.
+4427.	FT4 - Free thyroxine level	Routine or specimen-unspecified measurement	DEFAULT - use as a direct numeric free t4 measurement; verify the recorded unit.
+
+# Plasma measurement
+.442c	Plasma free thyroxine level	Plasma measurement	DEFAULT - use as a direct numeric free t4 measurement; verify the recorded unit.
+442c.	Plasma free thyroxine level	Plasma measurement	DEFAULT - use as a direct numeric free t4 measurement; verify the recorded unit.
+XaERs	Plasma free thyroxine level	Plasma measurement	DEFAULT - use as a direct numeric free t4 measurement; verify the recorded unit.
+
+# Serum measurement
+.442V	Serum free thyroxine level	Serum measurement	DEFAULT - use as a direct numeric free t4 measurement; verify the recorded unit.
+442V.	Serum free thyroxine level	Serum measurement	DEFAULT - use as a direct numeric free t4 measurement; verify the recorded unit.
+XaERr	Serum free thyroxine level	Serum measurement	DEFAULT - use as a direct numeric free t4 measurement; verify the recorded unit.

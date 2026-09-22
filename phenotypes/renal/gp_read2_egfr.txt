@@ -1,6 +1,16 @@
-code	description	recommended_use
-451E.	Glomerular filtration rate calculated by abbreviated Modification of Diet in Renal Disease Study Group calculation	CONTEXT - use for MDRD eGFR; retain the equation in harmonisation.
-451G.	Glomerular filtration rate calculated by abbreviated Modification of Diet in Renal Disease Study Group calculation adjusted for African American origin	CONTEXT - legacy race-adjusted MDRD eGFR; analyse separately or exclude per protocol.
-451K.	Estimated glomerular filtration rate using Chronic Kidney Disease Epidemiology Collaboration formula per 1.73 square metres	CONTEXT - use for CKD-EPI eGFR; retain the equation in harmonisation.
-451M.	Estimated glomerular filtration rate using cystatin C Chronic Kidney Disease Epidemiology Collaboration equation per 1.73 square metres	CONTEXT - use for cystatin-C-based eGFR; do not mix with creatinine eGFR without a plan.
-451N.	Estimated glomerular filtration rate using creatinine Chronic Kidney Disease Epidemiology Collaboration equation per 1.73 square metres	CONTEXT - use for creatinine-based eGFR; retain the equation where available.
+code	description	code_group	recommended_use
+
+# CKD-EPI eGFR
+451K.	Estimated glomerular filtration rate using Chronic Kidney Disease Epidemiology Collaboration formula per 1.73 square metres	CKD-EPI eGFR	CONTEXT - use for CKD-EPI eGFR; retain the equation in harmonisation.
+
+# Creatinine-based CKD-EPI eGFR
+451N.	Estimated glomerular filtration rate using creatinine Chronic Kidney Disease Epidemiology Collaboration equation per 1.73 square metres	Creatinine-based CKD-EPI eGFR	CONTEXT - use for creatinine-based eGFR; retain the equation where available.
+
+# Cystatin-C-based CKD-EPI eGFR
+451M.	Estimated glomerular filtration rate using cystatin C Chronic Kidney Disease Epidemiology Collaboration equation per 1.73 square metres	Cystatin-C-based CKD-EPI eGFR	CONTEXT - use for cystatin-C-based eGFR; do not mix with creatinine eGFR without a plan.
+
+# Legacy race-adjusted MDRD eGFR
+451G.	Glomerular filtration rate calculated by abbreviated Modification of Diet in Renal Disease Study Group calculation adjusted for African American origin	Legacy race-adjusted MDRD eGFR	CONTEXT - legacy race-adjusted MDRD eGFR; analyse separately or exclude per protocol.
+
+# MDRD eGFR
+451E.	Glomerular filtration rate calculated by abbreviated Modification of Diet in Renal Disease Study Group calculation	MDRD eGFR	CONTEXT - use for MDRD eGFR; retain the equation in harmonisation.

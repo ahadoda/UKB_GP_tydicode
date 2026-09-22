@@ -3,9 +3,11 @@
 Use this repository to choose GP codes for common cardiometabolic research
 questions. Open the relevant link below, keep the `DEFAULT` rows, and add
 `CONTEXT` rows only when they match the analysis you intend to run.
-Each text file contains three columns: `code`, `description`, and
-`recommended_use`. The last column tells you whether the code is suitable for
-a default extraction or only for a particular context, unit, or supporting use.
+Each text file contains four columns: `code`, `description`, `code_group`, and
+`recommended_use`. Codes with meaningfully different specimens, timing,
+posture, units, calculation methods, or drug classes appear in separate
+`# section` blocks instead of one undifferentiated list. Programs can read the
+files as tab-separated data while ignoring lines beginning with `#`.
 
 ## How to use the files
 
@@ -25,12 +27,20 @@ a default extraction or only for a particular context, unit, or supporting use.
   values before pooling.
 - `SUPPORTING`: useful for finding related records, but not interchangeable
   with the main numeric phenotype.
+- `REVIEW`: the lookup also assigns a broader or diagnostic meaning to the
+  code. Do not use it as a primary numeric result without checking the values.
 
 Dots are literal characters in Read codes, not wildcards. For example,
 `422..` is the complete code for `O/E: inspection of blood`; it does **not**
 mean every code beginning with `422`. It describes visual inspection of blood,
 not a numeric blood biomarker, so it is deliberately excluded from these
 measurement codelists.
+
+Each clinical code is checked against every synonym attached to that exact code
+in the supplied UKB lookup, not only the displayed description. Codes whose
+synonyms mix a numeric measurement with a diagnosis or broad test panel are
+placed in a `Review` section. The validation also rejects assigning the same
+exact clinical code to more than one core phenotype.
 
 ## Body size and adiposity
 
